@@ -6,13 +6,13 @@
 	height: 100%;
 	width: 100%;
 	cursor: default;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 
 h1 {
 	font-weight: 500;
-	font-family:  'Luckiest Guy', cursive;
+	font-family: 'Chicle', cursive;
 }
 
 h2 {
@@ -170,11 +170,13 @@ a.main-nav-text {
 
 #home-name {
 	font-size: 3.5vw;
+	font-weight: 300;
 }
 
 #big-name {
-	font-family: 'Luckiest Guy', cursive;
-	font-weight: 200;
+	font-family: 'Chicle', cursive;
+	font-weight: 400;
+	font-size: 4vw;
 }
 
 .home-text img {
@@ -337,15 +339,15 @@ text a:hover {
 }
 
 #resume-button.resume-pg3 {
-	height: 28%;
-	margin-left: 2%;
+	height: 38%;
+	margin-left: 1%;
 	margin-right: 2%;
-	margin-top: -1%;
+	margin-top: -2%;
 }
 
-img.resume-pg3 {
-	width: 500%;
-	height: 200%;
+img#pg3-arrow {
+	width: 1.5em;
+	height: 1.5em;
 }
 
 /*--------- animations ---------*/
