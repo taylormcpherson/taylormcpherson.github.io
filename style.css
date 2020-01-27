@@ -92,14 +92,14 @@ a.main-nav-text {
 	position: fixed;
 	display: inline;
 	flex-direction: inherit;
-	width: 48px;
-	height: 48px;
+	width: 4%;
+	height: 4%;
 	overflow: visible;
 	z-index: 2;
-	margin-left: 4%;
+	margin-left: 3%;
 	margin-right: 4%;
 	margin-top: 2%;
-	margin-bottom: 2%;
+	margin-bottom: 4%;
 }
 
 #main-nav-icon {
@@ -114,8 +114,8 @@ a.main-nav-text {
 /*------- float-nav ----------*/
 #float-nav-container {
 	position: fixed;
-	width: 100px;
-	height: 280px;
+	width: 4%;
+	height: 28%;
 	margin-left: 80%;
 	margin-top: 14%;
 	z-index: 1;
@@ -137,12 +137,13 @@ a.main-nav-text {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	margin: 12px;
+	justify-content: center;
+	margin: 12%;
 }
 
 #float-nav-contents img {
-	height: 48px;
-	width: 42px;
+	height: 70%;
+	width: 70%;
 }
 
 
@@ -204,7 +205,7 @@ a.main-nav-text {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: right;
+	justify-content: center;
 	font-size: 1.1vw;
 	margin-left: 33%;
 	margin-top: -2%;
@@ -212,17 +213,25 @@ a.main-nav-text {
 }
 
 #resume-button img {
-	width: 36px;
-	height: 36px;
-	margin: 4%;
-	margin-left: 14%;
+	width: 1.5em;
+	height: 1.5em;
+	margin-right: 4%;
+	margin-left: 4%;
 }
 
 #resume-button a {
+	width: 100%;
+	height: 100%;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	justify-content: left;
 	color: #ECA869;
+	margin-left: 16%;
+}
+
+text#resume-button {
+	width: 70%;
 }
 
 #resume-button:hover a:hover {
@@ -263,7 +272,7 @@ text {
 	fill: #0F4563;
 	height: 100%;
 	width: 100%;
-	font-size: 1.3vw;
+	font-size: 2.7vw;
 }
 
 text a {
@@ -291,13 +300,14 @@ text a:hover {
 }
 
 #photo-container {
-	margin-left: 17%;
+	margin-left: 16%;
 	margin-top: 12.5%;
-	width: 20%;
-	height: 40%;
+	width: 16em;
+	height: 16em;
 	border-radius: 100%;
 	background: url(img/me.jpg);
 	background-position: center;
+	background-size: 110%;
 }
 
 #img-me {
@@ -305,10 +315,10 @@ text a:hover {
 }
 
 #text-container {
-	margin-top: -14%;
+	margin-top: -16%;
 	font-size: 1.25vw;
-	margin-left: 40%;
-	width: 40%;
+	margin-left: 42%;
+	width: 38%;
 	height: 50%;
 	text-align: left;
 	color: rgba(15, 69, 99, 1);
@@ -317,8 +327,8 @@ text a:hover {
 }
 
 #text-container img {
-	width: 32px;
-	height: 32px;
+	width: 1em;
+	height: 1em;
 }
 
 #pg3-last-line {
@@ -333,6 +343,10 @@ text a:hover {
 	margin-top: -1%;
 }
 
+img.resume-pg3 {
+	width: 500%;
+	height: 200%;
+}
 
 /*--------- animations ---------*/
 
