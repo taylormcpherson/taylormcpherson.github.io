@@ -1,8 +1,13 @@
 # taylormcpherson.github.io
-personal web page, 1-2020
+-------------------------------------
+personal web page, created 1.2020
+project duration: 3 days
 
+-------------------------------------
+A new-and-improved personal webpage.
 
-A new-and-improved personal webpage. 
-
-Languages used: HTML, CSS, Javascript
-Special features: CSS and javascript animations, svg vectors
+-------------------------------------
+languages used: 
+    HTML, CSS, Javascript
+special features: 
+    CSS and javascriptanimations, svg vectors
