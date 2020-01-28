@@ -299,13 +299,14 @@ text a:hover {
 #page-3-content {
 	display: flex;
 	flex-direction: column;
+	position: relative;
 }
 
 #photo-container {
-	margin-left: 16%;
+	margin-left: 18%;
 	margin-top: 12.5%;
-	width: 16em;
-	height: 16em;
+	width: 20vw;
+	height: 20vw;
 	border-radius: 100%;
 	background: url(img/me.jpg);
 	background-position: center;
