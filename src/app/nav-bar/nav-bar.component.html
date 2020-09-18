@@ -1,0 +1,24 @@
+<div class="nav-bar-container" *ngIf="!isMobile">
+  <div class="nav-item work" routerLink="/work" routerLinkActive="activePage">
+    WORK
+  </div>
+  <div class="nav-item resume" routerLink="/resume" routerLinkActive="activePage">
+      RESUME
+  </div>
+  <div class="nav-item about" routerLink="/about" routerLinkActive="activePage">
+    ABOUT
+  </div>
+</div>
+
+<div class="nav-bar-container-mobile" *ngIf="isMobile">
+  <div class="nav-item work" routerLink="/work" routerLinkActive="activePage">
+    WORK
+  </div>
+  <div class="nav-item resume" routerLink="/resume" routerLinkActive="activePage">
+      RESUME
+  </div>
+  <div class="nav-item about" routerLink="/about" routerLinkActive="activePage">
+    ABOUT
+  </div>
+</div>
+

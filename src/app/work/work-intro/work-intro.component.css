@@ -1,0 +1,43 @@
+* {
+  font-weight: 300;
+  color: #828282;
+  cursor: default;
+}
+.work-intro-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-size: 1.6em;
+  width: 76%;
+  margin-left: 1em;
+}
+
+.highlight {
+  color: #7F93FF;
+  font-weight: 600;
+}
+
+img {
+  border-radius: 20px;
+  box-shadow: 0 2px 20px #CDCDCD;
+}
+
+/*---------mobile styles--------------*/
+
+h2.mobile {
+  font-size: 1.3em;
+  width: 100%;
+  margin-left: 0;
+}

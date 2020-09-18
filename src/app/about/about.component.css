@@ -1,0 +1,14 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 12em 2em 12em;
+
+}
+
+.about-container-mobile {
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

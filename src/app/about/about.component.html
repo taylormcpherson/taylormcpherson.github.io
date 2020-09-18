@@ -1,0 +1,11 @@
+<!--web-->
+<div class="about-container" *ngIf="!isMobile">
+  <app-about-intro></app-about-intro>
+  <app-about-blurbs></app-about-blurbs>
+</div>
+
+<!--mobile-->
+<div class="about-container-mobile" *ngIf="isMobile">
+  <app-about-intro></app-about-intro>
+  <app-about-blurbs></app-about-blurbs>
+</div>

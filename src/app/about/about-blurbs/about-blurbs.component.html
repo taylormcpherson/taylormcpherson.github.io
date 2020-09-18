@@ -1,0 +1,61 @@
+<!--web-->
+<div class="full-container" *ngIf="!isMobile">
+  <div class="blurbs-container">
+    <p class="chat-title">CHAT WITH ME ABOUT</p>
+    <div *ngFor="let blurb of blurbs" class="single-blurb">
+      <div class="title-container">
+        <div class="title-img">{{blurb.imgUrl}}</div>
+        <!--<img class="title-img" src="{{blurb.imgUrl}}" alt="{{blurb.imgAlt}}">-->
+        <div class="words-container">
+          <div class="blurb-title">{{blurb.title}}</div>
+          <div class="blurb-description" *ngIf="blurb.id == 1">
+            I get really excited thinking about radical ways technologies can transform our
+            world for the better. Nothing is too crazy. One of the most influential and inspiring forces
+            of socially-grounded tech in my life is the
+            <span><a href="https://tech4good.soe.ucsc.edu/" target="_blank"> Tech4Good Lab</a></span>,
+            where I’m a Fellow and work as a UX Researcher and Designer.
+          </div>
+
+          <div class="blurb-description" *ngIf="blurb.id == 4">
+            I love to thinking about how images can allow us to exist in our bodies with joy, power, vulnerability, and love.
+            If you're curious, you can check out my photography portfolio
+            <span><a href="https://taylormcpherson.myportfolio.com/" target="_blank"> here</a></span>.
+          </div>
+
+          <div *ngIf="blurb.id != 1" class="blurb-description">{{blurb.description}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--mobile-->
+<div class="full-container-mobile" *ngIf="isMobile">
+  <div class="blurbs-container">
+    <p class="chat-title">CHAT WITH ME ABOUT</p>
+    <div *ngFor="let blurb of blurbs" class="single-blurb">
+      <div class="title-container">
+        <div class="title-img">{{blurb.imgUrl}}</div>
+        <!--<img class="title-img" src="{{blurb.imgUrl}}" alt="{{blurb.imgAlt}}">-->
+        <div class="words-container">
+          <div class="blurb-title">{{blurb.title}}</div>
+          <div class="blurb-description" *ngIf="blurb.id == 1">
+            I get really excited thinking about radical ways technologies can transform our
+            world for the better. Nothing is too crazy. One of the most influential and inspiring forces
+            of socially-grounded tech in my life is the
+            <span><a href="https://tech4good.soe.ucsc.edu/" target="_blank"> Tech4Good Lab</a></span>,
+            where I’m a Fellow and work as a UX Researcher and Designer.
+          </div>
+
+          <div class="blurb-description" *ngIf="blurb.id == 4">
+            I love to thinking about how images can allow us to exist in our bodies with joy, power, vulnerability, and love.
+            If you're curious, you can check out my photography portfolio
+            <span><a href="https://taylormcpherson.myportfolio.com/" target="_blank"> here</a></span>.
+          </div>
+
+          <div *ngIf="blurb.id != 1" class="blurb-description">{{blurb.description}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

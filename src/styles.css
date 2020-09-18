@@ -1,0 +1,29 @@
+/* Application-wide Styles */
+h1 {
+  color: #369;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #444;
+  font-weight: lighter;
+}
+/*body {
+  margin: 4em;
+}*/
+body, input[type="text"], button {
+  color: #4F4F4F;
+}
+
+/* everywhere else */
+*:focus {outline:0 !important;}
+
+* {
+  /*font-family: Nunito, sans-serif;*/
+  font-family: 'Nunito', sans-serif;
+  line-height: 1.6em;
+}/* You can add global styles to this file, and also import other style files */
+
+::selection {
+  background: #929292;
+  color: #FFFFFF;
+}
