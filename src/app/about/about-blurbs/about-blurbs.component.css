@@ -1,0 +1,111 @@
+.full-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 2em;
+
+}
+
+.blurbs-container {
+  margin-top: 2em;
+  color: #828282;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 8%;
+  padding-right: 10%;
+}
+
+.chat-title {
+  font-size: .8em;
+  display: flex;
+  color: #929292;
+  font-weight: 600;
+  margin-bottom: -1em;
+}
+
+.single-blurb {
+  margin-top: 2em;
+}
+
+.title-img {
+  font-size: 2em;
+
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.words-container {
+  margin-left: 2em;
+}
+
+.blurb-title {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+.blurb-description {
+  font-size: 1.1em;
+  font-weight: 300;
+  margin-top: .4em;
+}
+
+.blurb-description a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #5B7FFE;
+}
+
+.blurb-description a:hover {
+  opacity: .6;
+  cursor: pointer;
+}
+
+/*------mobile------*/
+.full-container-mobile {
+  display: flex;
+  justify-content: center;
+  margin: 0 1em 0 0;
+  padding: 0;
+}
+
+.full-container-mobile .blurbs-container {
+  color: #828282;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+.full-container-mobile .chat-title {
+  font-size: .7em;
+  font-weight: 600;
+  color: #929292;
+  margin: 0 0 -2em 0;
+}
+
+.full-container-mobile .single-blurb {
+  margin-top: 2em;
+}
+
+.full-container-mobile .title-img {
+  font-size: 1.4em;
+}
+
+.full-container-mobile .words-container {
+  margin-left: 1em;
+}
+
+.full-container-mobile .blurb-title {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.full-container-mobile .blurb-description {
+  font-size: 1em;
+  font-weight: 300;
+  margin-top: .4em;
+}

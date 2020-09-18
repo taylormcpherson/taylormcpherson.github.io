@@ -1,0 +1,108 @@
+.outer-container {
+  margin: -2em 4em 4em 4em;
+  /*border-radius: 40px;
+  box-shadow: 0 8px 80px #E2E2E2;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  margin: 0 8em 4em 8em;
+  font-size: 1.1em;
+  color: #4f4f4f;
+  font-weight: 300;
+  line-height: 1.8em;
+
+}
+/*------intro--------*/
+h2 {
+  font-size: 1.6em;
+  line-height: 2em;
+  font-weight: 600;
+  text-align: center;
+  color: #7F93FF;
+}
+.description {
+  text-align: left;
+  font-style: italic;
+  font-size: 1.2em;
+  margin: 0 3em 2em 3em;
+
+}
+.intro-img {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  /*margin:0 -8em 4em -8em;*/
+  margin-bottom: 4em;
+}
+img.intro {
+  width: 100%;
+}
+
+/*-----overview----*/
+.word-section {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0 6em 0;
+}
+.title {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 1.4em;
+  /*color: #828282;*/
+}
+.section-img {
+  margin-bottom: 2em;
+}
+
+/*---process----*/
+.process {
+  margin-bottom: 4em;
+}
+.process-title {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.05em;
+  margin-bottom: .8em;
+  margin-top: -2em;
+}
+
+.ptitle {
+  font-weight: 600;
+  color: #7F93FF;
+}
+.psubtitle {
+  font-weight: 500;
+}
+.pimg {
+  margin-bottom: 2em;
+}
+.pdescrip {
+  margin-bottom: 6em;
+}
+
+/*----final design----*/
+.final-design .section-descrip {
+  margin-bottom: 2em;
+}
+.video {
+  border: none;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-top: -8em;
+  margin-bottom: 6em;
+}
+
+/*---reflections--*/
+
+.reflections .section-descrip {
+  margin-bottom: -4em;
+}
+.r-title {
+  font-weight: 600;
+  margin-top: 2em;
+  margin-bottom: .5em;
+}

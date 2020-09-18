@@ -1,0 +1,118 @@
+<div class="outer-container">
+  <div class="main-container">
+    <!--intro section-->
+    <section class="intro" *ngFor="let c of intro">
+      <div *ngIf="c.id==2">
+        <h2 class="page-title">{{c.title}}</h2>
+        <div class="description">{{c.description}}</div>
+        <div class="intro-img">
+          <img width="110%" src="{{c.imgUrl}}">
+        </div>
+      </div>
+    </section>
+
+    <!--overview-->
+    <section class="overview" *ngFor="let t of timely">
+      <div class="word-section">
+        <div class="title">{{t.sectionTitle}}</div>
+        <div *ngIf="t.sectionImg!=''" class="section-img">
+          <img src="{{t.sectionImg}}" width="100%">
+        </div>
+        <div class="section-descrip">{{t.sectionDescrip}}</div>
+      </div>
+
+    </section>
+
+    <!--design process-->
+    <section class="process" *ngFor="let p of process">
+      <div *ngIf="p.title!='Research' && p.title!='Prototype'">
+        <div class="process-title">
+          <div class="ptitle">{{p.title}}&nbsp;</div>
+          <div class="psubtitle">{{p.subtitle}}</div>
+        </div>
+        <div *ngIf="p.img!=''" class="pimg">
+          <img src="{{p.img}}" width="100%">
+        </div>
+        <div class="pdescrip">{{p.description}}</div>
+      </div>
+
+       <div *ngIf="p.title=='Research'" class="research">
+         <div class="process-title">
+           <div class="ptitle">{{p.title}}&nbsp;</div>
+           <div class="psubtitle">{{p.subtitle}}</div>
+         </div>
+         <div class="pdescrip">{{p.description}}</div>
+         <div class="pimg"><img src="{{p.img}}" width="110%"></div>
+      </div>
+
+      <div *ngIf="p.title=='Prototype'" class="proto">
+        <div class="process-title">
+          <div class="ptitle">{{p.title}}&nbsp;</div>
+          <div class="psubtitle">{{p.subtitle}}</div>
+        </div>
+        <div class="pimg"><img src="{{p.img}}" width="100%"></div>
+        <div class="pdescrip">{{p.description}}</div>
+        <div class="pimg"><img src="./assets/img/timely-lofi.png" width="100%"></div>
+      </div>
+    </section>
+
+    <!--final design-->
+    <section class="final-design" *ngFor="let f of final">
+      <div class="word-section">
+        <div *ngIf="f.sectionTitle!=''" class="title">{{f.sectionTitle}}</div>
+        <div class="section-descrip">{{f.sectionDescrip}}</div>
+        <div *ngIf="f.sectionImg!=''">
+          <video width="100%" controls>
+            <source src="{{f.sectionImg}}" type="video/mp4">
+          </video>
+        </div>
+
+        <!--interactive web prototypes-->
+        <div *ngIf="f.sectionTitle=='FINAL DESIGNS'">
+          <!--creator flow-->
+          <div class="protos">
+            <div class="proto-title">1. Creator Flow</div>
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FXXf4xanfLMJQdAVqOphZ9b%2FInteractive-Prototype-Timely%3Fnode-id%3D13%253A4%26viewport%3D401%252C410%252C0.052765510976314545%26scaling%3Dscale-down-width&chrome=DOCUMENTATION"
+                    allowfullscreen>
+            </iframe>
+          </div>
+          <!--participant flow-->
+          <div class="protos">
+            <div class="proto-title">2. Participant Flow</div>
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FXXf4xanfLMJQdAVqOphZ9b%2FInteractive-Prototype-Timely%3Fnode-id%3D13%253A575%26viewport%3D512%252C315%252C0.02377820573747158%26scaling%3Dscale-down-width&chrome=DOCUMENTATION"
+                    allowfullscreen>
+            </iframe>
+          </div>
+          <!--review flow-->
+          <div class="protos review">
+            <div class="proto-title">3. Review Flow</div>
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FXXf4xanfLMJQdAVqOphZ9b%2FInteractive-Prototype-Timely%3Fnode-id%3D13%253A3835%26viewport%3D393%252C313%252C0.039631232619285583%26scaling%3Dscale-down-width&chrome=DOCUMENTATION"
+                    allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+        <!--end prototypes-->
+
+      </div>
+    </section>
+
+    <!--reflections-->
+    <section *ngFor="let r of reflect">
+       <div  *ngFor="let r of reflect" class="reflections">
+        <div class="word-section">
+          <div class="title">{{r.sectionTitle}}</div>
+          <div class="section-descrip">{{r.sectionDescrip}}</div>
+        </div>
+      </div>
+      <div *ngFor="let s of rSection" class="reflection-section">
+        <div class="r-title">{{s.sectionTitle}}</div>
+        <div class="r-descrip">{{s.sectionDescrip}}</div>
+      </div>
+    </section>
+
+  </div>
+  <app-case-footer></app-case-footer>
+</div>

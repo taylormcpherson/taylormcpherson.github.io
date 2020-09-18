@@ -1,0 +1,11 @@
+<!--web-->
+<div class="work-container" *ngIf="!isMobile">
+  <app-work-intro></app-work-intro>
+  <app-work-cards></app-work-cards>
+</div>
+<!--mobile-->
+<div class="work-container-mobile" *ngIf="isMobile">
+  <app-work-intro></app-work-intro>
+  <app-work-cards></app-work-cards>
+</div>
+

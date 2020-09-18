@@ -1,0 +1,64 @@
+<div class="outer-container">
+  <div class="main-container">
+    <!--intro section-->
+    <section class="intro" *ngFor="let c of intros">
+      <div *ngIf="c.id==1">
+        <h2 class="page-title">{{c.title}}</h2>
+        <div class="description">{{c.description}}</div>
+        <div class="intro-img">
+          <img class="intro" src="{{c.imgUrl}}"/>
+        </div>
+      </div>
+    </section>
+
+    <!--overview-->
+    <section class="overview" *ngFor="let crit of crits">
+      <div class="word-section">
+        <div class="title">{{crit.sectionTitle}}</div>
+        <div *ngIf="crit.sectionImg!=''" class="section-img">
+          <img src="{{crit.sectionImg}}" width="100%">
+        </div>
+        <div class="section-descrip">{{crit.sectionDescrip}}</div>
+      </div>
+    </section>
+
+    <!--design process-->
+    <section class="process" *ngFor="let p of process">
+      <div class="process-title">
+        <div class="ptitle">{{p.title}}&nbsp;</div>
+        <div class="psubtitle">{{p.subtitle}}</div>
+      </div>
+      <div *ngIf="p.img!=''" class="pimg">
+        <img src="{{p.img}}" width="100%">
+      </div>
+      <div class="pdescrip">{{p.description}}</div>
+    </section>
+
+    <!--final design -->
+    <section class="final-design" *ngFor="let f of final">
+      <div class="word-section">
+        <div class="title">{{f.sectionTitle}}</div>
+        <div class="section-descrip">{{f.sectionDescrip}}</div>
+        <div class="section-img"><img src="{{f.sectionImg}}" width="100%"></div>
+      </div>
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/ttNsRgl_ffA" width="100%" height="400" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!--reflections-->
+    <section class="reflections">
+      <div  *ngFor="let r of reflect">
+        <div class="word-section">
+          <div class="title">{{r.sectionTitle}}</div>
+          <div class="section-descrip">{{r.sectionDescrip}}</div>
+        </div>
+      </div>
+      <div *ngFor="let s of rSection" class="reflection-section">
+        <div class="r-title">{{s.sectionTitle}}</div>
+        <div class="r-descrip">{{s.sectionDescrip}}</div>
+      </div>
+    </section>
+  </div>
+  <app-case-footer></app-case-footer>
+</div>

@@ -1,0 +1,14 @@
+<div class="outer-container">
+  <div class="main-container">
+    <section class="intro" *ngFor="let c of intro">
+      <div *ngIf="c.id==3">
+        <h2 class="page-title">{{c.title}}</h2>
+        <div class="description">{{c.description}}</div>
+        <div class="intro-img">
+          <img class="intro" src="{{c.imgUrl}}"/>
+        </div>
+      </div>
+    </section>
+  </div>
+  <app-case-footer></app-case-footer>
+</div>
