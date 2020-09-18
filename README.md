@@ -1,18 +1,4 @@
-<<<<<<< HEAD
-# taylormcpherson.github.io
--------------------------------------
-personal web page, created 1.2020
-project duration: 3 days
 
--------------------------------------
-A new-and-improved personal webpage.
-
--------------------------------------
-languages used: 
-    HTML, CSS, Javascript
-special features: 
-    CSS and javascriptanimations, svg vectors
-=======
 # WebsiteTrial
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
