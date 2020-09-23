@@ -40,7 +40,12 @@
           <div class="title">{{p.sectionTitle}}</div>
           <div class="section-descrip">{{p.sectionDescrip}}</div>
           <div *ngIf="p.sectionImg!=''" class="section-img">
-            <img src="{{p.sectionImg}}" width="100%">
+            <div *ngIf="p.sectionTitle=='Quarantine Affirmations'">
+              <img src="./assets/img/play-affirmations-mobile.png" width="100%">
+            </div>
+            <div *ngIf="p.sectionTitle=='Looking into Prisons in Hawai‘i'">
+              <img src="./assets/img/play-prisons-mobile.png" width="100%">
+            </div>
           </div>
         </div>
       </section>
