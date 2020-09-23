@@ -18,8 +18,8 @@ const routes: Routes = [
   { path: 'group-scheduling', component: GroupSchedulingComponent},
   { path: 'apprenticeship-learning', component: ApprenticeshipLearningComponent},
   { path: 'side-projects', component: PlaygroundComponent},
-  { path: '', redirectTo: '/work', pathMatch: 'full' },
-  { path: '**', redirectTo: '/work', pathMatch: 'full' },
+  { path: '', redirectTo: '/', pathMatch: 'full' },
+  { path: '**', redirectTo: '/', pathMatch: 'full' },
 ];
 
 @NgModule({
