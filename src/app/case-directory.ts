@@ -324,6 +324,30 @@ export const CAUSEWAY: CaseSections[] = [
 /*----CAUSEWAY DATA-----*/
 /*----main sections---*/
 export const PLAYGROUND: CaseSections[] = [
+  {
+    sectionTitle: "Quarantine Affirmations",
+    sectionDescrip: "It has been a rough few months in the world. These graphics are my way " +
+      "of carving out a little bit of positive, affirmative space for ourselves and our bodies" +
+      " in the midst of it all.",
+    sectionImg: "./assets/img/play-affirmations.png",
+  },
+  {
+    sectionTitle: "Looking into Prisons in Hawai‘i",
+    sectionDescrip: "For a few years I have been interested in (and outraged by) the prison systems" +
+      " in the United States. After the murder of George Floyd and the uprisings against police" +
+      " brutality across the country, I wanted to take a closer look into these systems and their" +
+      " social impact on a local level in Hawai‘i. The graphics below are a brief summary of some " +
+      "of my findings. They are not meant to be all-inclusive, but rather a conversation starter. " +
+      "I played with typography and colors to make them visually appealing while keeping " +
+      "the audience’s focus on the information at hand. Created for and deployed on Instagram.",
+    sectionImg: "./assets/img/play-prisons.png",
+  },
+  {
+    sectionTitle: "Web Development",
+    sectionDescrip: "Shameless plug, but this entire website has been a labor of love and long " +
+      "nights of coding. Designed and developed by yours truly using AngularJS. 🙂",
+    sectionImg: "",
+  }
 
 ]
 
