@@ -1,3 +1,4 @@
+/*----web---*/
 .outer-container {
   margin: -2em 4em 4em 4em;
   display: flex;
@@ -38,3 +39,66 @@ h2 {
 img.intro {
   width: 100%;
 }
+
+/*-----overview----*/
+.word-section {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0 6em 0;
+  justify-content: center;
+}
+.title {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 1.4em;
+  /*color: #828282;*/
+}
+
+.section-img {
+  margin-bottom: 2em;
+}
+
+/*-----mobile-----*/
+.mobile-outer-container {
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile h2 {
+  font-size: 1.4em;
+  text-align: left;
+  display: flex;
+  line-height: 1.5em;
+}
+
+.mobile img {
+  margin-bottom: 1em;
+}
+
+.mobile .main-container {
+  font-size: 1em;
+  margin: 0;
+}
+
+.mobile .word-section {
+  margin-bottom: 3em;
+}
+
+.mobile .title {
+  margin-bottom: 1em;
+  font-size: 1em;
+}
+
+.mobile .description {
+  font-size: 1em;
+  margin: 0 0 1em 0;
+}
+
+.mobile .process-title {
+  font-size: 1em;
+  flex-wrap: wrap;
+}
+

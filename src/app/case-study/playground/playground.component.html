@@ -1,4 +1,5 @@
-<div class="outer-container">
+<!---WEB---->
+<div class="outer-container" *ngIf="!isMobile">
   <div class="main-container">
     <!--intro section-->
     <section class="intro" *ngFor="let c of intro">
@@ -10,8 +11,48 @@
         </div>
       </div>
     </section>
-
-
+    <!--main sections-->
+    <section class="overview" *ngFor="let p of play">
+      <div class="word-section">
+        <div class="title">{{p.sectionTitle}}</div>
+        <div *ngIf="p.sectionImg!=''" class="section-img">
+          <img src="{{p.sectionImg}}" width="100%">
+        </div>
+        <div class="section-descrip">{{p.sectionDescrip}}</div>
+      </div>
+    </section>
   </div>
   <app-case-footer></app-case-footer>
 </div>
+
+
+<!---MOBILE---->
+<div class="mobile" *ngIf="isMobile">
+  <div class="mobile-outer-container">
+    <div class="main-container">
+      <!--intro section-->
+      <section class="intro" *ngFor="let c of intro">
+        <div *ngIf="c.id==4">
+          <h2 class="page-title">{{c.title}}</h2>
+          <div class="description">{{c.description}}</div>
+          <div class="intro-img">
+            <img class="intro" src="{{c.imgUrl}}"/>
+          </div>
+        </div>
+      </section>
+      <!--main sections-->
+      <section class="overview" *ngFor="let p of play">
+        <div class="word-section">
+          <div class="title">{{p.sectionTitle}}</div>
+          <div *ngIf="p.sectionImg!=''" class="section-img">
+            <img src="{{p.sectionImg}}" width="100%">
+          </div>
+          <div class="section-descrip">{{p.sectionDescrip}}</div>
+        </div>
+      </section>
+    </div>
+    <app-case-footer></app-case-footer>
+  </div>
+</div>
+
+

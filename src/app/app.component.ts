@@ -1,7 +1,4 @@
 import { Component } from '@angular/core';
-import {Observable, Subject} from "rxjs";
-import { Injectable } from '@angular/core';
-import { DeviceDetectorService } from "ngx-device-detector";
 
 
 @Component({

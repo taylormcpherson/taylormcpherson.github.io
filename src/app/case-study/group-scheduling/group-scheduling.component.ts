@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { INTROS, TIMELY, TIMELYPROCESS, TIMELYFINAL, TIMELYREFLECT, TIMELYREFLECTSECTIONS } from "../../case-directory";
+import { GlobalConstants } from "../../app.component";
 
 @Component({
   selector: 'app-group-scheduling',
@@ -13,6 +14,7 @@ export class GroupSchedulingComponent implements OnInit {
   final = TIMELYFINAL;
   reflect = TIMELYREFLECT;
   rSection = TIMELYREFLECTSECTIONS;
+  isMobile = GlobalConstants.isMobile;
 
   constructor() { }
 

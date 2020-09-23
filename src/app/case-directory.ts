@@ -19,9 +19,9 @@ export const INTROS: IntroSection[] = [
   {
     id: 3,
     title: "Digital Apprenticeship Learning Research",
-    description: "How might we design digitial, socio-technical systems that expand access to apprenticeship learning in computer" +
-      " science?",
-    imgUrl: "",
+    description: "How might we rethink and design socio-technical systems that expand access to apprenticeship " +
+      "learning in computer science?",
+    imgUrl: "./assets/img/causeway-intro.png",
   },
   {
     id: 4,
@@ -131,7 +131,7 @@ export const CRITREFLECTSECTIONS: CaseSections[] = [
   {
     sectionTitle: "Cost and Accesibility. Who is Frank For?",
     sectionImg: "",
-    sectionDescrip: "Realistically, how might it be possible for FRANK to be affordable and still include" +
+    sectionDescrip: "Realistically, how might it be possible for Frank to be affordable and still include" +
       " all its high-tech features? This should not be a luxury only available to the rich. I acknowledge" +
       " that in its current state, the families that need our design the most may not be the ones who can afford it." +
       " This is a major concern."
@@ -139,7 +139,7 @@ export const CRITREFLECTSECTIONS: CaseSections[] = [
   {
     sectionTitle: "Privacy Concerns",
     sectionImg: "",
-    sectionDescrip: "I also question privacy issues FRANK may raise. Could a personal robot intensify the dangers " +
+    sectionDescrip: "I also question privacy issues Frank may raise. Could a personal robot intensify the dangers " +
       "of the surveillance-state that are already hyper-present in our society?"
   },
   {
@@ -282,6 +282,49 @@ export const TIMELYREFLECTSECTIONS: CaseSections[] = [
       "forward to, and wanted more of. I can’t wait to continue learning about user experience design and building" +
       " a career out of it."
   },
+]
+
+/*----CAUSEWAY DATA-----*/
+/*----main sections---*/
+export const CAUSEWAY: CaseSections[] = [
+  {
+    sectionTitle: "OVERVIEW",
+    sectionImg: "./assets/img/causeway-overview.png",
+    sectionDescrip: "This project has been my primary focus throughout my time in the Tech4Good Lab at UC" +
+      " Santa Cruz. For the past nine months, my team and I have been conducting user experience research" +
+      " on Causeway, our Lab’s most developed platform. Causeway aims to teach web development online" +
+      " through micro-role hierarchies and user participation in real-world projects. Our research has" +
+      " come from various user-experience tests, surveys, and interviews we have run. Often, we perform" +
+      " qualitative analysis on our findings when appropriate. Our goal is to better understand the user" +
+      " experience on Causeway, and how the platform might be a way to rethink digital apprenticeship " +
+      "learning. On top of our user experience research, we are doing extensive literature reviews within" +
+      " apprenticeship learning and computer science education in preparation to put everything together" +
+      " in a research paper we aim to publish in late 2020. ",
+  },
+  {
+    sectionTitle: "PROBLEM SPACE",
+    sectionImg: "./assets/img/causeway-problem.jpeg",
+    sectionDescrip: "Hands-on, real-world, or apprenticeship type learning is extremely valuable in a " +
+      "computer science education, yet it is difficult to obtain. Many of these types of learnings are found " +
+      "in internships or research which often require students to have experience in order to gain access to" +
+      " that experience. It is a vicious cycle that leaves apprenticeship style learning inaccessible to" +
+      " novices or less experienced folks.",
+  },
+
+  {
+    sectionTitle: "A PROJECT IN PROGRESS",
+    sectionImg: "",
+    sectionDescrip: "This is an ongoing project, and we are still conducting research " +
+      "which means we do not yet have solid conclusions. For this reason, I’ve decided to stray from a typical" +
+      " case study layout and instead outline some major takeaways and learnings I’ve gained from the project" +
+      " thus far below. "
+  },
+]
+
+/*----CAUSEWAY DATA-----*/
+/*----main sections---*/
+export const PLAYGROUND: CaseSections[] = [
+
 ]
 
 

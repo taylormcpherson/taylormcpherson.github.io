@@ -1,3 +1,7 @@
 body.web-app-component {
   margin: 4em;
 }
+
+body.mobile-app-component {
+  margin: 0;
+}

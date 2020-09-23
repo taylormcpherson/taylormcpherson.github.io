@@ -1,7 +1,19 @@
-<div class="case-footer-container">
+<!---WEB--->
+<div class="case-footer-container" *ngIf="!isMobile">
   <div class="item" routerLink="/group-scheduling" routerLinkActive="activePage">GROUP SCHEDULING</div>
   <div class="item" routerLink="/critical-design" routerLinkActive="activePage">ROBOT NANNYS</div>
   <div class="item" routerLink="/apprenticeship-learning" routerLinkActive="activePage">APPRENTICESHIP LEARNING</div>
   <div class="item" routerLink="/side-projects" routerLinkActive="activePage">PLAYGROUND</div>
+</div>
+
+
+<!---MOBILE--->
+<div class="mobile" *ngIf="isMobile">
+  <div class="mobile-case-footer-container">
+    <div class="item" routerLink="/group-scheduling" routerLinkActive="activePage">GROUP SCHEDULING</div>
+    <div class="item" routerLink="/critical-design" routerLinkActive="activePage">ROBOT NANNYS</div>
+    <div class="item" routerLink="/apprenticeship-learning" routerLinkActive="activePage">APPRENTICESHIP LEARNING</div>
+    <div class="item" routerLink="/side-projects" routerLinkActive="activePage">PLAYGROUND</div>
+  </div>
 </div>
 

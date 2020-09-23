@@ -107,7 +107,7 @@ a {
   opacity: .8;
   box-shadow: 0 6px 48px #CDCDCD;
   margin: 3.4em 0 0 0;
-  border-radius: 20px;
+  border-radius: 12px;
   display: flex;
   flex-direction: column;
   justify-content: center;

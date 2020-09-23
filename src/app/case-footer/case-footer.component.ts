@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GlobalConstants } from "../app.component";
 
 @Component({
   selector: 'app-case-footer',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./case-footer.component.css']
 })
 export class CaseFooterComponent implements OnInit {
+  isMobile = GlobalConstants.isMobile;
 
   constructor() { }
 

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { INTROS } from "../../case-directory";
+import { INTROS, CAUSEWAY } from "../../case-directory";
+import { GlobalConstants } from "../../app.component";
 
 @Component({
   selector: 'app-apprenticeship-learning',
@@ -8,6 +9,8 @@ import { INTROS } from "../../case-directory";
 })
 export class ApprenticeshipLearningComponent implements OnInit {
   intro = INTROS;
+  causeway = CAUSEWAY;
+  isMobile = GlobalConstants.isMobile;
 
   constructor() { }
 
