@@ -3225,7 +3225,6 @@ const routes = [
     { path: 'apprenticeship-learning', component: _case_study_apprenticeship_learning_apprenticeship_learning_component__WEBPACK_IMPORTED_MODULE_7__["ApprenticeshipLearningComponent"] },
     { path: 'side-projects', component: _case_study_playground_playground_component__WEBPACK_IMPORTED_MODULE_8__["PlaygroundComponent"] },
     { path: '', redirectTo: '/work', pathMatch: 'full' },
-    { path: '**', redirectTo: '/work' },
 ];
 class AppRoutingModule {
 }
