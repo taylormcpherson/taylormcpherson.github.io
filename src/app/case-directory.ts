@@ -319,9 +319,67 @@ export const CAUSEWAY: CaseSections[] = [
       " case study layout and instead outline some major takeaways and learnings I’ve gained from the project" +
       " thus far below. "
   },
+  {
+    sectionTitle: "USABILITY TESTING",
+    sectionImg: "./assets/img/causeway-recruit.png",
+    sectionDescrip: "I designed the above graphic for in person usability tests early on in this" +
+      " project, but one silver lining of COVID-19 is that I learned how to run usability tests" +
+      " not only in person but also  remotely. For context, our usability tests would typically" +
+      " run for a total of 1.5 hours. The first 30 minutes would be a brief interview to get" +
+      " background context on our user, and the final hour would consist of the user working " +
+      "through Causeway as we observe and collect qualitative data. Whether they were conducted" +
+      " remotely or not, usability tests were always interesting because each user always had a" +
+      " different experience with Causeway, and I left each session with new insight about the " +
+      "platform.",
+  },
+  {
+    sectionTitle: "USER INTERVIEWS",
+    sectionImg: "",
+    sectionDescrip: "User interviews are by far my favorite part of the research process. " +
+      "I love connecting with people, and interviews are a really cool way to do that while also" +
+      " gaining valuable insight on our product. The most valuable learnings I’ve gained from" +
+      " conducting user interviews are twofold. ",
+  },
+  {
+    sectionTitle: "REFLECTIONS",
+    sectionImg: "",
+    sectionDescrip: "I have loved being able to deep dive into the research process through " +
+      "this project. Beyond the skills I discussed" +
+      " above, I have noticed that this has taught me to bring a research mindset to my design work as" +
+      " well. Now, I notice myself researching all of my design decisions, because I understand" +
+      " that my best work will come from informed decisions. This experience has been so valuable" +
+      " and makes me very excited to continue research work in my future career whether that is" +
+      " directly through user research or indirectly in my design work. "
+
+  }
 ]
 
-/*----CAUSEWAY DATA-----*/
+export const INTERVIEWS: CaseSections[] = [
+  {
+    sectionTitle: "1.  Have a script, but don’t feel stuck to it.",
+    sectionImg: "",
+    sectionDescrip: "Preparation is key, which is what I mean by having a script ready. " +
+      "It is important to do research beforehand on what type of questions you will want to ask " +
+      "and how you will word them. However, once the interview is actually being run, it is more " +
+      "important to authentically connect with your interviewees than cover every single question" +
+      " you prepared and risk sounding like a robot. More importantly, there is often valuable" +
+      " information that will unexpectedly come out throughout the interview, and you should be" +
+      " flexible enough to adjust your questions accordingly."
+  },
+  {
+    sectionTitle: "2.  Ask open ended questions, and try to get stories instead of answers.",
+    sectionImg: "",
+    sectionDescrip: "This is really important, and sometimes harder than it seems to achieve." +
+      " Getting yes or no answers from a user provides little to no insight about their experience," +
+      " and often cuts questions short. However, when a user answers in this way, it is not their" +
+      " fault! An interviewer should always ask open ended questions, those that can’t simply be" +
+      " answered with a yes or no. Good open ended questions might begin like, “tell me about a" +
+      " time where you…”, or “could you elaborate on…”, for example. As interviewers and researchers," +
+      " the gems of user insight are found when our questions search for stories instead of answers. "
+  },
+]
+
+/*----PLAYGROUND / SIDE PROJ DATA-----*/
 /*----main sections---*/
 export const PLAYGROUND: CaseSections[] = [
   {

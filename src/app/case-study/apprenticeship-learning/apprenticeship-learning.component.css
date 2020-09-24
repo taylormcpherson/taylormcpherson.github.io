@@ -8,7 +8,7 @@
   align-items: center;
 }
 .main-container {
-  margin: 0 8em 4em 8em;
+  margin: 0 8em 0em 8em;
   font-size: 1.1em;
   color: #4f4f4f;
   font-weight: 300;
@@ -57,12 +57,25 @@ img.intro {
   margin-bottom: 2em;
 }
 
+.section-img .usability {
+  border-radius: 12px;
+}
 .problem .section-descrip {
   margin-bottom: 1em;
 }
 
 .problem .section-img {
   margin-bottom: 1em;
+}
+
+/*---interview subsections--*/
+.reflections .section-descrip {
+  margin-bottom: -4em;
+}
+.r-title {
+  font-weight: 600;
+  margin-top: 2em;
+  margin-bottom: .5em;
 }
 
 
@@ -83,9 +96,7 @@ img.intro {
 .mobile .main-container {
   font-size: 1em;
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
   margin: 0;
 }
 

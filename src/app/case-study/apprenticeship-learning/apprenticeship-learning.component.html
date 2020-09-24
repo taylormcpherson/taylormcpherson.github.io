@@ -13,13 +13,7 @@
     </section>
     <!--main sections-->
     <section class="overview" *ngFor="let c of causeway">
-      <div class="word-section" *ngIf="c.sectionTitle!='PROBLEM SPACE'">
-        <div class="title">{{c.sectionTitle}}</div>
-        <div *ngIf="c.sectionImg!=''" class="section-img">
-          <img src="{{c.sectionImg}}" width="100%">
-        </div>
-        <div class="section-descrip">{{c.sectionDescrip}}</div>
-      </div>
+      <!--problem space-->
       <div class="word-section problem" *ngIf="c.sectionTitle=='PROBLEM SPACE'">
         <div class="title">{{c.sectionTitle}}</div>
         <div class="section-descrip">{{c.sectionDescrip}}</div>
@@ -30,7 +24,28 @@
           Our research is broadly an attempt to think about how we can break this cycle.
         </div>
       </div>
+      <!--in progress, usability tests, interviews, reflections-->
+      <div class="word-section" *ngIf="c.sectionTitle!='PROBLEM SPACE'">
+        <div class="title">{{c.sectionTitle}}</div>
+        <div *ngIf="c.sectionImg!=''" class="section-img">
+          <div *ngIf="c.sectionTitle=='USABILITY TESTING'">
+            <img src="{{c.sectionImg}}" width="50%" class="usability">
+          </div>
+          <div *ngIf="c.sectionTitle!='USABILITY TESTING'">
+            <img src="{{c.sectionImg}}" width="100%">
+          </div>
+        </div>
+        <div class="section-descrip">{{c.sectionDescrip}}</div>
+        <div *ngIf="c.sectionTitle=='USER INTERVIEWS'">
+          <!--INTERVIEWS subsections--->
+          <div *ngFor="let s of inters" class="reflection-section">
+            <div class="r-title">{{s.sectionTitle}}</div>
+            <div class="r-descrip">{{s.sectionDescrip}}</div>
+          </div>
+        </div>
+      </div>
     </section>
+
   </div>
   <app-case-footer></app-case-footer>
 </div>
@@ -52,6 +67,18 @@
       </section>
       <!--main sections-->
       <section class="overview" *ngFor="let c of causeway">
+        <!--problem space-->
+        <div class="word-section problem" *ngIf="c.sectionTitle=='PROBLEM SPACE'">
+          <div class="title">{{c.sectionTitle}}</div>
+          <div class="section-descrip">{{c.sectionDescrip}}</div>
+          <div class="section-img">
+            <img src="{{c.sectionImg}}" width="100%">
+          </div>
+          <div class="section-descrip">
+            Our research is broadly an attempt to think about how we can break this cycle.
+          </div>
+        </div>
+        <!--in progress, usability tests, interviews, reflections-->
         <div class="word-section" *ngIf="c.sectionTitle!='PROBLEM SPACE'">
           <div class="title">{{c.sectionTitle}}</div>
           <div *ngIf="c.sectionImg!=''" class="section-img">
@@ -63,15 +90,12 @@
             </div>
           </div>
           <div class="section-descrip">{{c.sectionDescrip}}</div>
-        </div>
-        <div class="word-section problem" *ngIf="c.sectionTitle=='PROBLEM SPACE'">
-          <div class="title">{{c.sectionTitle}}</div>
-          <div class="section-descrip">{{c.sectionDescrip}}</div>
-          <div class="section-img">
-            <img src="{{c.sectionImg}}" width="100%">
-          </div>
-          <div class="section-descrip">
-            Our research is broadly an attempt to think about how we can break this cycle.
+          <div *ngIf="c.sectionTitle=='USER INTERVIEWS'">
+          <!--INTERVIEWS subsections--->
+            <div *ngFor="let s of inters" class="reflection-section">
+              <div class="r-title">{{s.sectionTitle}}</div>
+              <div class="r-descrip">{{s.sectionDescrip}}</div>
+            </div>
           </div>
         </div>
       </section>

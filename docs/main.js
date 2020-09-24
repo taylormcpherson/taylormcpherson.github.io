@@ -439,46 +439,18 @@ function ApprenticeshipLearningComponent_div_0_section_2_Template(rf, ctx) { if 
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r4.id == 3);
 } }
-function ApprenticeshipLearningComponent_div_0_section_3_div_1_div_3_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 19);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 20);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-} if (rf & 2) {
-    const c_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2).$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", c_r7.sectionImg, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
-} }
 function ApprenticeshipLearningComponent_div_0_section_3_div_1_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 16);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, ApprenticeshipLearningComponent_div_0_section_3_div_1_div_3_Template, 2, 1, "div", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-} if (rf & 2) {
-    const c_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](c_r7.sectionTitle);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r7.sectionImg != "");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](c_r7.sectionDescrip);
-} }
-function ApprenticeshipLearningComponent_div_0_section_3_div_2_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 17);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 19);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "img", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "img", 19);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 17);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " Our research is broadly an attempt to think about how we can break this cycle. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -491,17 +463,94 @@ function ApprenticeshipLearningComponent_div_0_section_3_div_2_Template(rf, ctx)
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", c_r7.sectionImg, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
 } }
+function ApprenticeshipLearningComponent_div_0_section_3_div_2_div_3_div_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const c_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3).$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", c_r7.sectionImg, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+} }
+function ApprenticeshipLearningComponent_div_0_section_3_div_2_div_3_div_2_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const c_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3).$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", c_r7.sectionImg, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+} }
+function ApprenticeshipLearningComponent_div_0_section_3_div_2_div_3_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ApprenticeshipLearningComponent_div_0_section_3_div_2_div_3_div_1_Template, 2, 1, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ApprenticeshipLearningComponent_div_0_section_3_div_2_div_3_div_2_Template, 2, 1, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const c_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2).$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r7.sectionTitle == "USABILITY TESTING");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r7.sectionTitle != "USABILITY TESTING");
+} }
+function ApprenticeshipLearningComponent_div_0_section_3_div_2_div_6_div_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const s_r19 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](s_r19.sectionTitle);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](s_r19.sectionDescrip);
+} }
+function ApprenticeshipLearningComponent_div_0_section_3_div_2_div_6_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ApprenticeshipLearningComponent_div_0_section_3_div_2_div_6_div_1_Template, 5, 2, "div", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r12.inters);
+} }
+function ApprenticeshipLearningComponent_div_0_section_3_div_2_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, ApprenticeshipLearningComponent_div_0_section_3_div_2_div_3_Template, 3, 2, "div", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, ApprenticeshipLearningComponent_div_0_section_3_div_2_div_6_Template, 2, 1, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const c_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](c_r7.sectionTitle);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r7.sectionImg != "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](c_r7.sectionDescrip);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r7.sectionTitle == "USER INTERVIEWS");
+} }
 function ApprenticeshipLearningComponent_div_0_section_3_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ApprenticeshipLearningComponent_div_0_section_3_div_1_Template, 6, 3, "div", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ApprenticeshipLearningComponent_div_0_section_3_div_2_Template, 9, 3, "div", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ApprenticeshipLearningComponent_div_0_section_3_div_1_Template, 9, 3, "div", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ApprenticeshipLearningComponent_div_0_section_3_div_2_Template, 7, 4, "div", 14);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const c_r7 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r7.sectionTitle != "PROBLEM SPACE");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r7.sectionTitle == "PROBLEM SPACE");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r7.sectionTitle != "PROBLEM SPACE");
 } }
 function ApprenticeshipLearningComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 2);
@@ -527,109 +576,137 @@ function ApprenticeshipLearningComponent_div_1_section_3_div_1_Template(rf, ctx)
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "img", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "img", 30);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const c_r16 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+    const c_r23 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](c_r16.title);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](c_r23.title);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](c_r16.description);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](c_r23.description);
 } }
 function ApprenticeshipLearningComponent_div_1_section_3_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ApprenticeshipLearningComponent_div_1_section_3_div_1_Template, 7, 2, "div", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const c_r16 = ctx.$implicit;
+    const c_r23 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r16.id == 3);
-} }
-function ApprenticeshipLearningComponent_div_1_section_4_div_1_div_3_div_1_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 26);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-} }
-function ApprenticeshipLearningComponent_div_1_section_4_div_1_div_3_div_2_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 20);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-} if (rf & 2) {
-    const c_r19 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3).$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", c_r19.sectionImg, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
-} }
-function ApprenticeshipLearningComponent_div_1_section_4_div_1_div_3_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 19);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ApprenticeshipLearningComponent_div_1_section_4_div_1_div_3_div_1_Template, 2, 0, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ApprenticeshipLearningComponent_div_1_section_4_div_1_div_3_div_2_Template, 2, 1, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-} if (rf & 2) {
-    const c_r19 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2).$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r19.sectionTitle == "OVERVIEW");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r19.sectionTitle != "OVERVIEW");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r23.id == 3);
 } }
 function ApprenticeshipLearningComponent_div_1_section_4_div_1_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 16);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, ApprenticeshipLearningComponent_div_1_section_4_div_1_div_3_Template, 3, 2, "div", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-} if (rf & 2) {
-    const c_r19 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](c_r19.sectionTitle);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r19.sectionImg != "");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](c_r19.sectionDescrip);
-} }
-function ApprenticeshipLearningComponent_div_1_section_4_div_2_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 17);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 19);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "img", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "img", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 17);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " Our research is broadly an attempt to think about how we can break this cycle. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const c_r19 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+    const c_r26 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](c_r19.sectionTitle);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](c_r26.sectionTitle);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](c_r19.sectionDescrip);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](c_r26.sectionDescrip);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", c_r19.sectionImg, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", c_r26.sectionImg, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+} }
+function ApprenticeshipLearningComponent_div_1_section_4_div_2_div_3_div_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+function ApprenticeshipLearningComponent_div_1_section_4_div_2_div_3_div_2_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const c_r26 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3).$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", c_r26.sectionImg, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+} }
+function ApprenticeshipLearningComponent_div_1_section_4_div_2_div_3_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ApprenticeshipLearningComponent_div_1_section_4_div_2_div_3_div_1_Template, 2, 0, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ApprenticeshipLearningComponent_div_1_section_4_div_2_div_3_div_2_Template, 2, 1, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const c_r26 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2).$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r26.sectionTitle == "OVERVIEW");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r26.sectionTitle != "OVERVIEW");
+} }
+function ApprenticeshipLearningComponent_div_1_section_4_div_2_div_6_div_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const s_r37 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](s_r37.sectionTitle);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](s_r37.sectionDescrip);
+} }
+function ApprenticeshipLearningComponent_div_1_section_4_div_2_div_6_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ApprenticeshipLearningComponent_div_1_section_4_div_2_div_6_div_1_Template, 5, 2, "div", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r31 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r31.inters);
+} }
+function ApprenticeshipLearningComponent_div_1_section_4_div_2_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, ApprenticeshipLearningComponent_div_1_section_4_div_2_div_3_Template, 3, 2, "div", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, ApprenticeshipLearningComponent_div_1_section_4_div_2_div_6_Template, 2, 1, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const c_r26 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](c_r26.sectionTitle);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r26.sectionImg != "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](c_r26.sectionDescrip);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r26.sectionTitle == "USER INTERVIEWS");
 } }
 function ApprenticeshipLearningComponent_div_1_section_4_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ApprenticeshipLearningComponent_div_1_section_4_div_1_Template, 6, 3, "div", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ApprenticeshipLearningComponent_div_1_section_4_div_2_Template, 9, 3, "div", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ApprenticeshipLearningComponent_div_1_section_4_div_1_Template, 9, 3, "div", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ApprenticeshipLearningComponent_div_1_section_4_div_2_Template, 7, 4, "div", 14);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const c_r19 = ctx.$implicit;
+    const c_r26 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r19.sectionTitle != "PROBLEM SPACE");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r26.sectionTitle == "PROBLEM SPACE");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r19.sectionTitle == "PROBLEM SPACE");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r26.sectionTitle != "PROBLEM SPACE");
 } }
 function ApprenticeshipLearningComponent_div_1_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 29);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, ApprenticeshipLearningComponent_div_1_section_3_Template, 2, 1, "section", 4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, ApprenticeshipLearningComponent_div_1_section_4_Template, 3, 2, "section", 5);
@@ -649,19 +726,20 @@ class ApprenticeshipLearningComponent {
         this.intro = _case_directory__WEBPACK_IMPORTED_MODULE_1__["INTROS"];
         this.causeway = _case_directory__WEBPACK_IMPORTED_MODULE_1__["CAUSEWAY"];
         this.isMobile = _app_component__WEBPACK_IMPORTED_MODULE_2__["GlobalConstants"].isMobile;
+        this.inters = _case_directory__WEBPACK_IMPORTED_MODULE_1__["INTERVIEWS"];
     }
     ngOnInit() {
     }
 }
 ApprenticeshipLearningComponent.ɵfac = function ApprenticeshipLearningComponent_Factory(t) { return new (t || ApprenticeshipLearningComponent)(); };
-ApprenticeshipLearningComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ApprenticeshipLearningComponent, selectors: [["app-apprenticeship-learning"]], decls: 2, vars: 2, consts: [["class", "outer-container", 4, "ngIf"], ["class", "mobile", 4, "ngIf"], [1, "outer-container"], [1, "main-container"], ["class", "intro", 4, "ngFor", "ngForOf"], ["class", "overview", 4, "ngFor", "ngForOf"], [1, "intro"], [4, "ngIf"], [1, "page-title"], [1, "description"], [1, "intro-img"], [1, "intro", 3, "src"], [1, "overview"], ["class", "word-section", 4, "ngIf"], ["class", "word-section problem", 4, "ngIf"], [1, "word-section"], [1, "title"], ["class", "section-img", 4, "ngIf"], [1, "section-descrip"], [1, "section-img"], ["width", "100%", 3, "src"], [1, "word-section", "problem"], ["width", "50%", 3, "src"], [1, "mobile"], [1, "mobile-outer-container"], ["src", "./assets/img/causeway-intro-mobile.png", "width", "100%", 1, "intro"], ["src", "./assets/img/causeway-overview-mobile.png", "width", "70%"]], template: function ApprenticeshipLearningComponent_Template(rf, ctx) { if (rf & 1) {
+ApprenticeshipLearningComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ApprenticeshipLearningComponent, selectors: [["app-apprenticeship-learning"]], decls: 2, vars: 2, consts: [["class", "outer-container", 4, "ngIf"], ["class", "mobile", 4, "ngIf"], [1, "outer-container"], [1, "main-container"], ["class", "intro", 4, "ngFor", "ngForOf"], ["class", "overview", 4, "ngFor", "ngForOf"], [1, "intro"], [4, "ngIf"], [1, "page-title"], [1, "description"], [1, "intro-img"], [1, "intro", 3, "src"], [1, "overview"], ["class", "word-section problem", 4, "ngIf"], ["class", "word-section", 4, "ngIf"], [1, "word-section", "problem"], [1, "title"], [1, "section-descrip"], [1, "section-img"], ["width", "50%", 3, "src"], [1, "word-section"], ["class", "section-img", 4, "ngIf"], ["width", "50%", 1, "usability", 3, "src"], ["width", "100%", 3, "src"], ["class", "reflection-section", 4, "ngFor", "ngForOf"], [1, "reflection-section"], [1, "r-title"], [1, "r-descrip"], [1, "mobile"], [1, "mobile-outer-container"], ["src", "./assets/img/causeway-intro-mobile.png", "width", "100%", 1, "intro"], ["src", "./assets/img/causeway-overview-mobile.png", "width", "70%"]], template: function ApprenticeshipLearningComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, ApprenticeshipLearningComponent_div_0_Template, 5, 2, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ApprenticeshipLearningComponent_div_1_Template, 6, 2, "div", 1);
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.isMobile);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.isMobile);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _case_footer_case_footer_component__WEBPACK_IMPORTED_MODULE_4__["CaseFooterComponent"]], styles: [".outer-container[_ngcontent-%COMP%] {\n  margin: -2em 4em 4em 4em;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n.main-container[_ngcontent-%COMP%] {\n  margin: 0 8em 4em 8em;\n  font-size: 1.1em;\n  color: #4f4f4f;\n  font-weight: 300;\n  line-height: 1.8em;\n\n}\n\nh2[_ngcontent-%COMP%] {\n  font-size: 1.6em;\n  line-height: 2em;\n  font-weight: 600;\n  text-align: center;\n  color: #7F93FF;\n}\n.description[_ngcontent-%COMP%] {\n  text-align: left;\n  font-style: italic;\n  font-size: 1.2em;\n  margin: 0 3em 2em 3em;\n\n}\n.intro-img[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-self: center;\n  \n  margin-bottom: 4em;\n}\nimg.intro[_ngcontent-%COMP%] {\n  width: 100%;\n}\n\n.word-section[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  margin: 1em 0 6em 0;\n}\n.title[_ngcontent-%COMP%] {\n  font-size: 1.2em;\n  font-weight: 600;\n  margin-bottom: 1.4em;\n  \n}\n.section-img[_ngcontent-%COMP%] {\n  margin-bottom: 2em;\n}\n.problem[_ngcontent-%COMP%]   .section-descrip[_ngcontent-%COMP%] {\n  margin-bottom: 1em;\n}\n.problem[_ngcontent-%COMP%]   .section-img[_ngcontent-%COMP%] {\n  margin-bottom: 1em;\n}\n\n.mobile[_ngcontent-%COMP%]   body[_ngcontent-%COMP%] {\n  width: 100%;\n}\n.mobile-outer-container[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  margin: 2em;\n}\n.mobile[_ngcontent-%COMP%]   .main-container[_ngcontent-%COMP%] {\n  font-size: 1em;\n  display: flex;\n  justify-content: center;\n  flex-direction: column;\n  align-items: center;\n  margin: 0;\n}\n.mobile[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n  font-size: 1.4em;\n  text-align: left;\n  display: flex;\n  line-height: 1.5em;\n}\n.mobile[_ngcontent-%COMP%]   .intro[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  margin-left: -1em;\n  margin-bottom: -1em;\n  height: 180px;\n}\n.mobile[_ngcontent-%COMP%]   .overview[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  margin-bottom: -.5em;\n}\n.mobile[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  display: flex;\n  align-self: center;\n  justify-content: center;\n  margin-bottom: 0;\n}\n.mobile[_ngcontent-%COMP%]   .description[_ngcontent-%COMP%] {\n  font-size: 1em;\n  margin: 0 0 1em 0;\n}\n.mobile[_ngcontent-%COMP%]   .word-section[_ngcontent-%COMP%], .mobile[_ngcontent-%COMP%]   .process[_ngcontent-%COMP%], .mobile[_ngcontent-%COMP%]   video[_ngcontent-%COMP%]  {\n  margin-bottom: 3em;\n}\n.mobile[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%] {\n  margin-bottom: 1em;\n  font-size: 1em;\n}\n.mobile[_ngcontent-%COMP%]   .process-title[_ngcontent-%COMP%] {\n  justify-content: flex-start;\n  flex-wrap: wrap;\n  margin-top: 0;\n}\n.mobile[_ngcontent-%COMP%]   .research[_ngcontent-%COMP%]   img[_ngcontent-%COMP%], .mobile[_ngcontent-%COMP%]   .protos[_ngcontent-%COMP%], .mobile[_ngcontent-%COMP%]   .final-design\n.section-descrip[_ngcontent-%COMP%], .mobile[_ngcontent-%COMP%]   .research[_ngcontent-%COMP%]   .pimg[_ngcontent-%COMP%], .mobile[_ngcontent-%COMP%]   .pdescrip[_ngcontent-%COMP%]  {\n  margin-bottom: 0;\n}\n.mobile[_ngcontent-%COMP%]   .proto-title[_ngcontent-%COMP%] {\n  margin-top: 2em;\n}\n.mobile[_ngcontent-%COMP%]   .final-design[_ngcontent-%COMP%]   .word-section[_ngcontent-%COMP%] {\n   margin-bottom: 1em;\n }\n.mobile[_ngcontent-%COMP%]   .reflections[_ngcontent-%COMP%]   .section-descrip[_ngcontent-%COMP%] {\n  margin-bottom: -2em;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY2FzZS1zdHVkeS9hcHByZW50aWNlc2hpcC1sZWFybmluZy9hcHByZW50aWNlc2hpcC1sZWFybmluZy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLG1CQUFtQjtBQUNuQixtQkFBbUI7QUFDbkI7RUFDRSx3QkFBd0I7RUFDeEIsYUFBYTtFQUNiLHNCQUFzQjtFQUN0Qix1QkFBdUI7RUFDdkIsbUJBQW1CO0FBQ3JCO0FBQ0E7RUFDRSxxQkFBcUI7RUFDckIsZ0JBQWdCO0VBQ2hCLGNBQWM7RUFDZCxnQkFBZ0I7RUFDaEIsa0JBQWtCOztBQUVwQjtBQUNBLHNCQUFzQjtBQUN0QjtFQUNFLGdCQUFnQjtFQUNoQixnQkFBZ0I7RUFDaEIsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtFQUNsQixjQUFjO0FBQ2hCO0FBQ0E7RUFDRSxnQkFBZ0I7RUFDaEIsa0JBQWtCO0VBQ2xCLGdCQUFnQjtFQUNoQixxQkFBcUI7O0FBRXZCO0FBQ0E7RUFDRSxhQUFhO0VBQ2IsdUJBQXVCO0VBQ3ZCLGtCQUFrQjtFQUNsQiwwQkFBMEI7RUFDMUIsa0JBQWtCO0FBQ3BCO0FBQ0E7RUFDRSxXQUFXO0FBQ2I7QUFDQSxvQkFBb0I7QUFDcEI7RUFDRSxhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLG1CQUFtQjtBQUNyQjtBQUNBO0VBQ0UsZ0JBQWdCO0VBQ2hCLGdCQUFnQjtFQUNoQixvQkFBb0I7RUFDcEIsa0JBQWtCO0FBQ3BCO0FBRUE7RUFDRSxrQkFBa0I7QUFDcEI7QUFFQTtFQUNFLGtCQUFrQjtBQUNwQjtBQUVBO0VBQ0Usa0JBQWtCO0FBQ3BCO0FBSUEsbUJBQW1CO0FBQ25CO0VBQ0UsV0FBVztBQUNiO0FBRUE7RUFDRSxhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLHVCQUF1QjtFQUN2QixtQkFBbUI7RUFDbkIsV0FBVztBQUNiO0FBRUE7RUFDRSxjQUFjO0VBQ2QsYUFBYTtFQUNiLHVCQUF1QjtFQUN2QixzQkFBc0I7RUFDdEIsbUJBQW1CO0VBQ25CLFNBQVM7QUFDWDtBQUVBO0VBQ0UsZ0JBQWdCO0VBQ2hCLGdCQUFnQjtFQUNoQixhQUFhO0VBQ2Isa0JBQWtCO0FBQ3BCO0FBQ0E7RUFDRSxpQkFBaUI7RUFDakIsbUJBQW1CO0VBQ25CLGFBQWE7QUFDZjtBQUVBO0VBQ0Usb0JBQW9CO0FBQ3RCO0FBRUE7RUFDRSxhQUFhO0VBQ2Isa0JBQWtCO0VBQ2xCLHVCQUF1QjtFQUN2QixnQkFBZ0I7QUFDbEI7QUFFQTtFQUNFLGNBQWM7RUFDZCxpQkFBaUI7QUFDbkI7QUFFQTtFQUNFLGtCQUFrQjtBQUNwQjtBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLGNBQWM7QUFDaEI7QUFFQTtFQUNFLDJCQUEyQjtFQUMzQixlQUFlO0VBQ2YsYUFBYTtBQUNmO0FBRUE7O0VBRUUsZ0JBQWdCO0FBQ2xCO0FBRUE7RUFDRSxlQUFlO0FBQ2pCO0FBRUM7R0FDRSxrQkFBa0I7Q0FDcEI7QUFFRDtFQUNFLG1CQUFtQjtBQUNyQiIsImZpbGUiOiJzcmMvYXBwL2Nhc2Utc3R1ZHkvYXBwcmVudGljZXNoaXAtbGVhcm5pbmcvYXBwcmVudGljZXNoaXAtbGVhcm5pbmcuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qLS0tLXdlYi0tLS0tLS0tLSovXG4vKi0tLS1wYWdlIHdpZGUtLS0qL1xuLm91dGVyLWNvbnRhaW5lciB7XG4gIG1hcmdpbjogLTJlbSA0ZW0gNGVtIDRlbTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59XG4ubWFpbi1jb250YWluZXIge1xuICBtYXJnaW46IDAgOGVtIDRlbSA4ZW07XG4gIGZvbnQtc2l6ZTogMS4xZW07XG4gIGNvbG9yOiAjNGY0ZjRmO1xuICBmb250LXdlaWdodDogMzAwO1xuICBsaW5lLWhlaWdodDogMS44ZW07XG5cbn1cbi8qLS0tLS0taW50cm8tLS0tLS0tLSovXG5oMiB7XG4gIGZvbnQtc2l6ZTogMS42ZW07XG4gIGxpbmUtaGVpZ2h0OiAyZW07XG4gIGZvbnQtd2VpZ2h0OiA2MDA7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgY29sb3I6ICM3RjkzRkY7XG59XG4uZGVzY3JpcHRpb24ge1xuICB0ZXh0LWFsaWduOiBsZWZ0O1xuICBmb250LXN0eWxlOiBpdGFsaWM7XG4gIGZvbnQtc2l6ZTogMS4yZW07XG4gIG1hcmdpbjogMCAzZW0gMmVtIDNlbTtcblxufVxuLmludHJvLWltZyB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBhbGlnbi1zZWxmOiBjZW50ZXI7XG4gIC8qbWFyZ2luOjAgLThlbSA0ZW0gLThlbTsqL1xuICBtYXJnaW4tYm90dG9tOiA0ZW07XG59XG5pbWcuaW50cm8ge1xuICB3aWR0aDogMTAwJTtcbn1cbi8qLS0tLS1vdmVydmlldy0tLS0qL1xuLndvcmQtc2VjdGlvbiB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIG1hcmdpbjogMWVtIDAgNmVtIDA7XG59XG4udGl0bGUge1xuICBmb250LXNpemU6IDEuMmVtO1xuICBmb250LXdlaWdodDogNjAwO1xuICBtYXJnaW4tYm90dG9tOiAxLjRlbTtcbiAgLypjb2xvcjogIzgyODI4MjsqL1xufVxuXG4uc2VjdGlvbi1pbWcge1xuICBtYXJnaW4tYm90dG9tOiAyZW07XG59XG5cbi5wcm9ibGVtIC5zZWN0aW9uLWRlc2NyaXAge1xuICBtYXJnaW4tYm90dG9tOiAxZW07XG59XG5cbi5wcm9ibGVtIC5zZWN0aW9uLWltZyB7XG4gIG1hcmdpbi1ib3R0b206IDFlbTtcbn1cblxuXG5cbi8qLS0tLS1tb2JpbGUtLS0tLSovXG4ubW9iaWxlIGJvZHkge1xuICB3aWR0aDogMTAwJTtcbn1cblxuLm1vYmlsZS1vdXRlci1jb250YWluZXIge1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgbWFyZ2luOiAyZW07XG59XG5cbi5tb2JpbGUgLm1haW4tY29udGFpbmVyIHtcbiAgZm9udC1zaXplOiAxZW07XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBtYXJnaW46IDA7XG59XG5cbi5tb2JpbGUgaDIge1xuICBmb250LXNpemU6IDEuNGVtO1xuICB0ZXh0LWFsaWduOiBsZWZ0O1xuICBkaXNwbGF5OiBmbGV4O1xuICBsaW5lLWhlaWdodDogMS41ZW07XG59XG4ubW9iaWxlIC5pbnRybyBpbWcge1xuICBtYXJnaW4tbGVmdDogLTFlbTtcbiAgbWFyZ2luLWJvdHRvbTogLTFlbTtcbiAgaGVpZ2h0OiAxODBweDtcbn1cblxuLm1vYmlsZSAub3ZlcnZpZXcgaW1nIHtcbiAgbWFyZ2luLWJvdHRvbTogLS41ZW07XG59XG5cbi5tb2JpbGUgaW1nIHtcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24tc2VsZjogY2VudGVyO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgbWFyZ2luLWJvdHRvbTogMDtcbn1cblxuLm1vYmlsZSAuZGVzY3JpcHRpb24ge1xuICBmb250LXNpemU6IDFlbTtcbiAgbWFyZ2luOiAwIDAgMWVtIDA7XG59XG5cbi5tb2JpbGUgLndvcmQtc2VjdGlvbiwgLm1vYmlsZSAucHJvY2VzcywgLm1vYmlsZSB2aWRlbyAge1xuICBtYXJnaW4tYm90dG9tOiAzZW07XG59XG5cbi5tb2JpbGUgLnRpdGxlIHtcbiAgbWFyZ2luLWJvdHRvbTogMWVtO1xuICBmb250LXNpemU6IDFlbTtcbn1cblxuLm1vYmlsZSAucHJvY2Vzcy10aXRsZSB7XG4gIGp1c3RpZnktY29udGVudDogZmxleC1zdGFydDtcbiAgZmxleC13cmFwOiB3cmFwO1xuICBtYXJnaW4tdG9wOiAwO1xufVxuXG4ubW9iaWxlIC5yZXNlYXJjaCBpbWcsIC5tb2JpbGUgLnByb3RvcywgLm1vYmlsZSAuZmluYWwtZGVzaWduXG4uc2VjdGlvbi1kZXNjcmlwLCAubW9iaWxlIC5yZXNlYXJjaCAucGltZywgLm1vYmlsZSAucGRlc2NyaXAgIHtcbiAgbWFyZ2luLWJvdHRvbTogMDtcbn1cblxuLm1vYmlsZSAucHJvdG8tdGl0bGUge1xuICBtYXJnaW4tdG9wOiAyZW07XG59XG5cbiAubW9iaWxlIC5maW5hbC1kZXNpZ24gLndvcmQtc2VjdGlvbiB7XG4gICBtYXJnaW4tYm90dG9tOiAxZW07XG4gfVxuXG4ubW9iaWxlIC5yZWZsZWN0aW9ucyAuc2VjdGlvbi1kZXNjcmlwIHtcbiAgbWFyZ2luLWJvdHRvbTogLTJlbTtcbn1cblxuIl19 */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _case_footer_case_footer_component__WEBPACK_IMPORTED_MODULE_4__["CaseFooterComponent"]], styles: [".outer-container[_ngcontent-%COMP%] {\n  margin: -2em 4em 4em 4em;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n.main-container[_ngcontent-%COMP%] {\n  margin: 0 8em 0em 8em;\n  font-size: 1.1em;\n  color: #4f4f4f;\n  font-weight: 300;\n  line-height: 1.8em;\n\n}\n\nh2[_ngcontent-%COMP%] {\n  font-size: 1.6em;\n  line-height: 2em;\n  font-weight: 600;\n  text-align: center;\n  color: #7F93FF;\n}\n.description[_ngcontent-%COMP%] {\n  text-align: left;\n  font-style: italic;\n  font-size: 1.2em;\n  margin: 0 3em 2em 3em;\n\n}\n.intro-img[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-self: center;\n  \n  margin-bottom: 4em;\n}\nimg.intro[_ngcontent-%COMP%] {\n  width: 100%;\n}\n\n.word-section[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  margin: 1em 0 6em 0;\n}\n.title[_ngcontent-%COMP%] {\n  font-size: 1.2em;\n  font-weight: 600;\n  margin-bottom: 1.4em;\n  \n}\n.section-img[_ngcontent-%COMP%] {\n  margin-bottom: 2em;\n}\n.section-img[_ngcontent-%COMP%]   .usability[_ngcontent-%COMP%] {\n  border-radius: 12px;\n}\n.problem[_ngcontent-%COMP%]   .section-descrip[_ngcontent-%COMP%] {\n  margin-bottom: 1em;\n}\n.problem[_ngcontent-%COMP%]   .section-img[_ngcontent-%COMP%] {\n  margin-bottom: 1em;\n}\n\n.reflections[_ngcontent-%COMP%]   .section-descrip[_ngcontent-%COMP%] {\n  margin-bottom: -4em;\n}\n.r-title[_ngcontent-%COMP%] {\n  font-weight: 600;\n  margin-top: 2em;\n  margin-bottom: .5em;\n}\n\n.mobile[_ngcontent-%COMP%]   body[_ngcontent-%COMP%] {\n  width: 100%;\n}\n.mobile-outer-container[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  margin: 2em;\n}\n.mobile[_ngcontent-%COMP%]   .main-container[_ngcontent-%COMP%] {\n  font-size: 1em;\n  display: flex;\n  flex-direction: column;\n  margin: 0;\n}\n.mobile[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n  font-size: 1.4em;\n  text-align: left;\n  display: flex;\n  line-height: 1.5em;\n}\n.mobile[_ngcontent-%COMP%]   .intro[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  margin-left: -1em;\n  margin-bottom: -1em;\n  height: 180px;\n}\n.mobile[_ngcontent-%COMP%]   .overview[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  margin-bottom: -.5em;\n}\n.mobile[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  display: flex;\n  align-self: center;\n  justify-content: center;\n  margin-bottom: 0;\n}\n.mobile[_ngcontent-%COMP%]   .description[_ngcontent-%COMP%] {\n  font-size: 1em;\n  margin: 0 0 1em 0;\n}\n.mobile[_ngcontent-%COMP%]   .word-section[_ngcontent-%COMP%], .mobile[_ngcontent-%COMP%]   .process[_ngcontent-%COMP%], .mobile[_ngcontent-%COMP%]   video[_ngcontent-%COMP%]  {\n  margin-bottom: 3em;\n}\n.mobile[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%] {\n  margin-bottom: 1em;\n  font-size: 1em;\n}\n.mobile[_ngcontent-%COMP%]   .process-title[_ngcontent-%COMP%] {\n  justify-content: flex-start;\n  flex-wrap: wrap;\n  margin-top: 0;\n}\n.mobile[_ngcontent-%COMP%]   .research[_ngcontent-%COMP%]   img[_ngcontent-%COMP%], .mobile[_ngcontent-%COMP%]   .protos[_ngcontent-%COMP%], .mobile[_ngcontent-%COMP%]   .final-design\n.section-descrip[_ngcontent-%COMP%], .mobile[_ngcontent-%COMP%]   .research[_ngcontent-%COMP%]   .pimg[_ngcontent-%COMP%], .mobile[_ngcontent-%COMP%]   .pdescrip[_ngcontent-%COMP%]  {\n  margin-bottom: 0;\n}\n.mobile[_ngcontent-%COMP%]   .proto-title[_ngcontent-%COMP%] {\n  margin-top: 2em;\n}\n.mobile[_ngcontent-%COMP%]   .final-design[_ngcontent-%COMP%]   .word-section[_ngcontent-%COMP%] {\n   margin-bottom: 1em;\n }\n.mobile[_ngcontent-%COMP%]   .reflections[_ngcontent-%COMP%]   .section-descrip[_ngcontent-%COMP%] {\n  margin-bottom: -2em;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY2FzZS1zdHVkeS9hcHByZW50aWNlc2hpcC1sZWFybmluZy9hcHByZW50aWNlc2hpcC1sZWFybmluZy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLG1CQUFtQjtBQUNuQixtQkFBbUI7QUFDbkI7RUFDRSx3QkFBd0I7RUFDeEIsYUFBYTtFQUNiLHNCQUFzQjtFQUN0Qix1QkFBdUI7RUFDdkIsbUJBQW1CO0FBQ3JCO0FBQ0E7RUFDRSxxQkFBcUI7RUFDckIsZ0JBQWdCO0VBQ2hCLGNBQWM7RUFDZCxnQkFBZ0I7RUFDaEIsa0JBQWtCOztBQUVwQjtBQUNBLHNCQUFzQjtBQUN0QjtFQUNFLGdCQUFnQjtFQUNoQixnQkFBZ0I7RUFDaEIsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtFQUNsQixjQUFjO0FBQ2hCO0FBQ0E7RUFDRSxnQkFBZ0I7RUFDaEIsa0JBQWtCO0VBQ2xCLGdCQUFnQjtFQUNoQixxQkFBcUI7O0FBRXZCO0FBQ0E7RUFDRSxhQUFhO0VBQ2IsdUJBQXVCO0VBQ3ZCLGtCQUFrQjtFQUNsQiwwQkFBMEI7RUFDMUIsa0JBQWtCO0FBQ3BCO0FBQ0E7RUFDRSxXQUFXO0FBQ2I7QUFDQSxvQkFBb0I7QUFDcEI7RUFDRSxhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLG1CQUFtQjtBQUNyQjtBQUNBO0VBQ0UsZ0JBQWdCO0VBQ2hCLGdCQUFnQjtFQUNoQixvQkFBb0I7RUFDcEIsa0JBQWtCO0FBQ3BCO0FBRUE7RUFDRSxrQkFBa0I7QUFDcEI7QUFFQTtFQUNFLG1CQUFtQjtBQUNyQjtBQUNBO0VBQ0Usa0JBQWtCO0FBQ3BCO0FBRUE7RUFDRSxrQkFBa0I7QUFDcEI7QUFFQSw2QkFBNkI7QUFDN0I7RUFDRSxtQkFBbUI7QUFDckI7QUFDQTtFQUNFLGdCQUFnQjtFQUNoQixlQUFlO0VBQ2YsbUJBQW1CO0FBQ3JCO0FBSUEsbUJBQW1CO0FBQ25CO0VBQ0UsV0FBVztBQUNiO0FBRUE7RUFDRSxhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLHVCQUF1QjtFQUN2QixtQkFBbUI7RUFDbkIsV0FBVztBQUNiO0FBRUE7RUFDRSxjQUFjO0VBQ2QsYUFBYTtFQUNiLHNCQUFzQjtFQUN0QixTQUFTO0FBQ1g7QUFFQTtFQUNFLGdCQUFnQjtFQUNoQixnQkFBZ0I7RUFDaEIsYUFBYTtFQUNiLGtCQUFrQjtBQUNwQjtBQUNBO0VBQ0UsaUJBQWlCO0VBQ2pCLG1CQUFtQjtFQUNuQixhQUFhO0FBQ2Y7QUFFQTtFQUNFLG9CQUFvQjtBQUN0QjtBQUVBO0VBQ0UsYUFBYTtFQUNiLGtCQUFrQjtFQUNsQix1QkFBdUI7RUFDdkIsZ0JBQWdCO0FBQ2xCO0FBRUE7RUFDRSxjQUFjO0VBQ2QsaUJBQWlCO0FBQ25CO0FBRUE7RUFDRSxrQkFBa0I7QUFDcEI7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixjQUFjO0FBQ2hCO0FBRUE7RUFDRSwyQkFBMkI7RUFDM0IsZUFBZTtFQUNmLGFBQWE7QUFDZjtBQUVBOztFQUVFLGdCQUFnQjtBQUNsQjtBQUVBO0VBQ0UsZUFBZTtBQUNqQjtBQUVDO0dBQ0Usa0JBQWtCO0NBQ3BCO0FBRUQ7RUFDRSxtQkFBbUI7QUFDckIiLCJmaWxlIjoic3JjL2FwcC9jYXNlLXN0dWR5L2FwcHJlbnRpY2VzaGlwLWxlYXJuaW5nL2FwcHJlbnRpY2VzaGlwLWxlYXJuaW5nLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKi0tLS13ZWItLS0tLS0tLS0qL1xuLyotLS0tcGFnZSB3aWRlLS0tKi9cbi5vdXRlci1jb250YWluZXIge1xuICBtYXJnaW46IC0yZW0gNGVtIDRlbSA0ZW07XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuLm1haW4tY29udGFpbmVyIHtcbiAgbWFyZ2luOiAwIDhlbSAwZW0gOGVtO1xuICBmb250LXNpemU6IDEuMWVtO1xuICBjb2xvcjogIzRmNGY0ZjtcbiAgZm9udC13ZWlnaHQ6IDMwMDtcbiAgbGluZS1oZWlnaHQ6IDEuOGVtO1xuXG59XG4vKi0tLS0tLWludHJvLS0tLS0tLS0qL1xuaDIge1xuICBmb250LXNpemU6IDEuNmVtO1xuICBsaW5lLWhlaWdodDogMmVtO1xuICBmb250LXdlaWdodDogNjAwO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGNvbG9yOiAjN0Y5M0ZGO1xufVxuLmRlc2NyaXB0aW9uIHtcbiAgdGV4dC1hbGlnbjogbGVmdDtcbiAgZm9udC1zdHlsZTogaXRhbGljO1xuICBmb250LXNpemU6IDEuMmVtO1xuICBtYXJnaW46IDAgM2VtIDJlbSAzZW07XG5cbn1cbi5pbnRyby1pbWcge1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgYWxpZ24tc2VsZjogY2VudGVyO1xuICAvKm1hcmdpbjowIC04ZW0gNGVtIC04ZW07Ki9cbiAgbWFyZ2luLWJvdHRvbTogNGVtO1xufVxuaW1nLmludHJvIHtcbiAgd2lkdGg6IDEwMCU7XG59XG4vKi0tLS0tb3ZlcnZpZXctLS0tKi9cbi53b3JkLXNlY3Rpb24ge1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICBtYXJnaW46IDFlbSAwIDZlbSAwO1xufVxuLnRpdGxlIHtcbiAgZm9udC1zaXplOiAxLjJlbTtcbiAgZm9udC13ZWlnaHQ6IDYwMDtcbiAgbWFyZ2luLWJvdHRvbTogMS40ZW07XG4gIC8qY29sb3I6ICM4MjgyODI7Ki9cbn1cblxuLnNlY3Rpb24taW1nIHtcbiAgbWFyZ2luLWJvdHRvbTogMmVtO1xufVxuXG4uc2VjdGlvbi1pbWcgLnVzYWJpbGl0eSB7XG4gIGJvcmRlci1yYWRpdXM6IDEycHg7XG59XG4ucHJvYmxlbSAuc2VjdGlvbi1kZXNjcmlwIHtcbiAgbWFyZ2luLWJvdHRvbTogMWVtO1xufVxuXG4ucHJvYmxlbSAuc2VjdGlvbi1pbWcge1xuICBtYXJnaW4tYm90dG9tOiAxZW07XG59XG5cbi8qLS0taW50ZXJ2aWV3IHN1YnNlY3Rpb25zLS0qL1xuLnJlZmxlY3Rpb25zIC5zZWN0aW9uLWRlc2NyaXAge1xuICBtYXJnaW4tYm90dG9tOiAtNGVtO1xufVxuLnItdGl0bGUge1xuICBmb250LXdlaWdodDogNjAwO1xuICBtYXJnaW4tdG9wOiAyZW07XG4gIG1hcmdpbi1ib3R0b206IC41ZW07XG59XG5cblxuXG4vKi0tLS0tbW9iaWxlLS0tLS0qL1xuLm1vYmlsZSBib2R5IHtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbi5tb2JpbGUtb3V0ZXItY29udGFpbmVyIHtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIG1hcmdpbjogMmVtO1xufVxuXG4ubW9iaWxlIC5tYWluLWNvbnRhaW5lciB7XG4gIGZvbnQtc2l6ZTogMWVtO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICBtYXJnaW46IDA7XG59XG5cbi5tb2JpbGUgaDIge1xuICBmb250LXNpemU6IDEuNGVtO1xuICB0ZXh0LWFsaWduOiBsZWZ0O1xuICBkaXNwbGF5OiBmbGV4O1xuICBsaW5lLWhlaWdodDogMS41ZW07XG59XG4ubW9iaWxlIC5pbnRybyBpbWcge1xuICBtYXJnaW4tbGVmdDogLTFlbTtcbiAgbWFyZ2luLWJvdHRvbTogLTFlbTtcbiAgaGVpZ2h0OiAxODBweDtcbn1cblxuLm1vYmlsZSAub3ZlcnZpZXcgaW1nIHtcbiAgbWFyZ2luLWJvdHRvbTogLS41ZW07XG59XG5cbi5tb2JpbGUgaW1nIHtcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24tc2VsZjogY2VudGVyO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgbWFyZ2luLWJvdHRvbTogMDtcbn1cblxuLm1vYmlsZSAuZGVzY3JpcHRpb24ge1xuICBmb250LXNpemU6IDFlbTtcbiAgbWFyZ2luOiAwIDAgMWVtIDA7XG59XG5cbi5tb2JpbGUgLndvcmQtc2VjdGlvbiwgLm1vYmlsZSAucHJvY2VzcywgLm1vYmlsZSB2aWRlbyAge1xuICBtYXJnaW4tYm90dG9tOiAzZW07XG59XG5cbi5tb2JpbGUgLnRpdGxlIHtcbiAgbWFyZ2luLWJvdHRvbTogMWVtO1xuICBmb250LXNpemU6IDFlbTtcbn1cblxuLm1vYmlsZSAucHJvY2Vzcy10aXRsZSB7XG4gIGp1c3RpZnktY29udGVudDogZmxleC1zdGFydDtcbiAgZmxleC13cmFwOiB3cmFwO1xuICBtYXJnaW4tdG9wOiAwO1xufVxuXG4ubW9iaWxlIC5yZXNlYXJjaCBpbWcsIC5tb2JpbGUgLnByb3RvcywgLm1vYmlsZSAuZmluYWwtZGVzaWduXG4uc2VjdGlvbi1kZXNjcmlwLCAubW9iaWxlIC5yZXNlYXJjaCAucGltZywgLm1vYmlsZSAucGRlc2NyaXAgIHtcbiAgbWFyZ2luLWJvdHRvbTogMDtcbn1cblxuLm1vYmlsZSAucHJvdG8tdGl0bGUge1xuICBtYXJnaW4tdG9wOiAyZW07XG59XG5cbiAubW9iaWxlIC5maW5hbC1kZXNpZ24gLndvcmQtc2VjdGlvbiB7XG4gICBtYXJnaW4tYm90dG9tOiAxZW07XG4gfVxuXG4ubW9iaWxlIC5yZWZsZWN0aW9ucyAuc2VjdGlvbi1kZXNjcmlwIHtcbiAgbWFyZ2luLWJvdHRvbTogLTJlbTtcbn1cblxuIl19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ApprenticeshipLearningComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -756,7 +834,7 @@ WorkIntroComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
 /*!***********************************!*\
   !*** ./src/app/case-directory.ts ***!
   \***********************************/
-/*! exports provided: INTROS, CRIT, CRITPROCESS, CRITFINAL, CRITREFLECT, CRITREFLECTSECTIONS, TIMELY, TIMELYPROCESS, TIMELYFINAL, TIMELYREFLECT, TIMELYREFLECTSECTIONS, CAUSEWAY, PLAYGROUND */
+/*! exports provided: INTROS, CRIT, CRITPROCESS, CRITFINAL, CRITREFLECT, CRITREFLECTSECTIONS, TIMELY, TIMELYPROCESS, TIMELYFINAL, TIMELYREFLECT, TIMELYREFLECTSECTIONS, CAUSEWAY, INTERVIEWS, PLAYGROUND */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -773,6 +851,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TIMELYREFLECT", function() { return TIMELYREFLECT; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TIMELYREFLECTSECTIONS", function() { return TIMELYREFLECTSECTIONS; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CAUSEWAY", function() { return CAUSEWAY; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "INTERVIEWS", function() { return INTERVIEWS; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PLAYGROUND", function() { return PLAYGROUND; });
 /*-----ALL CASE STUDIES, INTROS-------*/
 const INTROS = [
@@ -1084,8 +1163,64 @@ const CAUSEWAY = [
             " case study layout and instead outline some major takeaways and learnings I’ve gained from the project" +
             " thus far below. "
     },
+    {
+        sectionTitle: "USABILITY TESTING",
+        sectionImg: "./assets/img/causeway-recruit.png",
+        sectionDescrip: "I designed the above graphic for in person usability tests early on in this" +
+            " project, but one silver lining of COVID-19 is that I learned how to run usability tests" +
+            " not only in person but also  remotely. For context, our usability tests would typically" +
+            " run for a total of 1.5 hours. The first 30 minutes would be a brief interview to get" +
+            " background context on our user, and the final hour would consist of the user working " +
+            "through Causeway as we observe and collect qualitative data. Whether they were conducted" +
+            " remotely or not, usability tests were always interesting because each user always had a" +
+            " different experience with Causeway, and I left each session with new insight about the " +
+            "platform.",
+    },
+    {
+        sectionTitle: "USER INTERVIEWS",
+        sectionImg: "",
+        sectionDescrip: "User interviews are by far my favorite part of the research process. " +
+            "I love connecting with people, and interviews are a really cool way to do that while also" +
+            " gaining valuable insight on our product. The most valuable learnings I’ve gained from" +
+            " conducting user interviews are twofold. ",
+    },
+    {
+        sectionTitle: "REFLECTIONS",
+        sectionImg: "",
+        sectionDescrip: "I have loved being able to deep dive into the research process through " +
+            "this project. Beyond the skills I discussed" +
+            " above, I have noticed that this has taught me to bring a research mindset to my design work as" +
+            " well. Now, I notice myself researching all of my design decisions, because I understand" +
+            " that my best work will come from informed decisions. This experience has been so valuable" +
+            " and makes me very excited to continue research work in my future career whether that is" +
+            " directly through user research or indirectly in my design work. "
+    }
 ];
-/*----CAUSEWAY DATA-----*/
+const INTERVIEWS = [
+    {
+        sectionTitle: "1.  Have a script, but don’t feel stuck to it.",
+        sectionImg: "",
+        sectionDescrip: "Preparation is key, which is what I mean by having a script ready. " +
+            "It is important to do research beforehand on what type of questions you will want to ask " +
+            "and how you will word them. However, once the interview is actually being run, it is more " +
+            "important to authentically connect with your interviewees than cover every single question" +
+            " you prepared and risk sounding like a robot. More importantly, there is often valuable" +
+            " information that will unexpectedly come out throughout the interview, and you should be" +
+            " flexible enough to adjust your questions accordingly."
+    },
+    {
+        sectionTitle: "2.  Ask open ended questions, and try to get stories instead of answers.",
+        sectionImg: "",
+        sectionDescrip: "This is really important, and sometimes harder than it seems to achieve." +
+            " Getting yes or no answers from a user provides little to no insight about their experience," +
+            " and often cuts questions short. However, when a user answers in this way, it is not their" +
+            " fault! An interviewer should always ask open ended questions, those that can’t simply be" +
+            " answered with a yes or no. Good open ended questions might begin like, “tell me about a" +
+            " time where you…”, or “could you elaborate on…”, for example. As interviewers and researchers," +
+            " the gems of user insight are found when our questions search for stories instead of answers. "
+    },
+];
+/*----PLAYGROUND / SIDE PROJ DATA-----*/
 /*----main sections---*/
 const PLAYGROUND = [
     {
