@@ -55,6 +55,18 @@ img.intro {
   margin-bottom: 2em;
 }
 
+.section-descrip a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #5B7FFE;
+}
+
+.section-descrip a:hover {
+  opacity: .6;
+  cursor: pointer;
+}
+
+
 /*-----mobile-----*/
 .mobile-outer-container {
   margin: 2em;

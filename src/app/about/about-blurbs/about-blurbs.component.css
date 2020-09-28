@@ -29,13 +29,16 @@
 
 .title-img {
   font-size: 2em;
-
+  display: flex;
+  align-self: flex-start;
+  margin-top: -.1em;
 }
 
 .title-container {
   display: flex;
   flex-direction: row;
   align-content: center;
+  justify-content: center;
 }
 
 .words-container {

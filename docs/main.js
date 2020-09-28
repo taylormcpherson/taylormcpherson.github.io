@@ -162,75 +162,75 @@ const CARDS = [
         title: 'GROUP SCHEDULING',
         description: 'UI / UX Designer',
         imgUrl: 'url(./assets/img/card-1.png)',
-        routerLink: "/group-scheduling",
+        routerLink: '/group-scheduling',
     },
     { id: 2,
         title: 'ROBOT NANNYS',
         description: 'Researcher, Visual Designer',
         imgUrl: 'url(./assets/img/card-3.png)',
-        routerLink: "/critical-design"
+        routerLink: '/critical-design'
     },
     { id: 3,
         title: 'APPRENTICESHIP LEARNING',
         description: 'UX Researcher, Writer',
         imgUrl: 'url(./assets/img/card-2.png)',
-        routerLink: "/apprenticeship-learning",
+        routerLink: '/apprenticeship-learning',
     },
     { id: 4,
         title: 'PLAYGROUND',
         description: 'Side Projects',
         imgUrl: 'url(./assets/img/card-4.png)',
-        routerLink: "/side-projects",
+        routerLink: '/side-projects',
     },
 ];
 const BLURB = [
     { id: 1,
-        title: "Tech for Social Good",
-        description: "I get really excited thinking about radical ways technologies can transform our" +
-            " world for the better. Nothing is too crazy. One of the most influential " +
-            "forces of socially-grounded tech in my life is the Tech4Good Lab, where I’m a Fellow" +
-            " and work as a UX Researcher and Designer.",
+        title: 'Tech for Social Good',
+        description: 'I get really excited thinking about radical ways technologies can transform our' +
+            ' world for the better. Nothing is too crazy. One of the most influential ' +
+            'forces of socially-grounded tech in my life is the Tech4Good Lab, where I’m a Fellow' +
+            ' and work as a UX Researcher and Designer.',
         imgUrl: '💻',
         imgAlt: 'computer',
     },
     { id: 2,
-        title: "Wicked Problems in Design",
-        description: "How do we design a world that allows every child access to " +
-            "high-quality education? What do communities look like that center systems of care" +
-            " rather than policing? These are some of many wicked problems I could think about for days on end." +
-            " I don’t have the answers yet, but chatting about it together is a great start. ",
+        title: 'Wicked Problems in Design',
+        description: 'How do we design a world that allows every child access to ' +
+            'high-quality education? What do communities look like that center systems of care' +
+            ' rather than policing? These are some of many wicked problems I could think about for days on end.' +
+            ' I don’t have the answers yet, but chatting about it together is a great start. ',
         imgUrl: '⁉️️',
         imgAlt: '?!',
     },
     { id: 3,
-        title: "Slow Fashion & Sustainability ",
-        description: "When I was little I wanted to be a fashion designer." +
+        title: 'Slow Fashion & Sustainability ',
+        description: 'When I was little I wanted to be a fashion designer.' +
             " My passions have aligned elsewhere since then, but I'm now fascinated by the" +
             " fashion industry's impact on our climate and social systems. To push against some " +
-            "of its negative impacts I recently started an online-thrift shop as a passion" +
-            " project.",
+            'of its negative impacts I recently started an online-thrift shop as a passion' +
+            ' project.',
         imgUrl: '♻️',
         imgAlt: 'recycle',
     },
     {
         id: 4,
-        title: "Photography and Empowerment",
-        description: "",
-        imgUrl: "📷",
+        title: 'Photography and Empowerment',
+        description: '',
+        imgUrl: '📷',
         imgAlt: 'camera',
     },
     { id: 5,
-        title: "Hawai‘i",
-        description: "Hawai‘i is home for me, and I love talking about this special place. " +
-            "Bonus points if you mention Sovereignty and the Hawaiian Kingdom.",
+        title: 'Hawai‘i',
+        description: 'Hawai‘i is home for me, and I love talking about this special place. ' +
+            'Bonus points if you mention Sovereignty and the Hawaiian Kingdom.',
         imgUrl: '🏝️',
         imgAlt: 'beach',
     },
     { id: 6,
-        title: "Dogs, Coffee & Croissants",
-        description: "Preferably in that order. " +
-            "When I’m not learning or working, I’m going on long, romantic walks on the beach" +
-            " with my dog Dolly, ideally sipping Cat & Cloud Coffee with a croissant in hand.",
+        title: 'Dogs, Coffee & Croissants',
+        description: 'Preferably in that order. ' +
+            'When I’m not learning or working, I’m going on long, romantic walks on the beach' +
+            ' with my dog Dolly, ideally sipping Cat & Cloud Coffee with a croissant in hand.',
         imgUrl: '🐶',
         imgAlt: 'dog',
     },
@@ -857,396 +857,403 @@ __webpack_require__.r(__webpack_exports__);
 const INTROS = [
     {
         id: 1,
-        title: "Robot Nannys for Sheltering in Place",
-        description: "How might we design tools to help working parents manage their work" +
-            " vs. home lives while they shelter in place during the COVID-19 Pandemic?",
+        title: 'Robot Nannys for Sheltering in Place',
+        description: 'How might we design tools to help working parents manage their work' +
+            ' vs. home lives while they shelter in place during the COVID-19 Pandemic?',
         imgUrl: './assets/img/frank-intro.png',
     },
     {
         id: 2,
-        title: "Group Scheduling App",
-        description: "How can groups of people digitally schedule meeting times in a way that " +
-            "is easy, honest and time-efficient?",
-        imgUrl: "./assets/img/timely-hifi.png",
+        title: 'Group Scheduling App',
+        description: 'How can groups of people digitally schedule meeting times in a way that ' +
+            'is easy, honest and time-efficient?',
+        imgUrl: './assets/img/timely-hifi.png',
     },
     {
         id: 3,
-        title: "Digital Apprenticeship Learning Research",
-        description: "How might we rethink and design socio-technical systems that expand access to apprenticeship " +
-            "learning in computer science?",
-        imgUrl: "./assets/img/causeway-intro.png",
+        title: 'Digital Apprenticeship Learning Research',
+        description: 'How might we rethink and design socio-technical systems that expand access to apprenticeship ' +
+            'learning in computer science?',
+        imgUrl: './assets/img/causeway-intro.png',
     },
     {
         id: 4,
-        title: "Playground",
-        description: "A collection of personal projects that span from visual design to web development.",
-        imgUrl: "",
+        title: 'Playground',
+        description: 'A collection of personal projects that span from visual design to web development.',
+        imgUrl: '',
     }
 ];
 /*----CRITICAL DESIGN DATA-----*/
 /*----main sections---*/
 const CRIT = [
     {
-        sectionTitle: "OVERVIEW",
-        sectionImg: "./assets/img/crit-overview.png",
-        sectionDescrip: "This design exercise was the final project in a Computational Media course I took at UC " +
-            "Santa Cruz. We worked on it in the Spring of 2020, just as shutdowns were beginning to take place across " +
-            "the country. As a group we felt overwhelmed by the state of the world, and wanted to approach this project " +
-            "in a playful, provocative, and imaginative way to combat some of it’s inherent heaviness. For this reason," +
-            " we decided to approach our problem space through Critical Design, a sub-space in Design Thinking that" +
-            " doesn’t necessarily yield concrete solutions, but rather provocative designs that spark broad, critical " +
-            "discussions around complex social issues.",
+        sectionTitle: 'OVERVIEW',
+        sectionImg: './assets/img/crit-overview.png',
+        sectionDescrip: 'This design exercise was the final project in a Computational Media course I took at UC ' +
+            'Santa Cruz. We worked on it in the Spring of 2020, just as shutdowns were beginning to take place across ' +
+            'the country. As a group we felt overwhelmed by the state of the world, and wanted to approach this project ' +
+            'in a playful, provocative, and imaginative way to combat some of it’s inherent heaviness. For this reason,' +
+            ' we decided to approach our problem space through Critical Design, a sub-space in Design Thinking that' +
+            ' doesn’t necessarily yield concrete solutions, but rather provocative designs that spark broad, critical ' +
+            'discussions around complex social issues.',
     },
     {
-        sectionTitle: "PROBLEM SPACE",
-        sectionImg: "",
-        sectionDescrip: "Many towns around the country have closed schools, parks, offices and so much more due to the" +
-            " COVID-19 Global Pandemic. For many working parents, this means they are not only managing a shift to" +
-            " remote work, but also having to provide childcare and homeschooling all at the same time.",
+        sectionTitle: 'PROBLEM SPACE',
+        sectionImg: '',
+        sectionDescrip: 'Many towns around the country have closed schools, parks, offices and so much more due to the' +
+            ' COVID-19 Global Pandemic. For many working parents, this means they are not only managing a shift to' +
+            ' remote work, but also having to provide childcare and homeschooling all at the same time.',
     },
     {
-        sectionTitle: "DESIGN PROCESS",
-        sectionImg: "./assets/img/crit-process.png",
-        sectionDescrip: "We followed Stanford’s School of Design’s 5-Step approach (shown above) in our design process.",
+        sectionTitle: 'DESIGN PROCESS',
+        sectionImg: './assets/img/crit-process.png',
+        sectionDescrip: 'We followed Stanford’s School of Design’s 5-Step approach (shown above) in our design process.',
     }
 ];
 /*----design process---*/
 const CRITPROCESS = [
     {
-        title: "Empathize ",
-        subtitle: " | User Research",
-        description: "Each team member interviewed a working parent to help us further understand their needs." +
-            " We asked questions about their day-to-day lives, how their work and home lives have changed through" +
-            " COVID, and most importantly, how they are feeling about all of it. We found that all of our users " +
-            "expressed a shared concern with how to manage their time while working remotely and also caring for " +
-            "their children.  Some of the key factors that were holding extra stress for our users were their parental" +
-            " duties, relationships with their partners, and a lack of time for themselves. ",
-        img: "",
+        title: 'Empathize ',
+        subtitle: ' | User Research',
+        description: 'Each team member interviewed a working parent to help us further understand their needs.' +
+            ' We asked questions about their day-to-day lives, how their work and home lives have changed through' +
+            ' COVID, and most importantly, how they are feeling about all of it. We found that all of our users ' +
+            'expressed a shared concern with how to manage their time while working remotely and also caring for ' +
+            'their children.  Some of the key factors that were holding extra stress for our users were their parental' +
+            ' duties, relationships with their partners, and a lack of time for themselves. ',
+        img: '',
     },
     {
-        title: "Define ",
-        subtitle: " | Narrowing Scope",
-        description: "Based on our user-interviews, it was clear that our users needed a toolset to help them" +
-            " better manage the many tasks that come with being both a worker and a parent. To further narrow our" +
-            " problem-space, we decided to focus specifically on child-care and the challenges that come with it " +
-            "for working parents.",
-        img: "",
+        title: 'Define ',
+        subtitle: ' | Narrowing Scope',
+        description: 'Based on our user-interviews, it was clear that our users needed a toolset to help them' +
+            ' better manage the many tasks that come with being both a worker and a parent. To further narrow our' +
+            ' problem-space, we decided to focus specifically on child-care and the challenges that come with it ' +
+            'for working parents.',
+        img: '',
     },
     {
-        title: "Ideate ",
-        subtitle: " | All Ideas Are Worthy",
-        description: "As a group, we approached our ideation phase with a “yes and” mindset. We knew that " +
-            "we would find our best idea when we accepted all as worthy, no matter how whacky. We practiced quick" +
-            " brainstorming so as not to get stuck or settled too early. Ultimately, we decided to explore the idea" +
-            " of a Robot Nanny that could minimize some of the childcare workload and stress for working parents.",
-        img: "",
+        title: 'Ideate ',
+        subtitle: ' | All Ideas Are Worthy',
+        description: 'As a group, we approached our ideation phase with a “yes and” mindset. We knew that ' +
+            'we would find our best idea when we accepted all as worthy, no matter how whacky. We practiced quick' +
+            ' brainstorming so as not to get stuck or settled too early. Ultimately, we decided to explore the idea' +
+            ' of a Robot Nanny that could minimize some of the childcare workload and stress for working parents.',
+        img: '',
     },
     {
-        title: "Prototype ",
-        subtitle: " | Sketches, Wireframes & Lo-fidelity Designs",
-        description: "We first sketched our Robot Nanny on paper, and then created digital versions of them on Figma. " +
-            "We also started creating Lo-Fi mockups of a corresponding tablet app for the Robot.",
-        img: "./assets/img/crit-proto.png",
+        title: 'Prototype ',
+        subtitle: ' | Sketches, Wireframes & Lo-fidelity Designs',
+        description: 'We first sketched our Robot Nanny on paper, and then created digital versions of them on Figma. ' +
+            'We also started creating Lo-Fi mockups of a corresponding tablet app for the Robot.',
+        img: './assets/img/crit-proto.png',
     },
     {
-        title: "Test ",
-        subtitle: " | What Works, What Doesn’t?",
-        description: "During this stage, we ran informal interviews with target users to get feedback on our designs." +
-            " Because this was a critical design exercise, we were most concerned with big-picture questions. We wanted to" +
-            " know if this design would have a direct impact on our users’ lives, if it could alleviate stress, and also" +
-            " if there were any unintended impacts of it. One user expressed concern that their child might not immediately" +
-            " like or trust a Robot to take care of them. All users expressed unanimous excitement for the general idea of" +
-            " a Robot Nanny. ",
-        img: "",
+        title: 'Test ',
+        subtitle: ' | What Works, What Doesn’t?',
+        description: 'During this stage, we ran informal interviews with target users to get feedback on our designs.' +
+            ' Because this was a critical design exercise, we were most concerned with big-picture questions. We wanted to' +
+            ' know if this design would have a direct impact on our users’ lives, if it could alleviate stress, and also' +
+            ' if there were any unintended impacts of it. One user expressed concern that their child might not immediately' +
+            ' like or trust a Robot to take care of them. All users expressed unanimous excitement for the general idea of' +
+            ' a Robot Nanny. ',
+        img: '',
     },
 ];
 /*----final design, reflections---*/
 const CRITFINAL = [
     {
-        sectionTitle: "FINAL DESIGN",
-        sectionImg: "./assets/img/crit-final.png",
-        sectionDescrip: "With all of our research, prototyping, and feedback in mind, we created Frank, " +
-            "The Robot Nanny. We used Figma to finalize our illustrations, animations and ultimately create our video."
+        sectionTitle: 'FINAL DESIGN',
+        sectionImg: './assets/img/crit-final.png',
+        sectionDescrip: 'With all of our research, prototyping, and feedback in mind, we created Frank, ' +
+            'The Robot Nanny. We used Figma to finalize our illustrations, animations and ultimately create our video.'
     }
 ];
 const CRITREFLECT = [
     {
-        sectionTitle: "REFLECTIONS",
-        sectionImg: "",
-        sectionDescrip: "While I’m proud of our final design, I’m left with some questions and concerns" +
-            " that must be addressed. Particularly, I want to focus on some implications of our design regarding accessibility" +
-            " and privacy, as noted below."
+        sectionTitle: 'REFLECTIONS',
+        sectionImg: '',
+        sectionDescrip: 'While I’m proud of our final design, I’m left with some questions and concerns' +
+            ' that must be addressed. Particularly, I want to focus on some implications of our design regarding accessibility' +
+            ' and privacy, as noted below.'
     }
 ];
 /*----reflections subsections--*/
 const CRITREFLECTSECTIONS = [
     {
-        sectionTitle: "Cost and Accesibility. Who is Frank For?",
-        sectionImg: "",
-        sectionDescrip: "Realistically, how might it be possible for Frank to be affordable and still include" +
-            " all its high-tech features? This should not be a luxury only available to the rich. I acknowledge" +
-            " that in its current state, the families that need our design the most may not be the ones who can afford it." +
-            " This is a major concern."
+        sectionTitle: 'Cost and Accesibility. Who is Frank For?',
+        sectionImg: '',
+        sectionDescrip: 'Realistically, how might it be possible for Frank to be affordable and still include' +
+            ' all its high-tech features? This should not be a luxury only available to the rich. I acknowledge' +
+            ' that in its current state, the families that need our design the most may not be the ones who can afford it.' +
+            ' This is a major concern.'
     },
     {
-        sectionTitle: "Privacy Concerns",
-        sectionImg: "",
-        sectionDescrip: "I also question privacy issues Frank may raise. Could a personal robot intensify the dangers " +
-            "of the surveillance-state that are already hyper-present in our society?"
+        sectionTitle: 'Privacy Concerns',
+        sectionImg: '',
+        sectionDescrip: 'I also question privacy issues Frank may raise. Could a personal robot intensify the dangers ' +
+            'of the surveillance-state that are already hyper-present in our society?'
     },
     {
-        sectionTitle: "Final Thoughts",
-        sectionImg: "",
-        sectionDescrip: "With all of this in mind, this was a very valuable exercise in critical design that stretched " +
-            "me to think about how to imagine futures rather than just solve for them. I hope this critical and playful " +
-            "design can serve as an initial exploration in the intersections of sheltering-in-place, work, and child-care."
+        sectionTitle: 'Final Thoughts',
+        sectionImg: '',
+        sectionDescrip: 'With all of this in mind, this was a very valuable exercise in critical design that stretched ' +
+            'me to think about how to imagine futures rather than just solve for them. I hope this critical and playful ' +
+            'design can serve as an initial exploration in the intersections of sheltering-in-place, work, and child-care.'
     },
 ];
 /*-----TIMELY DATA-----*/
 const TIMELY = [
     {
-        sectionTitle: "OVERVIEW",
-        sectionImg: "./assets/img/timely-overview.png",
-        sectionDescrip: "This design project served as part of my yearlong fellowship in the Tech4Good Lab at UC " +
-            "Santa Cruz. Our primary goal was to create a scheduling app that could better serve our lab and greater " +
-            "University community.",
+        sectionTitle: 'OVERVIEW',
+        sectionImg: './assets/img/timely-overview.png',
+        sectionDescrip: 'This design project served as part of my yearlong fellowship in the Tech4Good Lab at UC ' +
+            'Santa Cruz. Our primary goal was to create a scheduling app that could better serve our lab and greater ' +
+            'University community.',
     },
     {
-        sectionTitle: "PROBLEM SPACE",
-        sectionImg: "",
-        sectionDescrip: "The Tech4Good lab is a research lab at UC Santa Cruz led by Professor David Lee. It has " +
-            "over 50 members, and it is growing fast. Research teams typically consist of 1 graduate student and 3-7 " +
-            "undergraduates. Some students may be involved in multiple teams. Each quarter, all teams must find meeting" +
-            " times in the midst of heavy course loads and various other commitments the members might have. All teams " +
-            "must not only find common times to meet together, but also with the Professor who leads the lab. ",
+        sectionTitle: 'PROBLEM SPACE',
+        sectionImg: '',
+        sectionDescrip: 'The Tech4Good lab is a research lab at UC Santa Cruz led by Professor David Lee. It has ' +
+            'over 50 members, and it is growing fast. Research teams typically consist of 1 graduate student and 3-7 ' +
+            'undergraduates. Some students may be involved in multiple teams. Each quarter, all teams must find meeting' +
+            ' times in the midst of heavy course loads and various other commitments the members might have. All teams ' +
+            'must not only find common times to meet together, but also with the Professor who leads the lab. ',
     },
     {
-        sectionTitle: "CURRENT APPROACH",
-        sectionImg: "./assets/img/timely-current.png",
-        sectionDescrip: "The lab currently uses Omnipointment, a website that helps groups schedule times to meet. " +
-            "Omnipointment sets the initial time grid as completely busy, and users must indicate when they are free. " +
-            "Currently in the Lab, students input their availability into the time grid, but only the Professor finds the meeting times." +
-            " This leaves a lot of time-consuming work for the Professor to do on their own.",
+        sectionTitle: 'CURRENT APPROACH',
+        sectionImg: './assets/img/timely-current.png',
+        sectionDescrip: 'The lab currently uses Omnipointment, a website that helps groups schedule times to meet. ' +
+            'Omnipointment sets the initial time grid as completely busy, and users must indicate when they are free. ' +
+            'Currently in the Lab, students input their availability into the time grid, but only the Professor finds the meeting times.' +
+            ' This leaves a lot of time-consuming work for the Professor to do on their own.',
     },
     {
-        sectionTitle: "DESIGN PROCESS",
-        sectionImg: "./assets/img/timely-process.png",
-        sectionDescrip: "Because our team had an entire Summer to focus on this project, we were able to deep-dive " +
-            "into the design process. We did not take a linear approach, and instead embraced iterative loops of user" +
-            " and market research, prototyping, and feedback. For the sake of space, I will be covering the primary takeaways" +
-            " from each part of the process below."
+        sectionTitle: 'DESIGN PROCESS',
+        sectionImg: './assets/img/timely-process.png',
+        sectionDescrip: 'Because our team had an entire Summer to focus on this project, we were able to deep-dive ' +
+            'into the design process. We did not take a linear approach, and instead embraced iterative loops of user' +
+            ' and market research, prototyping, and feedback. For the sake of space, I will be covering the primary takeaways' +
+            ' from each part of the process below.'
     },
 ];
 /*----design process---*/
 const TIMELYPROCESS = [
     {
-        title: "Research",
-        subtitle: " | Empathize with Users, Understand Scope",
-        description: "To begin our user research, we needed to understand the needs and experiences of the two primary " +
-            "stakeholders in this project: the lead professor and the lab members (students). We conducted user interviews and surveys" +
-            " to get a deeper understanding of their experiences with the current process, their needs, and any exiting " +
-            "pain points they might have.",
-        img: "./assets/img/timely-research.png",
+        title: 'Research',
+        subtitle: ' | Empathize with Users, Understand Scope',
+        description: 'To begin our user research, we needed to understand the needs and experiences of the two primary ' +
+            'stakeholders in this project: the lead professor and the lab members (students). We conducted user interviews and surveys' +
+            ' to get a deeper understanding of their experiences with the current process, their needs, and any exiting ' +
+            'pain points they might have.',
+        img: './assets/img/timely-research.png',
     },
     {
-        title: "Prototype",
-        subtitle: " | Wireframes and Lo-fidelity Designs",
-        description: "Above is one of our team’s more detailed, initial set of wireframes. We mapped out two user flows: " +
-            "the Creator flow (target user = professor) and the Participant flow (target users = lab members). " +
-            "Based on our user insight, we wanted each user flow to be quick and easy. We added a feature in the Participant " +
-            "flow for users to input their courses which would then" +
-            " automatically appear in their schedule. We predicted that this might add accountability for users and yield" +
-            " more honest responses as a result. We also decided to initially set the schedule as completely free, and" +
-            " have users fill in their busy times. This is the opposite model of Omnipointment. We made this decision" +
-            " in hopes that it would yield more general availability for the group. " +
-            "After putting our wireframes together, we further fleshed out our designs and created Lo-Fidelity mockups using Figma, shown below.",
-        img: "./assets/img/timely-proto.png",
+        title: 'Prototype',
+        subtitle: ' | Wireframes and Lo-fidelity Designs',
+        description: 'Above is one of our team’s more detailed, initial set of wireframes. We mapped out two user flows: ' +
+            'the Creator flow (target user = professor) and the Participant flow (target users = lab members). ' +
+            'Based on our user insight, we wanted each user flow to be quick and easy. We added a feature in the Participant ' +
+            'flow for users to input their courses which would then' +
+            ' automatically appear in their schedule. We predicted that this might add accountability for users and yield' +
+            ' more honest responses as a result. We also decided to initially set the schedule as completely free, and' +
+            ' have users fill in their busy times. This is the opposite model of Omnipointment. We made this decision' +
+            ' in hopes that it would yield more general availability for the group. ' +
+            'After putting our wireframes together, we further fleshed out our designs and created Lo-Fidelity mockups using Figma, shown below.',
+        img: './assets/img/timely-proto.png',
     },
     {
-        title: "Feedback",
-        subtitle: " | Insight from our Stakeholders",
-        description: "Because of the intimate nature of our Lab’s summer cohort, we were able to meet with the lead" +
-            " Professor, our primary stakeholder, on a bi-weekly basis to get continuous feedback on our designs. Some" +
-            " initial feedback informed us that our designs needed a third user flow for returning users. It was also noted that" +
-            " we did not focus enough attention on the needs of the " +
-            "Professor in the Creator flow. With this in mind, we continued to iterate through user" +
-            " research and prototyping to ensure our designs resonated and empathized with all of our primary stakeholders and users." +
-            " For the sake of space, I am unable to include every iteration we went through in our 12 weeks. However, please do not hesitate" +
-            " to reach out and ask about them if you are curious.",
-        img: "",
+        title: 'Feedback',
+        subtitle: ' | Insight from our Stakeholders',
+        description: 'Because of the intimate nature of our Lab’s summer cohort, we were able to meet with the lead' +
+            ' Professor, our primary stakeholder, on a bi-weekly basis to get continuous feedback on our designs. Some' +
+            ' initial feedback informed us that our designs needed a third user flow for returning users. It was also noted that' +
+            ' we did not focus enough attention on the needs of the ' +
+            'Professor in the Creator flow. With this in mind, we continued to iterate through user' +
+            ' research and prototyping to ensure our designs resonated and empathized with all of our primary stakeholders and users.' +
+            ' For the sake of space, I am unable to include every iteration we went through in our 12 weeks. However, please do not hesitate' +
+            ' to reach out and ask about them if you are curious.',
+        img: '',
     },
 ];
 const TIMELYFINAL = [
     {
-        sectionTitle: "FINAL DESIGNS",
-        sectionDescrip: "After 12 weeks of designing, we shipped 3 final user flows. You can interact with each " +
-            "of them in our final web prototypes below.",
-        sectionImg: "",
+        sectionTitle: 'FINAL DESIGNS',
+        sectionDescrip: 'After 12 weeks of designing, we shipped 3 final user flows. You can interact with each ' +
+            'of them in our final web prototypes below.',
+        sectionImg: '',
     },
     {
-        sectionTitle: "",
-        sectionDescrip: "Due to a last minute redesign, we were unable to finish prototyping the mobile version of our Review Flow, but you can watch a video of the other two flows below.",
-        sectionImg: "./assets/vid/timely-full.mov",
+        sectionTitle: '',
+        sectionDescrip: 'Due to a last minute redesign, we were unable to finish prototyping the mobile version of our Review Flow, but you can watch a video of the other two flows below.',
+        sectionImg: './assets/vid/timely-full.mov',
     }
 ];
 const TIMELYREFLECT = [
     {
-        sectionTitle: "LEARNINGS & REFLECTIONS",
-        sectionDescrip: "This was my first time being on a user-experience design team, and I’m so proud of " +
-            "the work I was able to produce through this project. I learned so much" +
-            " during these 12 weeks that briefly summarizing everything feels really difficult. That said, here are a" +
-            " few of my major takeaways. ",
-        sectionImg: "",
+        sectionTitle: 'LEARNINGS & REFLECTIONS',
+        sectionDescrip: 'This was my first time being on a user-experience design team, and I’m so proud of ' +
+            'the work I was able to produce through this project. I learned so much' +
+            ' during these 12 weeks that briefly summarizing everything feels really difficult. That said, here are a' +
+            ' few of my major takeaways. ',
+        sectionImg: '',
     }
 ];
 /*----reflections subsections--*/
 const TIMELYREFLECTSECTIONS = [
     {
-        sectionTitle: "If something feels off, iterate.",
-        sectionImg: "",
-        sectionDescrip: "This was something my team-lead mentioned to me, and it really stuck. There were many moments" +
-            " in my design process where I felt as if I had come to the final stage of a design, but one element still " +
-            "felt off. Instead of moving forward with that uneasy feeling, or just feeling stuck by it, I learned the best" +
-            " thing to do was take a step back and iterate again. "
+        sectionTitle: 'If something feels off, iterate.',
+        sectionImg: '',
+        sectionDescrip: 'This was something my team-lead mentioned to me, and it really stuck. There were many moments' +
+            ' in my design process where I felt as if I had come to the final stage of a design, but one element still ' +
+            'felt off. Instead of moving forward with that uneasy feeling, or just feeling stuck by it, I learned the best' +
+            ' thing to do was take a step back and iterate again. '
     },
     {
-        sectionTitle: "Create styling guides, and stick to them.",
-        sectionImg: "",
-        sectionDescrip: "A lesson I learned the hard way. In our final weeks of the project as everything was wrapping up," +
-            " I was doing consistency checks on things like font styling. To my surprise, I found that my designs were full" +
-            " of a ridiculous amount of different font sizes. It took a lot of time to go through everything and stick to" +
-            " only 3 sizes, but it really paid off in the end. In the future, I will set my font-styles early on in the " +
-            "design process and be sure to stick with it throughout every iteration.  "
+        sectionTitle: 'Create styling guides, and stick to them.',
+        sectionImg: '',
+        sectionDescrip: 'A lesson I learned the hard way. In our final weeks of the project as everything was wrapping up,' +
+            ' I was doing consistency checks on things like font styling. To my surprise, I found that my designs were full' +
+            ' of a ridiculous amount of different font sizes. It took a lot of time to go through everything and stick to' +
+            ' only 3 sizes, but it really paid off in the end. In the future, I will set my font-styles early on in the ' +
+            'design process and be sure to stick with it throughout every iteration.  '
     },
     {
-        sectionTitle: "I love this stuff.",
-        sectionImg: "",
-        sectionDescrip: "A cheesy but very true final reflection. I could not be more grateful to have been able to " +
-            "design on this team throughout my summer internship. Besides all the great skills I got from this, I also " +
-            "learned that I just love doing this type of work. I found myself going out of my way to read articles about" +
-            "best-practices and putting in tons of extra hours for this project. It was the type of work I always looked " +
-            "forward to, and wanted more of. I can’t wait to continue learning about user experience design and building" +
-            " a career out of it."
+        sectionTitle: 'I love this stuff.',
+        sectionImg: '',
+        sectionDescrip: 'A cheesy but very true final reflection. I could not be more grateful to have been able to ' +
+            'design on this team throughout my summer internship. Besides all the great skills I got from this, I also ' +
+            'learned that I just love doing this type of work. I found myself going out of my way to read articles about' +
+            'best-practices and putting in tons of extra hours for this project. It was the type of work I always looked ' +
+            'forward to, and wanted more of. I can’t wait to continue learning about user experience design and building' +
+            ' a career out of it.'
     },
 ];
 /*----CAUSEWAY DATA-----*/
 /*----main sections---*/
 const CAUSEWAY = [
     {
-        sectionTitle: "OVERVIEW",
-        sectionImg: "./assets/img/causeway-overview.png",
-        sectionDescrip: "This project has been my primary focus throughout my time in the Tech4Good Lab at UC" +
-            " Santa Cruz. For the past nine months, my team and I have been conducting user experience research" +
-            " on Causeway, our Lab’s most developed platform. Causeway aims to teach web development online" +
-            " through micro-role hierarchies and user participation in real-world projects. Our research has" +
-            " come from various user-experience tests, surveys, and interviews we have run. Often, we perform" +
-            " qualitative analysis on our findings when appropriate. Our goal is to better understand the user" +
-            " experience on Causeway, and how the platform might be a way to rethink digital apprenticeship " +
-            "learning. On top of our user experience research, we are doing extensive literature reviews within" +
-            " apprenticeship learning and computer science education in preparation to put everything together" +
-            " in a research paper we aim to publish in late 2020. ",
+        sectionTitle: 'OVERVIEW',
+        sectionImg: './assets/img/causeway-overview.png',
+        sectionDescrip: 'This project has been my primary focus throughout my time in the Tech4Good Lab at UC' +
+            ' Santa Cruz. For the past nine months, my team and I have been conducting user experience research' +
+            ' on Causeway, our Lab’s most developed platform. Causeway aims to teach web development online' +
+            ' through micro-role hierarchies and user participation in real-world projects. Our research has' +
+            ' come from various user-experience tests, surveys, and interviews we have run. Often, we perform' +
+            ' qualitative analysis on our findings when appropriate. Our goal is to better understand the user' +
+            ' experience on Causeway, and how the platform might be a way to rethink digital apprenticeship ' +
+            'learning. On top of our user experience research, we are doing extensive literature reviews within' +
+            ' apprenticeship learning and computer science education in preparation to put everything together' +
+            ' in a research paper we aim to publish in late 2020. ',
     },
     {
-        sectionTitle: "PROBLEM SPACE",
-        sectionImg: "./assets/img/causeway-problem.jpeg",
-        sectionDescrip: "Hands-on, real-world, or apprenticeship type learning is extremely valuable in a " +
-            "computer science education, yet it is difficult to obtain. Many of these types of learnings are found " +
-            "in internships or research which often require students to have experience in order to gain access to" +
-            " that experience. It is a vicious cycle that leaves apprenticeship style learning inaccessible to" +
-            " novices or less experienced folks.",
+        sectionTitle: 'PROBLEM SPACE',
+        sectionImg: './assets/img/causeway-problem.jpeg',
+        sectionDescrip: 'Hands-on, real-world, or apprenticeship type learning is extremely valuable in a ' +
+            'computer science education, yet it is difficult to obtain. Many of these types of learnings are found ' +
+            'in internships or research which often require students to have experience in order to gain access to' +
+            ' that experience. It is a vicious cycle that leaves apprenticeship style learning inaccessible to' +
+            ' novices or less experienced folks.',
     },
     {
-        sectionTitle: "A PROJECT IN PROGRESS",
-        sectionImg: "",
-        sectionDescrip: "This is an ongoing project, and we are still conducting research " +
-            "which means we do not yet have solid conclusions. For this reason, I’ve decided to stray from a typical" +
-            " case study layout and instead outline some major takeaways and learnings I’ve gained from the project" +
-            " thus far below. "
+        sectionTitle: 'A PROJECT IN PROGRESS',
+        sectionImg: '',
+        sectionDescrip: 'This is an ongoing project, and we are still conducting research ' +
+            'which means we do not yet have solid conclusions. For this reason, I’ve decided to stray from a typical' +
+            ' case study layout and instead outline some major takeaways and learnings I’ve gained from the project' +
+            ' thus far below. '
     },
     {
-        sectionTitle: "USABILITY TESTING",
-        sectionImg: "./assets/img/causeway-recruit.png",
-        sectionDescrip: "I designed the above graphic for in person usability tests early on in this" +
-            " project, but one silver lining of COVID-19 is that I learned how to run usability tests" +
-            " not only in person but also  remotely. For context, our usability tests would typically" +
-            " run for a total of 1.5 hours. The first 30 minutes would be a brief interview to get" +
-            " background context on our user, and the final hour would consist of the user working " +
-            "through Causeway as we observe and collect qualitative data. Whether they were conducted" +
-            " remotely or not, usability tests were always interesting because each user always had a" +
-            " different experience with Causeway, and I left each session with new insight about the " +
-            "platform.",
+        sectionTitle: 'USABILITY TESTING',
+        sectionImg: './assets/img/causeway-recruit.png',
+        sectionDescrip: 'I designed the above graphic for in person usability tests early on in this' +
+            ' project, but one silver lining of COVID-19 is that I learned how to run usability tests' +
+            ' not only in person but also  remotely. For context, our usability tests would typically' +
+            ' run for a total of 1.5 hours. The first 30 minutes would be a brief interview to get' +
+            ' background context on our user, and the final hour would consist of the user working ' +
+            'through Causeway as we observe and collect qualitative data. Whether they were conducted' +
+            ' remotely or not, usability tests were always interesting because each user always had a' +
+            ' different experience with Causeway, and I left each session with new insight about the ' +
+            'platform.',
     },
     {
-        sectionTitle: "USER INTERVIEWS",
-        sectionImg: "",
-        sectionDescrip: "User interviews are by far my favorite part of the research process. " +
-            "I love connecting with people, and interviews are a really cool way to do that while also" +
-            " gaining valuable insight on our product. The most valuable learnings I’ve gained from" +
-            " conducting user interviews are twofold. ",
+        sectionTitle: 'USER INTERVIEWS',
+        sectionImg: '',
+        sectionDescrip: 'User interviews are by far my favorite part of the research process. ' +
+            'I love connecting with people, and interviews are a really cool way to do that while also' +
+            ' gaining valuable insight on our product. The most valuable learnings I’ve gained from' +
+            ' conducting user interviews are twofold. ',
     },
     {
-        sectionTitle: "REFLECTIONS",
-        sectionImg: "",
-        sectionDescrip: "I have loved being able to deep dive into the research process through " +
-            "this project. Beyond the skills I discussed" +
-            " above, I have noticed that this has taught me to bring a research mindset to my design work as" +
-            " well. Now, I notice myself researching all of my design decisions, because I understand" +
-            " that my best work will come from informed decisions. This experience has been so valuable" +
-            " and makes me very excited to continue research work in my future career whether that is" +
-            " directly through user research or indirectly in my design work. "
+        sectionTitle: 'REFLECTIONS',
+        sectionImg: '',
+        sectionDescrip: 'I have loved being able to deep dive into the research process through ' +
+            'this project. Beyond the skills I discussed' +
+            ' above, I have noticed that this has taught me to bring a research mindset to my design work as' +
+            ' well. Now, I notice myself researching all of my design decisions, because I understand' +
+            ' that my best work will come from informed decisions. This experience has been so valuable' +
+            ' and makes me very excited to continue research work in my future career whether that is' +
+            ' directly through user research or indirectly in my design work. '
     }
 ];
 const INTERVIEWS = [
     {
-        sectionTitle: "1.  Have a script, but don’t feel stuck to it.",
-        sectionImg: "",
-        sectionDescrip: "Preparation is key, which is what I mean by having a script ready. " +
-            "It is important to do research beforehand on what type of questions you will want to ask " +
-            "and how you will word them. However, once the interview is actually being run, it is more " +
-            "important to authentically connect with your interviewees than cover every single question" +
-            " you prepared and risk sounding like a robot. More importantly, there is often valuable" +
-            " information that will unexpectedly come out throughout the interview, and you should be" +
-            " flexible enough to adjust your questions accordingly."
+        sectionTitle: '1.  Have a script, but don’t feel stuck to it.',
+        sectionImg: '',
+        sectionDescrip: 'Preparation is key, which is what I mean by having a script ready. ' +
+            'It is important to do research beforehand on what type of questions you will want to ask ' +
+            'and how you will word them. However, once the interview is actually being run, it is more ' +
+            'important to authentically connect with your interviewees than cover every single question' +
+            ' you prepared and risk sounding like a robot. More importantly, there is often valuable' +
+            ' information that will unexpectedly come out throughout the interview, and you should be' +
+            ' flexible enough to adjust your questions accordingly.'
     },
     {
-        sectionTitle: "2.  Ask open ended questions, and try to get stories instead of answers.",
-        sectionImg: "",
-        sectionDescrip: "This is really important, and sometimes harder than it seems to achieve." +
-            " Getting yes or no answers from a user provides little to no insight about their experience," +
-            " and often cuts questions short. However, when a user answers in this way, it is not their" +
-            " fault! An interviewer should always ask open ended questions, those that can’t simply be" +
-            " answered with a yes or no. Good open ended questions might begin like, “tell me about a" +
-            " time where you…”, or “could you elaborate on…”, for example. As interviewers and researchers," +
-            " the gems of user insight are found when our questions search for stories instead of answers. "
+        sectionTitle: '2.  Ask open ended questions, and try to get stories instead of answers.',
+        sectionImg: '',
+        sectionDescrip: 'This is really important, and sometimes harder than it seems to achieve.' +
+            ' Getting yes or no answers from a user provides little to no insight about their experience,' +
+            ' and often cuts questions short. However, when a user answers in this way, it is not their' +
+            ' fault! An interviewer should always ask open ended questions, those that can’t simply be' +
+            ' answered with a yes or no. Good open ended questions might begin like, “tell me about a' +
+            ' time where you…”, or “could you elaborate on…”, for example. As interviewers and researchers,' +
+            ' the gems of user insight are found when our questions search for stories instead of answers. '
     },
 ];
 /*----PLAYGROUND / SIDE PROJ DATA-----*/
 /*----main sections---*/
 const PLAYGROUND = [
     {
-        sectionTitle: "Quarantine Affirmations",
-        sectionDescrip: "It has been a rough few months in the world. These graphics are my way " +
-            "of carving out a little bit of positive, affirmative space for ourselves and our bodies" +
-            " in the midst of it all.",
-        sectionImg: "./assets/img/play-affirmations.png",
+        sectionTitle: 'Quarantine Affirmations',
+        sectionDescrip: 'It has been a rough few months in the world. These graphics are my way ' +
+            'of carving out a little bit of positive, affirmative space for ourselves and our bodies' +
+            ' in the midst of it all.',
+        sectionImg: './assets/img/play-affirmations.png',
     },
     {
-        sectionTitle: "Looking into Prisons in Hawai‘i",
-        sectionDescrip: "For a few years I have been interested in (and outraged by) the prison systems" +
-            " in the United States. After the murder of George Floyd and the uprisings against police" +
-            " brutality across the country, I wanted to take a closer look into these systems and their" +
-            " social impact on a local level in Hawai‘i. The graphics below are a brief summary of some " +
-            "of my findings. They are not meant to be all-inclusive, but rather a conversation starter. " +
-            "I played with typography and colors to make them visually appealing while keeping " +
-            "the audience’s focus on the information at hand. Created for and deployed on Instagram.",
-        sectionImg: "./assets/img/play-prisons.png",
+        sectionTitle: 'Looking into Prisons in Hawai‘i',
+        sectionDescrip: 'For a few years I have been interested in (and outraged by) the prison systems' +
+            ' in the United States. After the murder of George Floyd and the uprisings against police' +
+            ' brutality across the country, I wanted to take a closer look into these systems and their' +
+            ' social impact on a local level in Hawai‘i. The graphics below are a brief summary of some ' +
+            'of my findings. They are not meant to be all-inclusive, but rather a conversation starter. ' +
+            'I played with typography and colors to make them visually appealing while keeping ' +
+            'the audience’s focus on the information at hand. Created for and deployed on Instagram.',
+        sectionImg: './assets/img/play-prisons.png',
     },
     {
-        sectionTitle: "Web Development",
-        sectionDescrip: "Shameless plug, but this entire website has been a labor of love and long " +
-            "nights of coding. Designed and developed by yours truly using AngularJS. 🙂",
-        sectionImg: "",
-    }
+        sectionTitle: 'Web Portfolio for a Journalist',
+        sectionDescrip: 'During the Summer of 2020, I designed and developed an online portfolio' +
+            'website for a good friend, who recently graduated college and is entering a career in' +
+            'journalism. You can view the shipped website here.',
+        sectionImg: './assets/img/eliza.png',
+    },
+    {
+        sectionTitle: 'Building this Website',
+        sectionDescrip: 'Shameless plug, but this entire website has been a labor of love and long ' +
+            'nights of coding. Designed and developed by yours truly using AngularJS. 🙂',
+        sectionImg: '',
+    },
 ];
 
 
@@ -2626,7 +2633,7 @@ AboutBlurbsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.isMobile);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.isMobile);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"]], styles: [".full-container[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  margin-left: 2em;\n\n}\n\n.blurbs-container[_ngcontent-%COMP%] {\n  margin-top: 2em;\n  color: #828282;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  padding-left: 8%;\n  padding-right: 10%;\n}\n\n.chat-title[_ngcontent-%COMP%] {\n  font-size: .8em;\n  display: flex;\n  color: #929292;\n  font-weight: 600;\n  margin-bottom: -1em;\n}\n\n.single-blurb[_ngcontent-%COMP%] {\n  margin-top: 2em;\n}\n\n.title-img[_ngcontent-%COMP%] {\n  font-size: 2em;\n\n}\n\n.title-container[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  align-content: center;\n}\n\n.words-container[_ngcontent-%COMP%] {\n  margin-left: 2em;\n}\n\n.blurb-title[_ngcontent-%COMP%] {\n  font-size: 1.4em;\n  font-weight: 600;\n}\n\n.blurb-description[_ngcontent-%COMP%] {\n  font-size: 1.1em;\n  font-weight: 300;\n  margin-top: .4em;\n}\n\n.blurb-description[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  text-decoration: none;\n  font-weight: 500;\n  color: #5B7FFE;\n}\n\n.blurb-description[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  opacity: .6;\n  cursor: pointer;\n}\n\n\n\n.full-container-mobile[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  margin: 0 1em 0 0;\n  padding: 0;\n}\n\n.full-container-mobile[_ngcontent-%COMP%]   .blurbs-container[_ngcontent-%COMP%] {\n  color: #828282;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  padding: 0;\n}\n\n.full-container-mobile[_ngcontent-%COMP%]   .chat-title[_ngcontent-%COMP%] {\n  font-size: .7em;\n  font-weight: 600;\n  color: #929292;\n  margin: 0 0 -2em 0;\n}\n\n.full-container-mobile[_ngcontent-%COMP%]   .single-blurb[_ngcontent-%COMP%] {\n  margin-top: 2em;\n}\n\n.full-container-mobile[_ngcontent-%COMP%]   .title-img[_ngcontent-%COMP%] {\n  font-size: 1.4em;\n}\n\n.full-container-mobile[_ngcontent-%COMP%]   .words-container[_ngcontent-%COMP%] {\n  margin-left: 1em;\n}\n\n.full-container-mobile[_ngcontent-%COMP%]   .blurb-title[_ngcontent-%COMP%] {\n  font-size: 1.1em;\n  font-weight: 600;\n}\n\n.full-container-mobile[_ngcontent-%COMP%]   .blurb-description[_ngcontent-%COMP%] {\n  font-size: 1em;\n  font-weight: 300;\n  margin-top: .4em;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWJvdXQvYWJvdXQtYmx1cmJzL2Fib3V0LWJsdXJicy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsYUFBYTtFQUNiLHVCQUF1QjtFQUN2QixnQkFBZ0I7O0FBRWxCOztBQUVBO0VBQ0UsZUFBZTtFQUNmLGNBQWM7RUFDZCxhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLDZCQUE2QjtFQUM3QixnQkFBZ0I7RUFDaEIsa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsZUFBZTtFQUNmLGFBQWE7RUFDYixjQUFjO0VBQ2QsZ0JBQWdCO0VBQ2hCLG1CQUFtQjtBQUNyQjs7QUFFQTtFQUNFLGVBQWU7QUFDakI7O0FBRUE7RUFDRSxjQUFjOztBQUVoQjs7QUFFQTtFQUNFLGFBQWE7RUFDYixtQkFBbUI7RUFDbkIscUJBQXFCO0FBQ3ZCOztBQUVBO0VBQ0UsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UsZ0JBQWdCO0VBQ2hCLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLGdCQUFnQjtFQUNoQixnQkFBZ0I7RUFDaEIsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UscUJBQXFCO0VBQ3JCLGdCQUFnQjtFQUNoQixjQUFjO0FBQ2hCOztBQUVBO0VBQ0UsV0FBVztFQUNYLGVBQWU7QUFDakI7O0FBRUEscUJBQXFCOztBQUNyQjtFQUNFLGFBQWE7RUFDYix1QkFBdUI7RUFDdkIsaUJBQWlCO0VBQ2pCLFVBQVU7QUFDWjs7QUFFQTtFQUNFLGNBQWM7RUFDZCxhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLDZCQUE2QjtFQUM3QixVQUFVO0FBQ1o7O0FBRUE7RUFDRSxlQUFlO0VBQ2YsZ0JBQWdCO0VBQ2hCLGNBQWM7RUFDZCxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxlQUFlO0FBQ2pCOztBQUVBO0VBQ0UsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UsZ0JBQWdCO0VBQ2hCLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLGNBQWM7RUFDZCxnQkFBZ0I7RUFDaEIsZ0JBQWdCO0FBQ2xCIiwiZmlsZSI6InNyYy9hcHAvYWJvdXQvYWJvdXQtYmx1cmJzL2Fib3V0LWJsdXJicy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmZ1bGwtY29udGFpbmVyIHtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIG1hcmdpbi1sZWZ0OiAyZW07XG5cbn1cblxuLmJsdXJicy1jb250YWluZXIge1xuICBtYXJnaW4tdG9wOiAyZW07XG4gIGNvbG9yOiAjODI4MjgyO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWV2ZW5seTtcbiAgcGFkZGluZy1sZWZ0OiA4JTtcbiAgcGFkZGluZy1yaWdodDogMTAlO1xufVxuXG4uY2hhdC10aXRsZSB7XG4gIGZvbnQtc2l6ZTogLjhlbTtcbiAgZGlzcGxheTogZmxleDtcbiAgY29sb3I6ICM5MjkyOTI7XG4gIGZvbnQtd2VpZ2h0OiA2MDA7XG4gIG1hcmdpbi1ib3R0b206IC0xZW07XG59XG5cbi5zaW5nbGUtYmx1cmIge1xuICBtYXJnaW4tdG9wOiAyZW07XG59XG5cbi50aXRsZS1pbWcge1xuICBmb250LXNpemU6IDJlbTtcblxufVxuXG4udGl0bGUtY29udGFpbmVyIHtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgYWxpZ24tY29udGVudDogY2VudGVyO1xufVxuXG4ud29yZHMtY29udGFpbmVyIHtcbiAgbWFyZ2luLWxlZnQ6IDJlbTtcbn1cblxuLmJsdXJiLXRpdGxlIHtcbiAgZm9udC1zaXplOiAxLjRlbTtcbiAgZm9udC13ZWlnaHQ6IDYwMDtcbn1cblxuLmJsdXJiLWRlc2NyaXB0aW9uIHtcbiAgZm9udC1zaXplOiAxLjFlbTtcbiAgZm9udC13ZWlnaHQ6IDMwMDtcbiAgbWFyZ2luLXRvcDogLjRlbTtcbn1cblxuLmJsdXJiLWRlc2NyaXB0aW9uIGEge1xuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gIGZvbnQtd2VpZ2h0OiA1MDA7XG4gIGNvbG9yOiAjNUI3RkZFO1xufVxuXG4uYmx1cmItZGVzY3JpcHRpb24gYTpob3ZlciB7XG4gIG9wYWNpdHk6IC42O1xuICBjdXJzb3I6IHBvaW50ZXI7XG59XG5cbi8qLS0tLS0tbW9iaWxlLS0tLS0tKi9cbi5mdWxsLWNvbnRhaW5lci1tb2JpbGUge1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgbWFyZ2luOiAwIDFlbSAwIDA7XG4gIHBhZGRpbmc6IDA7XG59XG5cbi5mdWxsLWNvbnRhaW5lci1tb2JpbGUgLmJsdXJicy1jb250YWluZXIge1xuICBjb2xvcjogIzgyODI4MjtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1ldmVubHk7XG4gIHBhZGRpbmc6IDA7XG59XG5cbi5mdWxsLWNvbnRhaW5lci1tb2JpbGUgLmNoYXQtdGl0bGUge1xuICBmb250LXNpemU6IC43ZW07XG4gIGZvbnQtd2VpZ2h0OiA2MDA7XG4gIGNvbG9yOiAjOTI5MjkyO1xuICBtYXJnaW46IDAgMCAtMmVtIDA7XG59XG5cbi5mdWxsLWNvbnRhaW5lci1tb2JpbGUgLnNpbmdsZS1ibHVyYiB7XG4gIG1hcmdpbi10b3A6IDJlbTtcbn1cblxuLmZ1bGwtY29udGFpbmVyLW1vYmlsZSAudGl0bGUtaW1nIHtcbiAgZm9udC1zaXplOiAxLjRlbTtcbn1cblxuLmZ1bGwtY29udGFpbmVyLW1vYmlsZSAud29yZHMtY29udGFpbmVyIHtcbiAgbWFyZ2luLWxlZnQ6IDFlbTtcbn1cblxuLmZ1bGwtY29udGFpbmVyLW1vYmlsZSAuYmx1cmItdGl0bGUge1xuICBmb250LXNpemU6IDEuMWVtO1xuICBmb250LXdlaWdodDogNjAwO1xufVxuXG4uZnVsbC1jb250YWluZXItbW9iaWxlIC5ibHVyYi1kZXNjcmlwdGlvbiB7XG4gIGZvbnQtc2l6ZTogMWVtO1xuICBmb250LXdlaWdodDogMzAwO1xuICBtYXJnaW4tdG9wOiAuNGVtO1xufVxuIl19 */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"]], styles: [".full-container[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  margin-left: 2em;\n\n}\n\n.blurbs-container[_ngcontent-%COMP%] {\n  margin-top: 2em;\n  color: #828282;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  padding-left: 8%;\n  padding-right: 10%;\n}\n\n.chat-title[_ngcontent-%COMP%] {\n  font-size: .8em;\n  display: flex;\n  color: #929292;\n  font-weight: 600;\n  margin-bottom: -1em;\n}\n\n.single-blurb[_ngcontent-%COMP%] {\n  margin-top: 2em;\n}\n\n.title-img[_ngcontent-%COMP%] {\n  font-size: 2em;\n  display: flex;\n  align-self: flex-start;\n  margin-top: -.1em;\n}\n\n.title-container[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  align-content: center;\n  justify-content: center;\n}\n\n.words-container[_ngcontent-%COMP%] {\n  margin-left: 2em;\n}\n\n.blurb-title[_ngcontent-%COMP%] {\n  font-size: 1.4em;\n  font-weight: 600;\n}\n\n.blurb-description[_ngcontent-%COMP%] {\n  font-size: 1.1em;\n  font-weight: 300;\n  margin-top: .4em;\n}\n\n.blurb-description[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  text-decoration: none;\n  font-weight: 500;\n  color: #5B7FFE;\n}\n\n.blurb-description[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  opacity: .6;\n  cursor: pointer;\n}\n\n\n\n.full-container-mobile[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  margin: 0 1em 0 0;\n  padding: 0;\n}\n\n.full-container-mobile[_ngcontent-%COMP%]   .blurbs-container[_ngcontent-%COMP%] {\n  color: #828282;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  padding: 0;\n}\n\n.full-container-mobile[_ngcontent-%COMP%]   .chat-title[_ngcontent-%COMP%] {\n  font-size: .7em;\n  font-weight: 600;\n  color: #929292;\n  margin: 0 0 -2em 0;\n}\n\n.full-container-mobile[_ngcontent-%COMP%]   .single-blurb[_ngcontent-%COMP%] {\n  margin-top: 2em;\n}\n\n.full-container-mobile[_ngcontent-%COMP%]   .title-img[_ngcontent-%COMP%] {\n  font-size: 1.4em;\n}\n\n.full-container-mobile[_ngcontent-%COMP%]   .words-container[_ngcontent-%COMP%] {\n  margin-left: 1em;\n}\n\n.full-container-mobile[_ngcontent-%COMP%]   .blurb-title[_ngcontent-%COMP%] {\n  font-size: 1.1em;\n  font-weight: 600;\n}\n\n.full-container-mobile[_ngcontent-%COMP%]   .blurb-description[_ngcontent-%COMP%] {\n  font-size: 1em;\n  font-weight: 300;\n  margin-top: .4em;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWJvdXQvYWJvdXQtYmx1cmJzL2Fib3V0LWJsdXJicy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsYUFBYTtFQUNiLHVCQUF1QjtFQUN2QixnQkFBZ0I7O0FBRWxCOztBQUVBO0VBQ0UsZUFBZTtFQUNmLGNBQWM7RUFDZCxhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLDZCQUE2QjtFQUM3QixnQkFBZ0I7RUFDaEIsa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsZUFBZTtFQUNmLGFBQWE7RUFDYixjQUFjO0VBQ2QsZ0JBQWdCO0VBQ2hCLG1CQUFtQjtBQUNyQjs7QUFFQTtFQUNFLGVBQWU7QUFDakI7O0FBRUE7RUFDRSxjQUFjO0VBQ2QsYUFBYTtFQUNiLHNCQUFzQjtFQUN0QixpQkFBaUI7QUFDbkI7O0FBRUE7RUFDRSxhQUFhO0VBQ2IsbUJBQW1CO0VBQ25CLHFCQUFxQjtFQUNyQix1QkFBdUI7QUFDekI7O0FBRUE7RUFDRSxnQkFBZ0I7QUFDbEI7O0FBRUE7RUFDRSxnQkFBZ0I7RUFDaEIsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UsZ0JBQWdCO0VBQ2hCLGdCQUFnQjtFQUNoQixnQkFBZ0I7QUFDbEI7O0FBRUE7RUFDRSxxQkFBcUI7RUFDckIsZ0JBQWdCO0VBQ2hCLGNBQWM7QUFDaEI7O0FBRUE7RUFDRSxXQUFXO0VBQ1gsZUFBZTtBQUNqQjs7QUFFQSxxQkFBcUI7O0FBQ3JCO0VBQ0UsYUFBYTtFQUNiLHVCQUF1QjtFQUN2QixpQkFBaUI7RUFDakIsVUFBVTtBQUNaOztBQUVBO0VBQ0UsY0FBYztFQUNkLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsNkJBQTZCO0VBQzdCLFVBQVU7QUFDWjs7QUFFQTtFQUNFLGVBQWU7RUFDZixnQkFBZ0I7RUFDaEIsY0FBYztFQUNkLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGVBQWU7QUFDakI7O0FBRUE7RUFDRSxnQkFBZ0I7QUFDbEI7O0FBRUE7RUFDRSxnQkFBZ0I7QUFDbEI7O0FBRUE7RUFDRSxnQkFBZ0I7RUFDaEIsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UsY0FBYztFQUNkLGdCQUFnQjtFQUNoQixnQkFBZ0I7QUFDbEIiLCJmaWxlIjoic3JjL2FwcC9hYm91dC9hYm91dC1ibHVyYnMvYWJvdXQtYmx1cmJzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZnVsbC1jb250YWluZXIge1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgbWFyZ2luLWxlZnQ6IDJlbTtcblxufVxuXG4uYmx1cmJzLWNvbnRhaW5lciB7XG4gIG1hcmdpbi10b3A6IDJlbTtcbiAgY29sb3I6ICM4MjgyODI7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIGp1c3RpZnktY29udGVudDogc3BhY2UtZXZlbmx5O1xuICBwYWRkaW5nLWxlZnQ6IDglO1xuICBwYWRkaW5nLXJpZ2h0OiAxMCU7XG59XG5cbi5jaGF0LXRpdGxlIHtcbiAgZm9udC1zaXplOiAuOGVtO1xuICBkaXNwbGF5OiBmbGV4O1xuICBjb2xvcjogIzkyOTI5MjtcbiAgZm9udC13ZWlnaHQ6IDYwMDtcbiAgbWFyZ2luLWJvdHRvbTogLTFlbTtcbn1cblxuLnNpbmdsZS1ibHVyYiB7XG4gIG1hcmdpbi10b3A6IDJlbTtcbn1cblxuLnRpdGxlLWltZyB7XG4gIGZvbnQtc2l6ZTogMmVtO1xuICBkaXNwbGF5OiBmbGV4O1xuICBhbGlnbi1zZWxmOiBmbGV4LXN0YXJ0O1xuICBtYXJnaW4tdG9wOiAtLjFlbTtcbn1cblxuLnRpdGxlLWNvbnRhaW5lciB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiByb3c7XG4gIGFsaWduLWNvbnRlbnQ6IGNlbnRlcjtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG59XG5cbi53b3Jkcy1jb250YWluZXIge1xuICBtYXJnaW4tbGVmdDogMmVtO1xufVxuXG4uYmx1cmItdGl0bGUge1xuICBmb250LXNpemU6IDEuNGVtO1xuICBmb250LXdlaWdodDogNjAwO1xufVxuXG4uYmx1cmItZGVzY3JpcHRpb24ge1xuICBmb250LXNpemU6IDEuMWVtO1xuICBmb250LXdlaWdodDogMzAwO1xuICBtYXJnaW4tdG9wOiAuNGVtO1xufVxuXG4uYmx1cmItZGVzY3JpcHRpb24gYSB7XG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgZm9udC13ZWlnaHQ6IDUwMDtcbiAgY29sb3I6ICM1QjdGRkU7XG59XG5cbi5ibHVyYi1kZXNjcmlwdGlvbiBhOmhvdmVyIHtcbiAgb3BhY2l0eTogLjY7XG4gIGN1cnNvcjogcG9pbnRlcjtcbn1cblxuLyotLS0tLS1tb2JpbGUtLS0tLS0qL1xuLmZ1bGwtY29udGFpbmVyLW1vYmlsZSB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBtYXJnaW46IDAgMWVtIDAgMDtcbiAgcGFkZGluZzogMDtcbn1cblxuLmZ1bGwtY29udGFpbmVyLW1vYmlsZSAuYmx1cmJzLWNvbnRhaW5lciB7XG4gIGNvbG9yOiAjODI4MjgyO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWV2ZW5seTtcbiAgcGFkZGluZzogMDtcbn1cblxuLmZ1bGwtY29udGFpbmVyLW1vYmlsZSAuY2hhdC10aXRsZSB7XG4gIGZvbnQtc2l6ZTogLjdlbTtcbiAgZm9udC13ZWlnaHQ6IDYwMDtcbiAgY29sb3I6ICM5MjkyOTI7XG4gIG1hcmdpbjogMCAwIC0yZW0gMDtcbn1cblxuLmZ1bGwtY29udGFpbmVyLW1vYmlsZSAuc2luZ2xlLWJsdXJiIHtcbiAgbWFyZ2luLXRvcDogMmVtO1xufVxuXG4uZnVsbC1jb250YWluZXItbW9iaWxlIC50aXRsZS1pbWcge1xuICBmb250LXNpemU6IDEuNGVtO1xufVxuXG4uZnVsbC1jb250YWluZXItbW9iaWxlIC53b3Jkcy1jb250YWluZXIge1xuICBtYXJnaW4tbGVmdDogMWVtO1xufVxuXG4uZnVsbC1jb250YWluZXItbW9iaWxlIC5ibHVyYi10aXRsZSB7XG4gIGZvbnQtc2l6ZTogMS4xZW07XG4gIGZvbnQtd2VpZ2h0OiA2MDA7XG59XG5cbi5mdWxsLWNvbnRhaW5lci1tb2JpbGUgLmJsdXJiLWRlc2NyaXB0aW9uIHtcbiAgZm9udC1zaXplOiAxZW07XG4gIGZvbnQtd2VpZ2h0OiAzMDA7XG4gIG1hcmdpbi10b3A6IC40ZW07XG59XG4iXX0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AboutBlurbsComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -2775,7 +2782,7 @@ ScrollTopComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
                 args: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["DOCUMENT"]]
             }] }]; }, { onWindowScroll: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostListener"],
-            args: ["window:scroll", []]
+            args: ['window:scroll', []]
         }] }); })();
 
 
@@ -3034,9 +3041,26 @@ function PlaygroundComponent_div_0_section_2_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r4.id == 4);
 } }
-function PlaygroundComponent_div_0_section_3_div_6_Template(rf, ctx) { if (rf & 1) {
+function PlaygroundComponent_div_0_section_3_div_4_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 15);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const p_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", p_r7.sectionDescrip, " ");
+} }
+function PlaygroundComponent_div_0_section_3_div_5_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " During the Summer of 2020, I designed and developed an online portfolio website for a good friend, who recently graduated college and is entering a career in journalism. You can view the shipped website ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "a", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "here.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+function PlaygroundComponent_div_0_section_3_div_6_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const p_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
@@ -3049,9 +3073,8 @@ function PlaygroundComponent_div_0_section_3_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 12);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, PlaygroundComponent_div_0_section_3_div_4_Template, 2, 1, "div", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, PlaygroundComponent_div_0_section_3_div_5_Template, 4, 0, "div", 13);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, PlaygroundComponent_div_0_section_3_div_6_Template, 2, 1, "div", 14);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -3059,8 +3082,10 @@ function PlaygroundComponent_div_0_section_3_Template(rf, ctx) { if (rf & 1) {
     const p_r7 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](p_r7.sectionTitle);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](p_r7.sectionDescrip);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", p_r7.sectionTitle != "Web Portfolio for a Journalist");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", p_r7.sectionTitle == "Web Portfolio for a Journalist");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", p_r7.sectionImg != "");
 } }
@@ -3068,7 +3093,7 @@ function PlaygroundComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, PlaygroundComponent_div_0_section_2_Template, 2, 1, "section", 4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, PlaygroundComponent_div_0_section_3_Template, 7, 3, "section", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, PlaygroundComponent_div_0_section_3_Template, 7, 4, "section", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "app-case-footer");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -3089,42 +3114,54 @@ function PlaygroundComponent_div_1_section_3_div_1_Template(rf, ctx) { if (rf & 
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const c_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+    const c_r15 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](c_r12.title);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](c_r15.title);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](c_r12.description);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](c_r15.description);
 } }
 function PlaygroundComponent_div_1_section_3_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, PlaygroundComponent_div_1_section_3_div_1_Template, 5, 2, "div", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const c_r12 = ctx.$implicit;
+    const c_r15 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r12.id == 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", c_r15.id == 4);
 } }
 function PlaygroundComponent_div_1_section_4_div_6_div_1_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 function PlaygroundComponent_div_1_section_4_div_6_div_2_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
-function PlaygroundComponent_div_1_section_4_div_6_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 15);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, PlaygroundComponent_div_1_section_4_div_6_div_1_Template, 2, 0, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, PlaygroundComponent_div_1_section_4_div_6_div_2_Template, 2, 0, "div", 7);
+function PlaygroundComponent_div_1_section_4_div_6_div_3_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const p_r15 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+    const p_r18 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2).$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", p_r15.sectionTitle == "Quarantine Affirmations");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", p_r18.sectionImg, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+} }
+function PlaygroundComponent_div_1_section_4_div_6_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, PlaygroundComponent_div_1_section_4_div_6_div_1_Template, 2, 0, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, PlaygroundComponent_div_1_section_4_div_6_div_2_Template, 2, 0, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, PlaygroundComponent_div_1_section_4_div_6_div_3_Template, 2, 1, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const p_r18 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", p_r15.sectionTitle == "Looking into Prisons in Hawai\u2018i");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", p_r18.sectionTitle == "Quarantine Affirmations");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", p_r18.sectionTitle == "Looking into Prisons in Hawai\u2018i");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", p_r18.sectionTitle == "Web Portfolio for a Journalist");
 } }
 function PlaygroundComponent_div_1_section_4_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 10);
@@ -3132,24 +3169,24 @@ function PlaygroundComponent_div_1_section_4_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 12);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, PlaygroundComponent_div_1_section_4_div_6_Template, 3, 2, "div", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, PlaygroundComponent_div_1_section_4_div_6_Template, 4, 3, "div", 14);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const p_r15 = ctx.$implicit;
+    const p_r18 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](p_r15.sectionTitle);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](p_r18.sectionTitle);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](p_r15.sectionDescrip);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](p_r18.sectionDescrip);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", p_r15.sectionImg != "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", p_r18.sectionImg != "");
 } }
 function PlaygroundComponent_div_1_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 20);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, PlaygroundComponent_div_1_section_3_Template, 2, 1, "section", 4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, PlaygroundComponent_div_1_section_4_Template, 7, 3, "section", 5);
@@ -3174,14 +3211,14 @@ class PlaygroundComponent {
     }
 }
 PlaygroundComponent.ɵfac = function PlaygroundComponent_Factory(t) { return new (t || PlaygroundComponent)(); };
-PlaygroundComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PlaygroundComponent, selectors: [["app-playground"]], decls: 2, vars: 2, consts: [["class", "outer-container", 4, "ngIf"], ["class", "mobile", 4, "ngIf"], [1, "outer-container"], [1, "main-container"], ["class", "intro", 4, "ngFor", "ngForOf"], ["class", "overview", 4, "ngFor", "ngForOf"], [1, "intro"], [4, "ngIf"], [1, "page-title"], [1, "description"], [1, "overview"], [1, "word-section"], [1, "title"], [1, "section-descrip"], ["class", "section-img", 4, "ngIf"], [1, "section-img"], ["width", "100%", 3, "src"], [1, "mobile"], [1, "mobile-outer-container"], ["src", "./assets/img/play-affirmations-mobile.png", "width", "100%"], ["src", "./assets/img/play-prisons-mobile.png", "width", "100%"]], template: function PlaygroundComponent_Template(rf, ctx) { if (rf & 1) {
+PlaygroundComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PlaygroundComponent, selectors: [["app-playground"]], decls: 2, vars: 2, consts: [["class", "outer-container", 4, "ngIf"], ["class", "mobile", 4, "ngIf"], [1, "outer-container"], [1, "main-container"], ["class", "intro", 4, "ngFor", "ngForOf"], ["class", "overview", 4, "ngFor", "ngForOf"], [1, "intro"], [4, "ngIf"], [1, "page-title"], [1, "description"], [1, "overview"], [1, "word-section"], [1, "title"], ["class", "section-descrip", 4, "ngIf"], ["class", "section-img", 4, "ngIf"], [1, "section-descrip"], ["href", "https://elizasiegel.github.io/", "target", "_blank"], [1, "section-img"], ["width", "100%", 3, "src"], [1, "mobile"], [1, "mobile-outer-container"], ["src", "./assets/img/play-affirmations-mobile.png", "width", "100%"], ["src", "./assets/img/play-prisons-mobile.png", "width", "100%"]], template: function PlaygroundComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, PlaygroundComponent_div_0_Template, 5, 2, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, PlaygroundComponent_div_1_Template, 6, 2, "div", 1);
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.isMobile);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.isMobile);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _case_footer_case_footer_component__WEBPACK_IMPORTED_MODULE_4__["CaseFooterComponent"]], styles: [".outer-container[_ngcontent-%COMP%] {\n  margin: -2em 4em 4em 4em;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n.main-container[_ngcontent-%COMP%] {\n  margin: 0 8em 0 8em;\n  font-size: 1.1em;\n  color: #4f4f4f;\n  font-weight: 300;\n  line-height: 1.8em;\n\n}\n\nh2[_ngcontent-%COMP%] {\n  font-size: 1.6em;\n  line-height: 2em;\n  font-weight: 600;\n  text-align: center;\n  color: #7F93FF;\n}\n.description[_ngcontent-%COMP%] {\n  text-align: left;\n  font-style: italic;\n  font-size: 1.2em;\n  margin: 0 4em 4em 4em;\n\n}\n.intro-img[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-self: center;\n}\nimg.intro[_ngcontent-%COMP%] {\n  width: 100%;\n}\n\n.word-section[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  margin: 1em 0 6em 0;\n  justify-content: center;\n}\n.title[_ngcontent-%COMP%] {\n  font-size: 1.2em;\n  font-weight: 600;\n  margin-bottom: 1em;\n}\n.section-img[_ngcontent-%COMP%], .section-descrip[_ngcontent-%COMP%] {\n  margin-bottom: 2em;\n}\n\n.mobile-outer-container[_ngcontent-%COMP%] {\n  margin: 2em;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n.mobile[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n  font-size: 1.4em;\n  text-align: left;\n  display: flex;\n  line-height: 1.5em;\n}\n.mobile[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  margin-bottom: 1em;\n}\n.mobile[_ngcontent-%COMP%]   .main-container[_ngcontent-%COMP%] {\n  font-size: 1em;\n  margin: 0;\n}\n.mobile[_ngcontent-%COMP%]   .word-section[_ngcontent-%COMP%] {\n  margin-bottom: 3em;\n}\n.mobile[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%] {\n  margin-bottom: 1em;\n  font-size: 1em;\n}\n.mobile[_ngcontent-%COMP%]   .description[_ngcontent-%COMP%] {\n  font-size: 1em;\n  margin: 0 0 3em 0;\n}\n.mobile[_ngcontent-%COMP%]   .process-title[_ngcontent-%COMP%] {\n  font-size: 1em;\n  flex-wrap: wrap;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY2FzZS1zdHVkeS9wbGF5Z3JvdW5kL3BsYXlncm91bmQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxhQUFhO0FBQ2I7RUFDRSx3QkFBd0I7RUFDeEIsYUFBYTtFQUNiLHNCQUFzQjtFQUN0Qix1QkFBdUI7RUFDdkIsbUJBQW1CO0FBQ3JCO0FBQ0E7RUFDRSxtQkFBbUI7RUFDbkIsZ0JBQWdCO0VBQ2hCLGNBQWM7RUFDZCxnQkFBZ0I7RUFDaEIsa0JBQWtCOztBQUVwQjtBQUNBLHNCQUFzQjtBQUN0QjtFQUNFLGdCQUFnQjtFQUNoQixnQkFBZ0I7RUFDaEIsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtFQUNsQixjQUFjO0FBQ2hCO0FBQ0E7RUFDRSxnQkFBZ0I7RUFDaEIsa0JBQWtCO0VBQ2xCLGdCQUFnQjtFQUNoQixxQkFBcUI7O0FBRXZCO0FBQ0E7RUFDRSxhQUFhO0VBQ2IsdUJBQXVCO0VBQ3ZCLGtCQUFrQjtBQUNwQjtBQUNBO0VBQ0UsV0FBVztBQUNiO0FBRUEsb0JBQW9CO0FBQ3BCO0VBQ0UsYUFBYTtFQUNiLHNCQUFzQjtFQUN0QixtQkFBbUI7RUFDbkIsdUJBQXVCO0FBQ3pCO0FBQ0E7RUFDRSxnQkFBZ0I7RUFDaEIsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtBQUNwQjtBQUVBO0VBQ0Usa0JBQWtCO0FBQ3BCO0FBRUEsbUJBQW1CO0FBQ25CO0VBQ0UsV0FBVztFQUNYLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsdUJBQXVCO0VBQ3ZCLG1CQUFtQjtBQUNyQjtBQUVBO0VBQ0UsZ0JBQWdCO0VBQ2hCLGdCQUFnQjtFQUNoQixhQUFhO0VBQ2Isa0JBQWtCO0FBQ3BCO0FBRUE7RUFDRSxrQkFBa0I7QUFDcEI7QUFFQTtFQUNFLGNBQWM7RUFDZCxTQUFTO0FBQ1g7QUFFQTtFQUNFLGtCQUFrQjtBQUNwQjtBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLGNBQWM7QUFDaEI7QUFFQTtFQUNFLGNBQWM7RUFDZCxpQkFBaUI7QUFDbkI7QUFFQTtFQUNFLGNBQWM7RUFDZCxlQUFlO0FBQ2pCIiwiZmlsZSI6InNyYy9hcHAvY2FzZS1zdHVkeS9wbGF5Z3JvdW5kL3BsYXlncm91bmQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qLS0tLXdlYi0tLSovXG4ub3V0ZXItY29udGFpbmVyIHtcbiAgbWFyZ2luOiAtMmVtIDRlbSA0ZW0gNGVtO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cbi5tYWluLWNvbnRhaW5lciB7XG4gIG1hcmdpbjogMCA4ZW0gMCA4ZW07XG4gIGZvbnQtc2l6ZTogMS4xZW07XG4gIGNvbG9yOiAjNGY0ZjRmO1xuICBmb250LXdlaWdodDogMzAwO1xuICBsaW5lLWhlaWdodDogMS44ZW07XG5cbn1cbi8qLS0tLS0taW50cm8tLS0tLS0tLSovXG5oMiB7XG4gIGZvbnQtc2l6ZTogMS42ZW07XG4gIGxpbmUtaGVpZ2h0OiAyZW07XG4gIGZvbnQtd2VpZ2h0OiA2MDA7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgY29sb3I6ICM3RjkzRkY7XG59XG4uZGVzY3JpcHRpb24ge1xuICB0ZXh0LWFsaWduOiBsZWZ0O1xuICBmb250LXN0eWxlOiBpdGFsaWM7XG4gIGZvbnQtc2l6ZTogMS4yZW07XG4gIG1hcmdpbjogMCA0ZW0gNGVtIDRlbTtcblxufVxuLmludHJvLWltZyB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBhbGlnbi1zZWxmOiBjZW50ZXI7XG59XG5pbWcuaW50cm8ge1xuICB3aWR0aDogMTAwJTtcbn1cblxuLyotLS0tLW92ZXJ2aWV3LS0tLSovXG4ud29yZC1zZWN0aW9uIHtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgbWFyZ2luOiAxZW0gMCA2ZW0gMDtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG59XG4udGl0bGUge1xuICBmb250LXNpemU6IDEuMmVtO1xuICBmb250LXdlaWdodDogNjAwO1xuICBtYXJnaW4tYm90dG9tOiAxZW07XG59XG5cbi5zZWN0aW9uLWltZywgLnNlY3Rpb24tZGVzY3JpcCB7XG4gIG1hcmdpbi1ib3R0b206IDJlbTtcbn1cblxuLyotLS0tLW1vYmlsZS0tLS0tKi9cbi5tb2JpbGUtb3V0ZXItY29udGFpbmVyIHtcbiAgbWFyZ2luOiAyZW07XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuXG4ubW9iaWxlIGgyIHtcbiAgZm9udC1zaXplOiAxLjRlbTtcbiAgdGV4dC1hbGlnbjogbGVmdDtcbiAgZGlzcGxheTogZmxleDtcbiAgbGluZS1oZWlnaHQ6IDEuNWVtO1xufVxuXG4ubW9iaWxlIGltZyB7XG4gIG1hcmdpbi1ib3R0b206IDFlbTtcbn1cblxuLm1vYmlsZSAubWFpbi1jb250YWluZXIge1xuICBmb250LXNpemU6IDFlbTtcbiAgbWFyZ2luOiAwO1xufVxuXG4ubW9iaWxlIC53b3JkLXNlY3Rpb24ge1xuICBtYXJnaW4tYm90dG9tOiAzZW07XG59XG5cbi5tb2JpbGUgLnRpdGxlIHtcbiAgbWFyZ2luLWJvdHRvbTogMWVtO1xuICBmb250LXNpemU6IDFlbTtcbn1cblxuLm1vYmlsZSAuZGVzY3JpcHRpb24ge1xuICBmb250LXNpemU6IDFlbTtcbiAgbWFyZ2luOiAwIDAgM2VtIDA7XG59XG5cbi5tb2JpbGUgLnByb2Nlc3MtdGl0bGUge1xuICBmb250LXNpemU6IDFlbTtcbiAgZmxleC13cmFwOiB3cmFwO1xufVxuXG4iXX0= */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _case_footer_case_footer_component__WEBPACK_IMPORTED_MODULE_4__["CaseFooterComponent"]], styles: [".outer-container[_ngcontent-%COMP%] {\n  margin: -2em 4em 4em 4em;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n.main-container[_ngcontent-%COMP%] {\n  margin: 0 8em 0 8em;\n  font-size: 1.1em;\n  color: #4f4f4f;\n  font-weight: 300;\n  line-height: 1.8em;\n\n}\n\nh2[_ngcontent-%COMP%] {\n  font-size: 1.6em;\n  line-height: 2em;\n  font-weight: 600;\n  text-align: center;\n  color: #7F93FF;\n}\n.description[_ngcontent-%COMP%] {\n  text-align: left;\n  font-style: italic;\n  font-size: 1.2em;\n  margin: 0 4em 4em 4em;\n\n}\n.intro-img[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-self: center;\n}\nimg.intro[_ngcontent-%COMP%] {\n  width: 100%;\n}\n\n.word-section[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  margin: 1em 0 6em 0;\n  justify-content: center;\n}\n.title[_ngcontent-%COMP%] {\n  font-size: 1.2em;\n  font-weight: 600;\n  margin-bottom: 1em;\n}\n.section-img[_ngcontent-%COMP%], .section-descrip[_ngcontent-%COMP%] {\n  margin-bottom: 2em;\n}\n.section-descrip[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  text-decoration: none;\n  font-weight: 500;\n  color: #5B7FFE;\n}\n.section-descrip[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  opacity: .6;\n  cursor: pointer;\n}\n\n.mobile-outer-container[_ngcontent-%COMP%] {\n  margin: 2em;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n.mobile[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n  font-size: 1.4em;\n  text-align: left;\n  display: flex;\n  line-height: 1.5em;\n}\n.mobile[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  margin-bottom: 1em;\n}\n.mobile[_ngcontent-%COMP%]   .main-container[_ngcontent-%COMP%] {\n  font-size: 1em;\n  margin: 0;\n}\n.mobile[_ngcontent-%COMP%]   .word-section[_ngcontent-%COMP%] {\n  margin-bottom: 3em;\n}\n.mobile[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%] {\n  margin-bottom: 1em;\n  font-size: 1em;\n}\n.mobile[_ngcontent-%COMP%]   .description[_ngcontent-%COMP%] {\n  font-size: 1em;\n  margin: 0 0 3em 0;\n}\n.mobile[_ngcontent-%COMP%]   .process-title[_ngcontent-%COMP%] {\n  font-size: 1em;\n  flex-wrap: wrap;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY2FzZS1zdHVkeS9wbGF5Z3JvdW5kL3BsYXlncm91bmQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxhQUFhO0FBQ2I7RUFDRSx3QkFBd0I7RUFDeEIsYUFBYTtFQUNiLHNCQUFzQjtFQUN0Qix1QkFBdUI7RUFDdkIsbUJBQW1CO0FBQ3JCO0FBQ0E7RUFDRSxtQkFBbUI7RUFDbkIsZ0JBQWdCO0VBQ2hCLGNBQWM7RUFDZCxnQkFBZ0I7RUFDaEIsa0JBQWtCOztBQUVwQjtBQUNBLHNCQUFzQjtBQUN0QjtFQUNFLGdCQUFnQjtFQUNoQixnQkFBZ0I7RUFDaEIsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtFQUNsQixjQUFjO0FBQ2hCO0FBQ0E7RUFDRSxnQkFBZ0I7RUFDaEIsa0JBQWtCO0VBQ2xCLGdCQUFnQjtFQUNoQixxQkFBcUI7O0FBRXZCO0FBQ0E7RUFDRSxhQUFhO0VBQ2IsdUJBQXVCO0VBQ3ZCLGtCQUFrQjtBQUNwQjtBQUNBO0VBQ0UsV0FBVztBQUNiO0FBRUEsb0JBQW9CO0FBQ3BCO0VBQ0UsYUFBYTtFQUNiLHNCQUFzQjtFQUN0QixtQkFBbUI7RUFDbkIsdUJBQXVCO0FBQ3pCO0FBQ0E7RUFDRSxnQkFBZ0I7RUFDaEIsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtBQUNwQjtBQUVBO0VBQ0Usa0JBQWtCO0FBQ3BCO0FBRUE7RUFDRSxxQkFBcUI7RUFDckIsZ0JBQWdCO0VBQ2hCLGNBQWM7QUFDaEI7QUFFQTtFQUNFLFdBQVc7RUFDWCxlQUFlO0FBQ2pCO0FBR0EsbUJBQW1CO0FBQ25CO0VBQ0UsV0FBVztFQUNYLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsdUJBQXVCO0VBQ3ZCLG1CQUFtQjtBQUNyQjtBQUVBO0VBQ0UsZ0JBQWdCO0VBQ2hCLGdCQUFnQjtFQUNoQixhQUFhO0VBQ2Isa0JBQWtCO0FBQ3BCO0FBRUE7RUFDRSxrQkFBa0I7QUFDcEI7QUFFQTtFQUNFLGNBQWM7RUFDZCxTQUFTO0FBQ1g7QUFFQTtFQUNFLGtCQUFrQjtBQUNwQjtBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLGNBQWM7QUFDaEI7QUFFQTtFQUNFLGNBQWM7RUFDZCxpQkFBaUI7QUFDbkI7QUFFQTtFQUNFLGNBQWM7RUFDZCxlQUFlO0FBQ2pCIiwiZmlsZSI6InNyYy9hcHAvY2FzZS1zdHVkeS9wbGF5Z3JvdW5kL3BsYXlncm91bmQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qLS0tLXdlYi0tLSovXG4ub3V0ZXItY29udGFpbmVyIHtcbiAgbWFyZ2luOiAtMmVtIDRlbSA0ZW0gNGVtO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cbi5tYWluLWNvbnRhaW5lciB7XG4gIG1hcmdpbjogMCA4ZW0gMCA4ZW07XG4gIGZvbnQtc2l6ZTogMS4xZW07XG4gIGNvbG9yOiAjNGY0ZjRmO1xuICBmb250LXdlaWdodDogMzAwO1xuICBsaW5lLWhlaWdodDogMS44ZW07XG5cbn1cbi8qLS0tLS0taW50cm8tLS0tLS0tLSovXG5oMiB7XG4gIGZvbnQtc2l6ZTogMS42ZW07XG4gIGxpbmUtaGVpZ2h0OiAyZW07XG4gIGZvbnQtd2VpZ2h0OiA2MDA7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgY29sb3I6ICM3RjkzRkY7XG59XG4uZGVzY3JpcHRpb24ge1xuICB0ZXh0LWFsaWduOiBsZWZ0O1xuICBmb250LXN0eWxlOiBpdGFsaWM7XG4gIGZvbnQtc2l6ZTogMS4yZW07XG4gIG1hcmdpbjogMCA0ZW0gNGVtIDRlbTtcblxufVxuLmludHJvLWltZyB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBhbGlnbi1zZWxmOiBjZW50ZXI7XG59XG5pbWcuaW50cm8ge1xuICB3aWR0aDogMTAwJTtcbn1cblxuLyotLS0tLW92ZXJ2aWV3LS0tLSovXG4ud29yZC1zZWN0aW9uIHtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgbWFyZ2luOiAxZW0gMCA2ZW0gMDtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG59XG4udGl0bGUge1xuICBmb250LXNpemU6IDEuMmVtO1xuICBmb250LXdlaWdodDogNjAwO1xuICBtYXJnaW4tYm90dG9tOiAxZW07XG59XG5cbi5zZWN0aW9uLWltZywgLnNlY3Rpb24tZGVzY3JpcCB7XG4gIG1hcmdpbi1ib3R0b206IDJlbTtcbn1cblxuLnNlY3Rpb24tZGVzY3JpcCBhIHtcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICBmb250LXdlaWdodDogNTAwO1xuICBjb2xvcjogIzVCN0ZGRTtcbn1cblxuLnNlY3Rpb24tZGVzY3JpcCBhOmhvdmVyIHtcbiAgb3BhY2l0eTogLjY7XG4gIGN1cnNvcjogcG9pbnRlcjtcbn1cblxuXG4vKi0tLS0tbW9iaWxlLS0tLS0qL1xuLm1vYmlsZS1vdXRlci1jb250YWluZXIge1xuICBtYXJnaW46IDJlbTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59XG5cbi5tb2JpbGUgaDIge1xuICBmb250LXNpemU6IDEuNGVtO1xuICB0ZXh0LWFsaWduOiBsZWZ0O1xuICBkaXNwbGF5OiBmbGV4O1xuICBsaW5lLWhlaWdodDogMS41ZW07XG59XG5cbi5tb2JpbGUgaW1nIHtcbiAgbWFyZ2luLWJvdHRvbTogMWVtO1xufVxuXG4ubW9iaWxlIC5tYWluLWNvbnRhaW5lciB7XG4gIGZvbnQtc2l6ZTogMWVtO1xuICBtYXJnaW46IDA7XG59XG5cbi5tb2JpbGUgLndvcmQtc2VjdGlvbiB7XG4gIG1hcmdpbi1ib3R0b206IDNlbTtcbn1cblxuLm1vYmlsZSAudGl0bGUge1xuICBtYXJnaW4tYm90dG9tOiAxZW07XG4gIGZvbnQtc2l6ZTogMWVtO1xufVxuXG4ubW9iaWxlIC5kZXNjcmlwdGlvbiB7XG4gIGZvbnQtc2l6ZTogMWVtO1xuICBtYXJnaW46IDAgMCAzZW0gMDtcbn1cblxuLm1vYmlsZSAucHJvY2Vzcy10aXRsZSB7XG4gIGZvbnQtc2l6ZTogMWVtO1xuICBmbGV4LXdyYXA6IHdyYXA7XG59XG5cbiJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](PlaygroundComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
