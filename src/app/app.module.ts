@@ -21,6 +21,7 @@ import { ApprenticeshipLearningComponent } from './case-study/apprenticeship-lea
 import { PlaygroundComponent } from './case-study/playground/playground.component';
 import { CaseFooterComponent } from './case-footer/case-footer.component';
 import { ScrollTopComponent } from './scroll-top/scroll-top.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
@@ -48,6 +49,7 @@ import { ScrollTopComponent } from './scroll-top/scroll-top.component';
     BrowserAnimationsModule,
     HttpClientModule,
     EmbedVideo.forRoot(),
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,9 +1,32 @@
 <!--web-->
 <div class="footer-container" *ngIf="!isMobile">
-  <div>© 2020 Taylor McPherson. Made with &#10084;&#65039;in Santa Cruz.</div>
+  <div class="words">© 2020 Taylor McPherson. Made with &#10084;&#65039;in Santa Cruz.</div>
+  <div class="icons">
+    <a href="mailto:tmmcpher@ucsc.edu" target="_blank">
+      <fa-icon [icon]="faMail"></fa-icon>
+    </a>
+    <a href="https://www.linkedin.com/in/taylor-mcpherson/" target="_blank">
+      <fa-icon [icon]="faLink"></fa-icon>
+    </a>
+    <a href="https://dribbble.com/taylormcpherson" target="_blank">
+      <fa-icon [icon]="faDrib"></fa-icon>
+    </a>
+  </div>
 </div>
 
 <!--mobile-->
 <div class="footer-container-mobile" *ngIf="isMobile">
-  <div>© 2020 Taylor McPherson. Made with &#10084;&#65039; in Santa Cruz.</div>
+  <div class="icons">
+    <a href="mailto:tmmcpher@ucsc.edu" target="_blank">
+      <fa-icon [icon]="faMail"></fa-icon>
+    </a>
+    <a href="https://www.linkedin.com/in/taylor-mcpherson/" target="_blank">
+      <fa-icon [icon]="faLink"></fa-icon>
+    </a>
+    <a href="https://dribbble.com/taylormcpherson" target="_blank">
+      <fa-icon [icon]="faDrib"></fa-icon>
+    </a>
+  </div>
+  <div class="words">© 2020 Taylor McPherson. Made with &#10084;&#65039; in Santa Cruz.</div>
+
 </div>
