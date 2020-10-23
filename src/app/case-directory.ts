@@ -389,6 +389,13 @@ export const PLAYGROUND: CaseSections[] = [
     sectionImg: './assets/img/play-affirmations.png',
   },
   {
+    sectionTitle: 'Web Portfolio for a Journalist',
+    sectionDescrip: 'During the Summer of 2020, I designed and developed an online portfolio' +
+      'website for a good friend, who recently graduated college and is entering a career in' +
+      'journalism. You can view the shipped website here.',
+    sectionImg: './assets/img/eliza.png',
+  },
+  {
     sectionTitle: 'Looking into Prisons in Hawai‘i',
     sectionDescrip: 'For a few years I have been interested in (and outraged by) the prison systems' +
       ' in the United States. After the murder of George Floyd and the uprisings against police' +
@@ -398,13 +405,6 @@ export const PLAYGROUND: CaseSections[] = [
       'I played with typography and colors to make them visually appealing while keeping ' +
       'the audience’s focus on the information at hand. Created for and deployed on Instagram.',
     sectionImg: './assets/img/play-prisons.png',
-  },
-  {
-    sectionTitle: 'Web Portfolio for a Journalist',
-    sectionDescrip: 'During the Summer of 2020, I designed and developed an online portfolio' +
-      'website for a good friend, who recently graduated college and is entering a career in' +
-      'journalism. You can view the shipped website here.',
-    sectionImg: './assets/img/eliza.png',
   },
   {
     sectionTitle: 'Building this Website',
