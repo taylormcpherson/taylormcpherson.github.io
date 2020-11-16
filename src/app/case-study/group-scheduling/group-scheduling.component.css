@@ -1,6 +1,6 @@
 /*----web-----*/
 .outer-container {
-  margin: -2em 4em 4em 4em;
+  margin: -2em 8em 4em 8em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,7 +26,7 @@ h2 {
   text-align: left;
   font-style: italic;
   font-size: 1.2em;
-  margin: 0 3em 2em 3em;
+  margin: 0 1em 2em 1em;
 
 }
 .intro-img {

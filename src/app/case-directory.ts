@@ -232,8 +232,10 @@ export const TIMELYPROCESS: DesignProcess[] = [
 export const TIMELYFINAL: CaseSections[] = [
   {
     sectionTitle: 'FINAL DESIGNS',
-    sectionDescrip: 'After 12 weeks of designing, we shipped 3 final user flows. You can interact with each ' +
-      'of them in our final web prototypes below.',
+    sectionDescrip: 'After 12 weeks of designing, we shipped 3 final user flows. Some major solutions we designed for our problem space included ' +
+      'having users input their class schedules to ensure more honest time-reporting, and setting all schedules by default to free instead of busy. ' +
+      'We wanted the designs to be clean and quick to use, as that was a primary user need we discovered. ' +
+      'You can interact with each of our final web prototypes below.',
     sectionImg: '',
   },
   {
