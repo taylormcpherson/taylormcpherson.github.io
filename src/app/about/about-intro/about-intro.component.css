@@ -16,8 +16,9 @@ h2 {
 .about-intro-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  margin-left: 1em;
+  margin-left: 6.5em;
 }
 
 /*----mobile----*/
