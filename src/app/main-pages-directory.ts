@@ -8,16 +8,16 @@ export const CARDS: WorkCard[] = [
     routerLink: '/group-scheduling',
   },
   { id: 2,
-    title: 'ROBOT NANNYS',
-    description: 'Researcher, Visual Designer',
-    imgUrl: 'url(./assets/img/card-3.png)',
-    routerLink: '/critical-design'
-  },
-  { id: 3,
     title: 'APPRENTICESHIP LEARNING',
     description: 'UX Researcher, Writer',
     imgUrl: 'url(./assets/img/card-2.png)',
     routerLink: '/apprenticeship-learning',
+  },
+  { id: 3,
+    title: 'ROBOT NANNYS',
+    description: 'Researcher, Visual Designer',
+    imgUrl: 'url(./assets/img/card-3.png)',
+    routerLink: '/critical-design'
   },
   { id: 4,
     title: 'PLAYGROUND',
@@ -25,7 +25,6 @@ export const CARDS: WorkCard[] = [
     imgUrl: 'url(./assets/img/card-4.png)',
     routerLink: '/side-projects',
   },
-
 ];
 
 export const BLURB: AboutBlurb[] = [
@@ -50,8 +49,8 @@ export const BLURB: AboutBlurb[] = [
   { id: 3,
     title: 'Slow Fashion & Sustainability ',
     description: 'When I was little I wanted to be a fashion designer.' +
-      " My passions have aligned elsewhere since then, but I'm now fascinated by the" +
-      " fashion industry's impact on our climate and social systems. To push against some " +
+     '  My passions have aligned elsewhere since then, but Im now fascinated by the' +
+      ' fashion industrys impact on our climate and social systems. To push against some ' +
       'of its negative impacts I recently started an online-thrift shop as a passion' +
       ' project.',
     imgUrl: '♻️',
