@@ -299,7 +299,7 @@ export const CAUSEWAY: CaseSections[] = [
       ' various user-experience tests, usability tests with Causeway, user surveys, and interviews. Often, we perform' +
       ' qualitative analysis on our findings when appropriate. Our goal is to better understand the user' +
       ' experience on Causeway, and how the platform might be a way to rethink digital apprenticeship ' +
-      'learning. On top of our user experience research, I am doing extensive literature reviews within' +
+      'learning. On top of user experience research, I am doing extensive literature reviews for this project within' +
       ' apprenticeship learning and computer science education in preparation to put everything together' +
       ' in a research paper my team aims to publish in 2021. ',
   },
