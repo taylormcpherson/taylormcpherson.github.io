@@ -293,15 +293,15 @@ export const CAUSEWAY: CaseSections[] = [
     sectionTitle: 'OVERVIEW',
     sectionImg: './assets/img/causeway-overview.png',
     sectionDescrip: 'This project has been my primary focus throughout my time in the Tech4Good Lab at UC' +
-      ' Santa Cruz. For the past nine months, my team and I have been conducting user experience research' +
+      ' Santa Cruz. For the past nine months, my team and I have been conducting qualitative user experience research' +
       ' on Causeway, our Lab’s most developed platform. Causeway aims to teach web development online' +
-      ' through micro-role hierarchies and user participation in real-world projects. Our research has' +
-      ' come from various user-experience tests, surveys, and interviews we have run. Often, we perform' +
+      ' through micro-role hierarchies and user participation in real-world projects. Our research methods include' +
+      ' various user-experience tests, usability tests with Causeway, user surveys, and interviews. Often, we perform' +
       ' qualitative analysis on our findings when appropriate. Our goal is to better understand the user' +
       ' experience on Causeway, and how the platform might be a way to rethink digital apprenticeship ' +
-      'learning. On top of our user experience research, we are doing extensive literature reviews within' +
+      'learning. On top of our user experience research, I am doing extensive literature reviews within' +
       ' apprenticeship learning and computer science education in preparation to put everything together' +
-      ' in a research paper we aim to publish in late 2020. ',
+      ' in a research paper my team aims to publish in 2021. ',
   },
   {
     sectionTitle: 'PROBLEM SPACE',
