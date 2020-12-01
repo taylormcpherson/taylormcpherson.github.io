@@ -258,6 +258,15 @@ export const TIMELYREFLECT: CaseSections[] = [
 /*----reflections subsections--*/
 export const TIMELYREFLECTSECTIONS: CaseSections[] = [
   {
+    sectionTitle: 'Good research yields good designs.',
+    sectionImg: '',
+    sectionDescrip: 'There are so many different directions you can take as a designer, and so many different ways to solve ' +
+      'the same problem. This can feel overwhelming. I have found that the more research I do on any design problem, big or small,' +
+      ' the more confident I will feel in my design decision. Market research, user research, business insights, you name it. It is all ' +
+      'useful. Now, if I ever feel unclear on how to move forward in my design process, you can bet the first thing I will do is' +
+      ' get deep into the research.'
+  },
+  {
     sectionTitle: 'If something feels off, iterate.',
     sectionImg: '',
     sectionDescrip: 'This was something my team-lead mentioned to me, and it really stuck. There were many moments' +
@@ -321,17 +330,26 @@ export const CAUSEWAY: CaseSections[] = [
       ' thus far below. '
   },
   {
+    sectionTitle: 'SURVEY DESIGN',
+    sectionImg: '',
+    sectionDescrip: 'While helping implement various usability tests and research studies my team and I have run ' +
+      'for this project, I have been frequently tasked with designing surveys we use for qualitative and quantitative data collection. ' +
+      'Primarily I use Google Suite for survey creation and implementation. Through this experience, I have learned the value in how to ask ' +
+      'questions, how to understand social and cultural components of certain questions and how they must be accounted for in proper wording, and how ' +
+      'to best design the actual layout of the survey so it is most usable and enjoyable for our users, as well as produce the best possible data for ourselves.'
+  },
+  {
     sectionTitle: 'USABILITY TESTING',
     sectionImg: './assets/img/causeway-recruit.png',
-    sectionDescrip: 'I designed the above graphic for in person usability tests early on in this' +
-      ' project, but one silver lining of COVID-19 is that I learned how to run usability tests' +
-      ' not only in person but also  remotely. For context, our usability tests would typically' +
-      ' run for a total of 1.5 hours. The first 30 minutes would be a brief interview to get' +
-      ' background context on our user, and the final hour would consist of the user working ' +
-      'through Causeway as we observe and collect qualitative data. Whether they were conducted' +
-      ' remotely or not, usability tests were always interesting because each user always had a' +
-      ' different experience with Causeway, and I left each session with new insight about the ' +
-      'platform.',
+    sectionDescrip: 'One silver lining of COVID-19 is that I learned how to run usability tests' +
+      ' not only in person but also  remotely. Our teams usability tests typically' +
+      ' run for a total of 1.5 hours. The first 30 minutes are be a brief interview to get' +
+      ' background context on our user, and the final hour consists of the user working ' +
+      'through Causeway as we observe and collect qualitative data on their experience. ' +
+      'Whether they were conducted' +
+      ' remotely or not, usability tests are always interesting to me because each user has a' +
+      ' unique experience with Causeway. For this reason I left each session with new insight about the ' +
+      'platform as well as about users in general. The above graphic was something I designed for general participant recruitment in our usability tests.',
   },
   {
     sectionTitle: 'USER INTERVIEWS',
