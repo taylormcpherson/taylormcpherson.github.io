@@ -12,7 +12,7 @@
     <section class="overview" *ngFor="let p of play">
       <div class="word-section">
         <div class="title">{{p.sectionTitle}}</div>
-        <div class="section-descrip" *ngIf="p.sectionTitle!='Web Portfolio for a Journalist'">
+        <div class="section-descrip" *ngIf="p.sectionTitle=='Web Portfolio for a Journalist'">
           {{p.sectionDescrip}}
         </div>
         <!--eliza section descrip-->
@@ -21,6 +21,13 @@
           for a good friend, who recently graduated college and is entering a career in journalism.
           You can view the shipped website
           <a href="https://elizasiegel.github.io/" target="_blank">here.</a>
+        </div>
+        <!-- great blog -->
+        <div class="section-descrip" *ngIf="p.sectionTitle=='The Great Blog'">
+          An excersize in front end development and user experience design. View the final project
+          <a href="https://taylormcpherson.github.io/the-great-blog/" target="_blank">here</a>, as well as furhter documentation and discussion
+          on the <a href="https://github.com/taylormcpherson/the-great-blog#readme" target="_blank">README</a>.
+          {{p.sectionDescrip}}
         </div>
         <div *ngIf="p.sectionImg!=''" class="section-img">
           <img src="{{p.sectionImg}}" width="100%">
@@ -74,5 +81,3 @@
     <app-case-footer></app-case-footer>
   </div>
 </div>
-
-

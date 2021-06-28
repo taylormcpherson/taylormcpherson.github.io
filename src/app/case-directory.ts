@@ -402,6 +402,11 @@ export const INTERVIEWS: CaseSections[] = [
 /*----main sections---*/
 export const PLAYGROUND: CaseSections[] = [
   {
+    sectionTitle: 'The Great Blog',
+    sectionDescrip: 'The goal of this project was to create a modern blog layout for a fictitious Client. The layout, hierarchy, and user experience of this blog were created without the help of any templates or styleguides other than those I created myself. Timeframe: 1 week.',
+    sectionImg: '',
+  },
+  {
     sectionTitle: 'Quarantine Affirmations',
     sectionDescrip: 'It has been a rough few months in the world. These graphics are my way ' +
       'of carving out a little bit of positive, affirmative space for ourselves and our bodies' +
@@ -434,5 +439,3 @@ export const PLAYGROUND: CaseSections[] = [
   },
 
 ];
-
-
