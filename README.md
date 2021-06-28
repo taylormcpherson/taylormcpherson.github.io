@@ -4,7 +4,7 @@ This is my personal portfolio for UX Design, UX Research, and Front End Developm
 
 ## Author Contact Info
 
-email: tmmcpher@ucsc.edu
+email: taylor@lifeblue.com
 
 phone: (808) 647-0908
 
@@ -16,3 +16,7 @@ phone: (808) 647-0908
 - Code generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
 - Design created with help from Figma
 - With help from Flexbox and FontAwesome Icons
+
+## Room for Improvement (Todo list)
+- Accessibility check: this site was created before I knew much about acessibility. I want to add in hover/focus states, and ensure it is fully acessible. Right now it is not.
+- Up to date case studies. This website showcases my user experience research and design more than anything, however I currently spend most of my time as a front end developer.
