@@ -4,9 +4,9 @@ This is my personal portfolio for UX Design, UX Research, and Front End Developm
 
 ## Author Contact Info
 
-email: taylor@lifeblue.com
+email: tmcpherson2020@gmail.com
 
-phone: (808) 647-0908
+phone: 808.647.0908
 
 [LinkedIn](https://www.linkedin.com/in/taylor-mcpherson/), [Dribbble](https://dribbble.com/taylormcpherson).
 
