@@ -2435,14 +2435,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function WorkComponentComponent_div_0_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 2);
+function WorkComponentComponent_div_4_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-work-intro");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-work-cards");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
-function WorkComponentComponent_div_1_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 3);
+function WorkComponentComponent_div_5_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-work-intro");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-work-cards");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -2455,14 +2455,21 @@ class WorkComponentComponent {
     }
 }
 WorkComponentComponent.ɵfac = function WorkComponentComponent_Factory(t) { return new (t || WorkComponentComponent)(); };
-WorkComponentComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: WorkComponentComponent, selectors: [["app-work-component"]], decls: 2, vars: 2, consts: [["class", "work-container", 4, "ngIf"], ["class", "work-container-mobile", 4, "ngIf"], [1, "work-container"], [1, "work-container-mobile"]], template: function WorkComponentComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, WorkComponentComponent_div_0_Template, 3, 0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, WorkComponentComponent_div_1_Template, 3, 0, "div", 1);
+WorkComponentComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: WorkComponentComponent, selectors: [["app-work-component"]], decls: 6, vars: 2, consts: [[1, "redirect-module"], ["href", "https://www.taylormcpherson.dev", 1, "redirect-link"], ["class", "work-container", 4, "ngIf"], ["class", "work-container-mobile", 4, "ngIf"], [1, "work-container"], [1, "work-container-mobile"]], template: function WorkComponentComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " Hi \uD83D\uDC4B This site has been deprecated. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "a", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Go to my new portfolio \uD83D\uDE80");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, WorkComponentComponent_div_4_Template, 3, 0, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, WorkComponentComponent_div_5_Template, 3, 0, "div", 3);
     } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.isMobile);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.isMobile);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgIf"], _work_intro_work_intro_component__WEBPACK_IMPORTED_MODULE_3__["WorkIntroComponent"], _work_cards_work_cards_component__WEBPACK_IMPORTED_MODULE_4__["WorkCardsComponent"]], styles: [".work-container[_ngcontent-%COMP%] {\n  \n  display: flex;\n  flex-direction: column;\n  margin-left: 12em;\n  margin-right: 12em;\n  justify-content: center;\n}\n\n.work-container-mobile[_ngcontent-%COMP%] {\n  margin: 2em;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd29yay93b3JrLWNvbXBvbmVudC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0U7cUJBQ21CO0VBQ25CLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsaUJBQWlCO0VBQ2pCLGtCQUFrQjtFQUNsQix1QkFBdUI7QUFDekI7O0FBRUE7RUFDRSxXQUFXO0VBQ1gsYUFBYTtFQUNiLHNCQUFzQjtFQUN0Qix1QkFBdUI7QUFDekIiLCJmaWxlIjoic3JjL2FwcC93b3JrL3dvcmstY29tcG9uZW50LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIud29yay1jb250YWluZXIge1xuICAvKm1hcmdpbi1sZWZ0OiAxMnZ3O1xuICBtYXJnaW4tcmlnaHQ6IDh2dzsqL1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICBtYXJnaW4tbGVmdDogMTJlbTtcbiAgbWFyZ2luLXJpZ2h0OiAxMmVtO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbn1cblxuLndvcmstY29udGFpbmVyLW1vYmlsZSB7XG4gIG1hcmdpbjogMmVtO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbn1cbiJdfQ== */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgIf"], _work_intro_work_intro_component__WEBPACK_IMPORTED_MODULE_3__["WorkIntroComponent"], _work_cards_work_cards_component__WEBPACK_IMPORTED_MODULE_4__["WorkCardsComponent"]], styles: [".work-container[_ngcontent-%COMP%] {\n  \n  display: flex;\n  flex-direction: column;\n  margin-left: 12em;\n  margin-right: 12em;\n  justify-content: center;\n}\n\n.work-container-mobile[_ngcontent-%COMP%] {\n  margin: 2em;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.redirect-module[_ngcontent-%COMP%] {\n  position: fixed;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  text-align: center;\n  background: rgba(0,0,0,.9);\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 100;\n  color: white;\n  font-size: 1.5em;\n}\n\n.redirect-link[_ngcontent-%COMP%] {\n  padding: 8px 14px;\n  background: #fff;\n  border-radius: 8px;\n  margin-top: 1.5em;\n  font-weight: 600;\n}\n\n.redirect-link[_ngcontent-%COMP%]:hover{\n  opacity: 1;\n  text-decoration: none;\n  background: #7F93FF;\n  color: white;\n}\n\n.redirect-link[_ngcontent-%COMP%]:hover::before {\n  content: none;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd29yay93b3JrLWNvbXBvbmVudC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0U7cUJBQ21CO0VBQ25CLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsaUJBQWlCO0VBQ2pCLGtCQUFrQjtFQUNsQix1QkFBdUI7QUFDekI7O0FBRUE7RUFDRSxXQUFXO0VBQ1gsYUFBYTtFQUNiLHNCQUFzQjtFQUN0Qix1QkFBdUI7QUFDekI7O0FBRUE7RUFDRSxlQUFlO0VBQ2YsYUFBYTtFQUNiLHNCQUFzQjtFQUN0QixtQkFBbUI7RUFDbkIsdUJBQXVCO0VBQ3ZCLGtCQUFrQjtFQUNsQiwwQkFBMEI7RUFDMUIsTUFBTTtFQUNOLFFBQVE7RUFDUixTQUFTO0VBQ1QsT0FBTztFQUNQLFlBQVk7RUFDWixZQUFZO0VBQ1osZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UsaUJBQWlCO0VBQ2pCLGdCQUFnQjtFQUNoQixrQkFBa0I7RUFDbEIsaUJBQWlCO0VBQ2pCLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLFVBQVU7RUFDVixxQkFBcUI7RUFDckIsbUJBQW1CO0VBQ25CLFlBQVk7QUFDZDs7QUFFQTtFQUNFLGFBQWE7QUFDZiIsImZpbGUiOiJzcmMvYXBwL3dvcmsvd29yay1jb21wb25lbnQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi53b3JrLWNvbnRhaW5lciB7XG4gIC8qbWFyZ2luLWxlZnQ6IDEydnc7XG4gIG1hcmdpbi1yaWdodDogOHZ3OyovXG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIG1hcmdpbi1sZWZ0OiAxMmVtO1xuICBtYXJnaW4tcmlnaHQ6IDEyZW07XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xufVxuXG4ud29yay1jb250YWluZXItbW9iaWxlIHtcbiAgbWFyZ2luOiAyZW07XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xufVxuXG4ucmVkaXJlY3QtbW9kdWxlIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsMCwwLC45KTtcbiAgdG9wOiAwO1xuICByaWdodDogMDtcbiAgYm90dG9tOiAwO1xuICBsZWZ0OiAwO1xuICB6LWluZGV4OiAxMDA7XG4gIGNvbG9yOiB3aGl0ZTtcbiAgZm9udC1zaXplOiAxLjVlbTtcbn1cblxuLnJlZGlyZWN0LWxpbmsge1xuICBwYWRkaW5nOiA4cHggMTRweDtcbiAgYmFja2dyb3VuZDogI2ZmZjtcbiAgYm9yZGVyLXJhZGl1czogOHB4O1xuICBtYXJnaW4tdG9wOiAxLjVlbTtcbiAgZm9udC13ZWlnaHQ6IDYwMDtcbn1cblxuLnJlZGlyZWN0LWxpbms6aG92ZXJ7XG4gIG9wYWNpdHk6IDE7XG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgYmFja2dyb3VuZDogIzdGOTNGRjtcbiAgY29sb3I6IHdoaXRlO1xufVxuXG4ucmVkaXJlY3QtbGluazpob3Zlcjo6YmVmb3JlIHtcbiAgY29udGVudDogbm9uZTtcbn0iXX0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](WorkComponentComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
