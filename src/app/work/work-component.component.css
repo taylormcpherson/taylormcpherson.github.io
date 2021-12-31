@@ -14,3 +14,39 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.redirect-module {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: rgba(0,0,0,.9);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  color: white;
+  font-size: 1.5em;
+}
+
+.redirect-link {
+  padding: 8px 14px;
+  background: #fff;
+  border-radius: 8px;
+  margin-top: 1.5em;
+  font-weight: 600;
+}
+
+.redirect-link:hover{
+  opacity: 1;
+  text-decoration: none;
+  background: #7F93FF;
+  color: white;
+}
+
+.redirect-link:hover::before {
+  content: none;
+}
